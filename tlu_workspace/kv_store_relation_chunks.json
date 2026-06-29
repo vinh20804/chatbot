@@ -1,0 +1,110 @@
+{
+  "model<SEP>mvc architecture": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980900,
+    "update_time": 1780980900,
+    "_id": "model<SEP>mvc architecture"
+  },
+  "client<SEP>view": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980900,
+    "update_time": 1780980900,
+    "_id": "client<SEP>view"
+  },
+  "framework, used in<SEP>laravel": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980900,
+    "update_time": 1780980900,
+    "_id": "framework, used in<SEP>laravel"
+  },
+  "database<SEP>model": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980901,
+    "update_time": 1780980901,
+    "_id": "database<SEP>model"
+  },
+  "mvc architecture<SEP>view": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980902,
+    "update_time": 1780980902,
+    "_id": "mvc architecture<SEP>view"
+  },
+  "hà nội<SEP>location, where given": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980902,
+    "update_time": 1780980902,
+    "_id": "hà nội<SEP>location, where given"
+  },
+  "framework, used in<SEP>zend": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980903,
+    "update_time": 1780980903,
+    "_id": "framework, used in<SEP>zend"
+  },
+  "lecturer, from<SEP>nguyễn tu trung": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980903,
+    "update_time": 1780980903,
+    "_id": "lecturer, from<SEP>nguyễn tu trung"
+  },
+  "controller<SEP>mvc architecture": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980903,
+    "update_time": 1780980903,
+    "_id": "controller<SEP>mvc architecture"
+  },
+  "von neumann architecture<SEP>von neumann bottleneck": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980903,
+    "update_time": 1780980903,
+    "_id": "von neumann architecture<SEP>von neumann bottleneck"
+  },
+  "cake<SEP>framework, used in": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980905,
+    "update_time": 1780980905,
+    "_id": "cake<SEP>framework, used in"
+  },
+  "controller<SEP>model": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980906,
+    "update_time": 1780980906,
+    "_id": "controller<SEP>model"
+  }
+}

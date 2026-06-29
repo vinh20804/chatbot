@@ -1,0 +1,4 @@
+sickle
+python-dotenv
+neo4j
+groq

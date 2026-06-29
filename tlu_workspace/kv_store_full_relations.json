@@ -1,0 +1,58 @@
+{
+  "doc-14c73aef673bdce564bd12c22629ecab": {
+    "relation_pairs": [
+      [
+        "framework, used in",
+        "laravel"
+      ],
+      [
+        "database",
+        "model"
+      ],
+      [
+        "controller",
+        "mvc architecture"
+      ],
+      [
+        "client",
+        "view"
+      ],
+      [
+        "hà nội",
+        "location, where given"
+      ],
+      [
+        "von neumann architecture",
+        "von neumann bottleneck"
+      ],
+      [
+        "lecturer, from",
+        "nguyễn tu trung"
+      ],
+      [
+        "controller",
+        "model"
+      ],
+      [
+        "model",
+        "mvc architecture"
+      ],
+      [
+        "cake",
+        "framework, used in"
+      ],
+      [
+        "framework, used in",
+        "zend"
+      ],
+      [
+        "mvc architecture",
+        "view"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1780980908,
+    "update_time": 1780980908,
+    "_id": "doc-14c73aef673bdce564bd12c22629ecab"
+  }
+}

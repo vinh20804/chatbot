@@ -1,0 +1,16 @@
+{
+  "chunk-14c73aef673bdce564bd12c22629ecab": {
+    "tokens": 857,
+    "content": "![Image](/content/drive/MyDrive/MD/CNWeeb/7-CNWeb-PHP-MVC_artifacts/image_000000_7077877430444fb4b190f710d6a0f2603f4e160e9d6e4974156e13cfdf22bc6d.png)\n\n![Image](/content/drive/MyDrive/MD/CNWeeb/7-CNWeb-PHP-MVC_artifacts/image_000001_85d33cb7539ac4dac89a904f25a9aab71dc7ab0cb76c9b3f129fa450bbbe6414.png)\n\nGiảng viên: Kiều Tuấn Dũng , Nguyễn Tu Trung BM HTTT, Khoa CNTT, Trường ĐH Thủy Lợi\n\nHà Nội , 2024\n\n## Nôi dung\n\n- ❖ Khái niệm\n\n- ❖ Thành phần\n\n- ❖ Luồng xử lý dữ liệu\n\n- ❖ Cấu trúc thư mục\n\n- ❖ Kiến trúc MVC biến thể\n\n## Khái niệm\n\n- ❖ Là mô hình kiến trúc phần mềm 3 lớp bao gồm Model, View, Controller\n- ❖ Tách biệt ứng dụng web ra làm các thành phần riêng biệt, nên thuận lợi cho việc phát triển và bảo trì\n- ❖ Phổ biến trong các framework hiện nay (Laravel, Zend, Cake, .v.v)\n- ❖ Sử dụng OOP làm nền tảng để xây dựng và phát triển\n\n## Thành phần\n\n## ❖ M – Model:\n\n- ❖ Nhận dữ liệu từ Controller gửi tới\n- ❖ Thực hiện thao tác với database\n- ❖ Gửi kết quả trả về Controller\n- ❖ V – View:\n- ❖ Hiển thị dữ liệu từ Controller gửi về cho trình duyệt tại client\n- ❖ C – – Controller:\n- ❖ Tầng trung gian nhận request từ client\n- ❖ Gọi Model thực thi\n- ❖ Trả dữ liệu lại cho client thông qua View\n- ❖ View định dạng dữ liệu hiển thị cho client\n\n## Luồng xử lý dữ liệu\n\n![Image](/content/drive/MyDrive/MD/CNWeeb/7-CNWeb-PHP-MVC_artifacts/image_000002_ee721bf3537cc75bc3e1c0983053403889c4d017a6caad61c42fdce2b58073d4.png)\n\n## Luồng xử lý dữ liệu\n\n- ❖ Ví dụ: Client truy cập link http://cse.tlu.edu.vn/chi-tiet/3\n- ❖ Controller nhận request chứa id của bài viết = 3\n- ❖ Controller gọi Model truy vấn database lấy ra nội dung bài viết có id = 3\n- ❖ Model truy vấn thành công, gửi nội dung bài viết lại cho Controller\n- ❖ Controller gửi nội dung bài viết đó ra View\n- ❖ View hiển thị nội dung bài viết tới client\n\n## Cấu trúc thư mục\n\n- ❖ CRUD tương ứng các chức năng: Hiển thị thông tin,\n\nThêm, Sửa, Xoá\n\n![Image](/content/drive/MyDrive/MD/CNWeeb/7-CNWeb-PHP-MVC_artifacts/image_000003_477b5a7b2d996fd3862d5027a53ea214150b364e65e78a11e5e2b9f156de7eeb.png)\n\n## Kiến trúc MVC biến thể\n\n❖ Cấu trúc thư mục Code theo MVC\n\nNTTrung\n\nBài giảng CNWeb\n\n![Image](/content/drive/MyDrive/MD/CNWeeb/7-CNWeb-PHP-MVC_artifacts/image_000004_bb3997e3b7b97e86193bf90a1ebbb3621eee41701e7338b36c03aa3230237e23.png)\n\nNTTrung",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-14c73aef673bdce564bd12c22629ecab",
+    "file_path": "7-CNWeb-PHP-MVC.md",
+    "llm_cache_list": [
+      "default:extract:cd3f1f19c43dfa8d5e8cf74801c828a1",
+      "default:extract:9839846e4c09191cc6db2a172891dff3"
+    ],
+    "create_time": 1780980858,
+    "update_time": 1780980894,
+    "_id": "chunk-14c73aef673bdce564bd12c22629ecab"
+  }
+}

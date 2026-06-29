@@ -1,0 +1,164 @@
+{
+  "mvc architecture": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "mvc architecture"
+  },
+  "model": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "model"
+  },
+  "view": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "view"
+  },
+  "controller": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "controller"
+  },
+  "oop": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "oop"
+  },
+  "laravel": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "laravel"
+  },
+  "zend": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "zend"
+  },
+  "cake": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980894,
+    "update_time": 1780980894,
+    "_id": "cake"
+  },
+  "client": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980895,
+    "update_time": 1780980895,
+    "_id": "client"
+  },
+  "crud": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980895,
+    "update_time": 1780980895,
+    "_id": "crud"
+  },
+  "hà nội": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980896,
+    "update_time": 1780980896,
+    "_id": "hà nội"
+  },
+  "nguyễn tu trung": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980896,
+    "update_time": 1780980896,
+    "_id": "nguyễn tu trung"
+  },
+  "von neumann bottleneck": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980897,
+    "update_time": 1780980897,
+    "_id": "von neumann bottleneck"
+  },
+  "framework, used in": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980900,
+    "update_time": 1780980900,
+    "_id": "framework, used in"
+  },
+  "database": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980901,
+    "update_time": 1780980901,
+    "_id": "database"
+  },
+  "location, where given": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980902,
+    "update_time": 1780980902,
+    "_id": "location, where given"
+  },
+  "lecturer, from": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980903,
+    "update_time": 1780980903,
+    "_id": "lecturer, from"
+  },
+  "von neumann architecture": {
+    "chunk_ids": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "count": 1,
+    "create_time": 1780980903,
+    "update_time": 1780980903,
+    "_id": "von neumann architecture"
+  }
+}

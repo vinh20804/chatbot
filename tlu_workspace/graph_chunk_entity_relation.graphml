@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="mvc architecture">
+  <data key="d0">mvc architecture</data>
+  <data key="d1">architecture</data>
+  <data key="d2">Khái niệm mô hình kiến trúc phần mềm 3 lớp bao gồm Model, View, Controller</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="model">
+  <data key="d0">model</data>
+  <data key="d1">concept</data>
+  <data key="d2">Phần model nhận dữ liệu từ controller gửi tới, thực hiện thao tác với database và gửi kết quả trả về cho controller</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="view">
+  <data key="d0">view</data>
+  <data key="d1">concept</data>
+  <data key="d2">Phần view hiển thị dữ liệu từ controller gửi về cho trình duyệt tại client</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="controller">
+  <data key="d0">controller</data>
+  <data key="d1">concept</data>
+  <data key="d2">Part between client và model, receives request from the client, calls model to execute and returns data through view</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="oop">
+  <data key="d0">oop</data>
+  <data key="d1">concept</data>
+  <data key="d2">Phần mềm sử dụng OOP như nền tảng để xây dựng và phát triển</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="laravel">
+  <data key="d0">laravel</data>
+  <data key="d1">framework</data>
+  <data key="d2">Phủ sóng trong các framework hiện nay</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="zend">
+  <data key="d0">zend</data>
+  <data key="d1">framework</data>
+  <data key="d2">Phủ sóng trong các framework hiện nay</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="cake">
+  <data key="d0">cake</data>
+  <data key="d1">framework</data>
+  <data key="d2">Phủ sóng trong các framework hiện nay</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980894</data>
+  <data key="d6"></data>
+</node>
+<node id="client">
+  <data key="d0">client</data>
+  <data key="d1">concept</data>
+  <data key="d2">Part of the network, sends requests to the server and receives responses from the controller</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980895</data>
+  <data key="d6"></data>
+</node>
+<node id="crud">
+  <data key="d0">crud</data>
+  <data key="d1">concept</data>
+  <data key="d2">Corresponds to functions: Display information, Add, Edit, Delete</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980895</data>
+  <data key="d6"></data>
+</node>
+<node id="hà nội">
+  <data key="d0">hà nội</data>
+  <data key="d1">location</data>
+  <data key="d2">Location where the lecture is given</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980896</data>
+  <data key="d6"></data>
+</node>
+<node id="nguyễn tu trung">
+  <data key="d0">nguyễn tu trung</data>
+  <data key="d1">person</data>
+  <data key="d2">Lecturer named Nguyễn Tu Trung from BM HTTT, Khoa CNTT, Trường ĐH Thủy Lợi</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980896</data>
+  <data key="d6"></data>
+</node>
+<node id="von neumann bottleneck">
+  <data key="d0">von neumann bottleneck</data>
+  <data key="d1">concept</data>
+  <data key="d2">Von Neumann bottleneck là hạn chế của kiến trúc Von Neumann về tốc độ truy cập bộ nhớ.</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980897</data>
+  <data key="d6"></data>
+</node>
+<node id="framework, used in">
+  <data key="d0">framework, used in</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d2">Laravel is one of the frameworks that use MVC architecture.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980900</data>
+  <data key="d6"></data>
+</node>
+<node id="database">
+  <data key="d0">database</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d2">The model interacts with the database to perform data operations.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980901</data>
+  <data key="d6"></data>
+</node>
+<node id="location, where given">
+  <data key="d0">location, where given</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d2">The lecture is given in Hà Nội.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980902</data>
+  <data key="d6"></data>
+</node>
+<node id="lecturer, from">
+  <data key="d0">lecturer, from</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d2">Nguyễn Tu Trung works as a lecturer at BM HTTT, Khoa CNTT, Trường ĐH Thủy Lợi.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980903</data>
+  <data key="d6"></data>
+</node>
+<node id="von neumann architecture">
+  <data key="d0">von neumann architecture</data>
+  <data key="d3">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d2">Kiến trúc Von Neumann có hạn chế Von Neumann bottleneck về tốc độ truy cập bộ nhớ.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">7-CNWeb-PHP-MVC.md</data>
+  <data key="d5">1780980903</data>
+  <data key="d6"></data>
+</node>
+<edge source="mvc architecture" target="model">
+  <data key="d7">1.0</data>
+  <data key="d8">Model is part of the MVC architecture and handles data operations.</data>
+  <data key="d9">architecture component,includes</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980900</data>
+  <data key="d13"></data>
+</edge>
+<edge source="mvc architecture" target="view">
+  <data key="d7">1.0</data>
+  <data key="d8">View is part of the MVC architecture responsible for displaying data to the client.</data>
+  <data key="d9">architecture component,includes</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980902</data>
+  <data key="d13"></data>
+</edge>
+<edge source="mvc architecture" target="controller">
+  <data key="d7">1.0</data>
+  <data key="d8">Controller is a middleware in the MVC architecture that processes client requests and interacts with models.</data>
+  <data key="d9">architecture component,includes</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980903</data>
+  <data key="d13"></data>
+</edge>
+<edge source="model" target="database">
+  <data key="d7">1.0</data>
+  <data key="d8">The model interacts with the database to perform data operations.</data>
+  <data key="d9">communicates with,data interaction</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980902</data>
+  <data key="d13"></data>
+</edge>
+<edge source="model" target="controller">
+  <data key="d7">1.0</data>
+  <data key="d8">The controller calls the model to execute specific operations.</data>
+  <data key="d9">calls,intermediate layer</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980906</data>
+  <data key="d13"></data>
+</edge>
+<edge source="view" target="client">
+  <data key="d7">1.0</data>
+  <data key="d8">View displays information sent by the controller to the client's browser.</data>
+  <data key="d9">output display,sends information to</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980900</data>
+  <data key="d13"></data>
+</edge>
+<edge source="laravel" target="framework, used in">
+  <data key="d7">1.0</data>
+  <data key="d8">Laravel is one of the frameworks that use MVC architecture.</data>
+  <data key="d9">is a part of</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980901</data>
+  <data key="d13"></data>
+</edge>
+<edge source="zend" target="framework, used in">
+  <data key="d7">1.0</data>
+  <data key="d8">Zend is one of the frameworks that use MVC architecture.</data>
+  <data key="d9">is a part of</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980903</data>
+  <data key="d13"></data>
+</edge>
+<edge source="cake" target="framework, used in">
+  <data key="d7">1.0</data>
+  <data key="d8">Cake is one of the frameworks that use MVC architecture.</data>
+  <data key="d9">is a part of</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980905</data>
+  <data key="d13"></data>
+</edge>
+<edge source="hà nội" target="location, where given">
+  <data key="d7">1.0</data>
+  <data key="d8">The lecture is given in Hà Nội.</data>
+  <data key="d9">is located in</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980904</data>
+  <data key="d13"></data>
+</edge>
+<edge source="nguyễn tu trung" target="lecturer, from">
+  <data key="d7">1.0</data>
+  <data key="d8">Nguyễn Tu Trung works as a lecturer at BM HTTT, Khoa CNTT, Trường ĐH Thủy Lợi.</data>
+  <data key="d9">works at</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980905</data>
+  <data key="d13"></data>
+</edge>
+<edge source="von neumann bottleneck" target="von neumann architecture">
+  <data key="d7">1.0</data>
+  <data key="d8">Kiến trúc Von Neumann có hạn chế Von Neumann bottleneck về tốc độ truy cập bộ nhớ.</data>
+  <data key="d9">has,limitation</data>
+  <data key="d10">chunk-14c73aef673bdce564bd12c22629ecab</data>
+  <data key="d11">7-CNWeb-PHP-MVC.md</data>
+  <data key="d12">1780980906</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

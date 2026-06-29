@@ -1,0 +1,1214 @@
+{
+  "doc-14c73aef673bdce564bd12c22629ecab": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-14c73aef673bdce564bd12c22629ecab"
+    ],
+    "content_summary": "![Image](/content/drive/MyDrive/MD/CNWeeb/7-CNWeb-PHP-MVC_artifacts/image_000000_7077877430444fb4b190f710d6a0f2603f4e160e9d6e4974156e13cfdf22bc6d.png)\n\n![Image](/content/drive/MyDrive/MD/CNWeeb/7-CNWeb-PHP-MVC_artifacts/image_000001_85d33cb7539ac4dac...",
+    "content_length": 2301,
+    "created_at": "2026-06-09T04:54:18.907320+00:00",
+    "updated_at": "2026-06-09T04:55:08.916733+00:00",
+    "file_path": "7-CNWeb-PHP-MVC.md",
+    "track_id": "insert_20260609_115418_ee74289e",
+    "metadata": {
+      "processing_start_time": 1780980858,
+      "processing_end_time": 1780980908
+    }
+  },
+  "doc-b96f25bdbbe108601898840dedc229b1": {
+    "status": "failed",
+    "error_msg": "C[1/15]: chunk-8c92f76252f2d7e59cb9bca12bda39e5: ",
+    "content_summary": "DexCompose: Reusing Dexterous Policies for\nMulti-Task Manipulation with a Single Hand\nDihong Huang*, Zhenyu Wei, Zhuxiu Xu*, Yunchao Yao, Sikai Li, Mingyu Ding\nUniversity of North Carolina at Chapel Hill\nhttps://devon018.github.io/DexCompose-Webpage/...",
+    "content_length": 60579,
+    "created_at": "2026-06-29T13:56:46.527924+00:00",
+    "updated_at": "2026-06-29T14:27:34.968141+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_01_2606.28323.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782742949,
+      "processing_end_time": 1782743254
+    },
+    "chunks_list": []
+  },
+  "doc-a716a13a52213338512b179a0818cbed": {
+    "status": "failed",
+    "error_msg": "C[1/12]: chunk-c33ced0a33b85ea5f77198fff04ba179: ",
+    "content_summary": "Which Nash Equilibrium?\nSolver-Dependent Selection on Zero-Sum Nash\nPolytopes\nLuis Leal\nwichofer89@gmail.com\nAbstract\nMany two-player zero-sum games admit not a unique Nash equilibrium but a convexsetof\nthem: a polytope of profiles that all share the...",
+    "content_length": 49867,
+    "created_at": "2026-06-29T13:56:47.275468+00:00",
+    "updated_at": "2026-06-29T14:30:35.195027+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_02_2606.28308.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782743074,
+      "processing_end_time": 1782743435
+    },
+    "chunks_list": []
+  },
+  "doc-cec0cb98323fbb404ca91d9368d09bad": {
+    "status": "failed",
+    "error_msg": "C[1/11]: chunk-56de673dd2763cb38c4e480dabaf96ac: ",
+    "content_summary": "Agentic Hardware Design as Repository-Level\nCode Evolution\nCunxi Yu∗\nNVIDIA Research\nChenhui Deng\nNVIDIA Research\nNathaniel Pinckney\nNVIDIA Research\nBrucek Khailany\nNVIDIA Research\nAbstract\nWe present HORIZON, a self-evolving agent framework that tre...",
+    "content_length": 46839,
+    "created_at": "2026-06-29T13:56:48.687827+00:00",
+    "updated_at": "2026-06-29T14:34:30.689727+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_03_2606.28279.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782743255,
+      "processing_end_time": 1782743670
+    },
+    "chunks_list": []
+  },
+  "doc-f3e97a0d9009abc1fba04768623787ed": {
+    "status": "failed",
+    "error_msg": "C[1/8]: chunk-4ad7a0f7fa2accb3067940f02d0062ce: ",
+    "content_summary": "Towards Automating Scientific Review with Google’s Paper\nAssistant Tool\nRAJESH JAYARAM,Google Research, USA\nDREW TYLER,Google Research, USA\nDA VID WOODRUFF,Google Research & Carnegie Mellon University, USA\nCORINNA CORTES,Google Research, USA\nYOSSI MA...",
+    "content_length": 35861,
+    "created_at": "2026-06-29T13:56:49.326197+00:00",
+    "updated_at": "2026-06-29T14:35:37.945454+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_04_2606.28277.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782743435,
+      "processing_end_time": 1782743737
+    },
+    "chunks_list": []
+  },
+  "doc-b91e489e535a2723fa1ef87200441080": {
+    "status": "failed",
+    "error_msg": "C[1/7]: chunk-b9d74094d275925ddbb39fc4edaef6e4: ",
+    "content_summary": "Parameter Efficient Hybrid Transformer (PEHT) for\nNetwork Traffic Prediction via Dynamic Urban\nCongestion Integration\n1st Abdolazim Rezaei\nDepartment of Computer Science\nTexas A&M University\nCorpus Christi, USA\narezaei@islander.tamucc.edu\n2nd Mehdi S...",
+    "content_length": 30231,
+    "created_at": "2026-06-29T13:56:49.696943+00:00",
+    "updated_at": "2026-06-29T14:38:38.137517+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_05_2606.28274.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782743670,
+      "processing_end_time": 1782743918
+    },
+    "chunks_list": []
+  },
+  "doc-77ce228eaeb6b5d05ddf64b679270c16": {
+    "status": "failed",
+    "error_msg": "C[1/11]: chunk-23946908eac114396527d7f4f2858757: ",
+    "content_summary": "Novo Ordo for AI2026-06-24\nAgent-Native Immune System:\nArchitecture, Taxonomy, and Engineering\nBo Shen, Lifeng Chang, Tianyuan Wei, Yunpeng Li,\nFeng Shi, Yichen Han, Peijie Gao, Shiyi Kuang, Xin Chang, Dehui Li\nNovo Ordo for AI\nAbstract\nThe transitio...",
+    "content_length": 47519,
+    "created_at": "2026-06-29T13:56:50.365448+00:00",
+    "updated_at": "2026-06-29T14:51:16.991267+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_06_2606.28270.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782743738,
+      "processing_end_time": 1782744676
+    },
+    "chunks_list": []
+  },
+  "doc-b7518426cdc2db6ac80c54ffbd279eb7": {
+    "status": "failed",
+    "error_msg": "C[1/28]: chunk-ed6106612a547159eff96b3cacb11e1c: ",
+    "content_summary": "1\nLearning Topology-Aware Representations via\nTest-Time Adaptation for Anomaly Segmentation\nAli Zia †, Usman Ali †, Abdul Rehman, Umer Ramzan, Kang Han, Muhammad Faheem, Shahnawaz Qureshi, and\nWei Xiang,Senior Member, IEEE\nAbstract—Test-time adaptati...",
+    "content_length": 104448,
+    "created_at": "2026-06-29T13:56:53.451430+00:00",
+    "updated_at": "2026-06-29T15:07:46.041032+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_07_2606.28268.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782743918,
+      "processing_end_time": 1782745666
+    },
+    "chunks_list": []
+  },
+  "doc-556437908581757f75b9a132a2140b93": {
+    "status": "failed",
+    "error_msg": "Embedding func: Worker execution timeout after 240s",
+    "content_summary": "How Width and Data Shape Generalization Scaling Laws in\nQuadratic Neural Networks\nJulius Girardin ∗1, Emanuele Troiani⋆1, Yizhou Xu ⋆1,2, Vittorio Erba 1,\nFlorent Krzakala 2, and Lenka Zdeborová 1\n1Statistical Physics of Computation Laboratory, École...",
+    "content_length": 86573,
+    "created_at": "2026-06-29T13:56:55.989573+00:00",
+    "updated_at": "2026-06-29T15:08:47.895812+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_08_2606.28242.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782744678,
+      "processing_end_time": 1782745727
+    },
+    "chunks_list": []
+  },
+  "doc-db6ef0d9c62e646ca799a95728e00b1f": {
+    "status": "failed",
+    "error_msg": "C[1/16]: chunk-4312fac4b635a0f5d58e9848b8b674de: ",
+    "content_summary": "Govern the Repository, Not the Agent:\nMeasuring Ecosystem-Level Risk in AI-Native\nSoftware\nDaniel Russo\nDepartment of Computer Science\nAalborg University, Copenhagen, Denmark\ndaniel.russo@cs.aau.dk\nAbstract—Autonomous coding agents now open and merge...",
+    "content_length": 69230,
+    "created_at": "2026-06-29T13:56:56.887155+00:00",
+    "updated_at": "2026-06-29T15:28:11.250877+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_09_2606.28235.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782745666,
+      "processing_end_time": 1782746891
+    },
+    "chunks_list": []
+  },
+  "doc-dfce5bac659e8ac000f5f75790c89390": {
+    "status": "failed",
+    "error_msg": "C[1/23]: chunk-a341ef43c231ead6ebd69ae13b3b8deb: ",
+    "content_summary": "Exposure Bias Can Alleviate Itself via Directional\nand Frequency Rectification in Flow Matching\nGuanbo Huang1,2∗,‡, Jingjia Mao1,2∗,‡, Fanding Huang1∗, Fengkai Liu1,\nXiangyang Luo1, Yaoyuan Liang1, Jiasheng Lu2, Xiaoe Wang2, Pei Liu2,\nRuiliu Fu2†, Ru...",
+    "content_length": 86260,
+    "created_at": "2026-06-29T13:56:58.628249+00:00",
+    "updated_at": "2026-06-29T15:43:27.886158+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_10_2606.28226.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782745728,
+      "processing_end_time": 1782747807
+    },
+    "chunks_list": []
+  },
+  "doc-c4f93f5abee7512c9c135156866b8451": {
+    "status": "failed",
+    "error_msg": "C[1/3]: chunk-c6d5492f23d1ff71fc3e7208818187d5: ",
+    "content_summary": "Towards Value-Constrained Credit Assignment in\nFully Delegated AI Cooperatives\nYoung Yoon1[0000−0002−5249−2823], Jimin Kim1[0009−0007−6078−183X], and\nSoyeon Park1[0009−0005−7401−8902]\nHongik University, Seoul, Republic of Korea\nyoung.yoon@hongik.ac.k...",
+    "content_length": 12688,
+    "created_at": "2026-06-29T13:56:58.844998+00:00",
+    "updated_at": "2026-06-29T15:46:28.188360+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_11_2606.28217.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782746892,
+      "processing_end_time": 1782747988
+    },
+    "chunks_list": []
+  },
+  "doc-8a45ec05228ae5972ab12de14483d7a9": {
+    "status": "failed",
+    "error_msg": "C[1/24]: chunk-23af4960cdc6676ced5b63757a024764: ",
+    "content_summary": "HAT-4D: Lifting Monocular Video for 4D\nMulti-Object Interactions via Human-Agent\nCollaboration\nJiaxin Li1,2* , Yuxiang Wu1* , Zhenkai Zhang1 , Xinrui Shi1 , Haoyuan\nWang1 , Yichen Zhao1‡ , Su Linxiang1‡ , Chenyang Yu1 , Mingyu\nZhang1 , Yifan Ding2 , ...",
+    "content_length": 103059,
+    "created_at": "2026-06-29T13:57:01.368769+00:00",
+    "updated_at": "2026-06-29T15:47:57.652209+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_12_2606.28215.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782747808,
+      "processing_end_time": 1782748077
+    },
+    "chunks_list": []
+  },
+  "doc-8ea94f9559ed8ce6e6e9dd11bf5d9517": {
+    "status": "failed",
+    "error_msg": "C[1/8]: chunk-02bb2b46fb7f8f2bd787db5822b01b3a: ",
+    "content_summary": "The Remittance Blueprint: Data-driven Intelligence\nfor Sri Lanka\nDhinanjaya Fernando, Dinura Ginige, Kalana Lakshan, Chanupa Gurusinghe, Lasana Pahanga,\nSubavarshana Arumugam, Sandeepa Weerasekara, Sandareka Wickramanayake, Nisansa de Silva\nDept. of ...",
+    "content_length": 32043,
+    "created_at": "2026-06-29T13:57:01.934136+00:00",
+    "updated_at": "2026-06-29T15:50:57.848252+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_13_2606.28190.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782747988,
+      "processing_end_time": 1782748257
+    },
+    "chunks_list": []
+  },
+  "doc-ffa7d4b1aa82d7eb8da344f00e8fb70c": {
+    "status": "failed",
+    "error_msg": "C[1/29]: chunk-c19269246ee9d4918db4d7f8cd00d074: ",
+    "content_summary": "Cognitive Episodes in LLM Reasoning Traces Enable\nInterpretable Human Item Difficulty Prediction\nChenguang Wang∗,1,Ming Li ∗,2,3,Xinyue Zeng 1,Zhuochun Li 4,Hong Jiao 2,Tianyi Zhou 3,Dawei Zhou 1\n1Virginia Tech 2University of Maryland 3MBZUAI 4Univer...",
+    "content_length": 113893,
+    "created_at": "2026-06-29T13:57:03.388890+00:00",
+    "updated_at": "2026-06-29T15:54:26.236080+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_14_2606.28186.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782748077,
+      "processing_end_time": 1782748466
+    },
+    "chunks_list": []
+  },
+  "doc-127b740a98cf25ae22e8c8944cc55fac": {
+    "status": "failed",
+    "error_msg": "C[1/17]: chunk-3e1a36366401dab936f9eeec10dd4b76: ",
+    "content_summary": "LLawCo: Learning Laws of Cooperation for\nModeling Embodied Multi-Agent Behavior\nQinhong Zhou 1 * Chuang Gan 1 Anoop Cherian 2\nhttps://www.merl.com/research/highlights/LLawCo\nAbstract\nEmbodied agents operating in decentralized and\npartially observable...",
+    "content_length": 71748,
+    "created_at": "2026-06-29T13:57:04.547445+00:00",
+    "updated_at": "2026-06-29T15:56:56.250716+00:00",
+    "file_path": "arxiv_Artificial_Intelligence_15_2606.28182.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782748258,
+      "processing_end_time": 1782748616
+    },
+    "chunks_list": []
+  },
+  "dup-f96edcffcc40b1c18167f239a9bd6c1f": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-b96f25bdbbe108601898840dedc229b1",
+    "content_length": 60579,
+    "created_at": "2026-06-29T13:58:50.102086+00:00",
+    "updated_at": "2026-06-29T13:58:50.102096+00:00",
+    "file_path": "arxiv_Machine_Learning_01_2606.28323.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-b96f25bdbbe108601898840dedc229b1, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-b96f25bdbbe108601898840dedc229b1",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-0f481e9690c57d0c3ce07e20a0c6f289": {
+    "status": "failed",
+    "error_msg": "C[1/23]: chunk-8f92dae7d26f430a4fa31d1ddd3c4f44: ",
+    "content_summary": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception\nYana Wei* 1 Hongbo Peng * 2 Yanlin Lai* 3 Liang Zhao 2 Kangheng Lin 2 En Yu2 Keyu Lv 2 Han Zhou 2\nYin Tang4 Haodong Li 2 Mitt Huang 2 Hangyu Guo 2 Jianjian Sun 2 Zheng Ge 2 Xian...",
+    "content_length": 95184,
+    "created_at": "2026-06-29T13:57:08.880497+00:00",
+    "updated_at": "2026-06-29T14:22:29.612319+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_02_2606.28322.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782742710,
+      "processing_end_time": 1782742949
+    },
+    "chunks_list": []
+  },
+  "doc-2f5fcb8a7a522407461853d594bb7794": {
+    "status": "failed",
+    "error_msg": "C[1/14]: chunk-fb181500a2917abad482b99b97373662: ",
+    "content_summary": "StructSplat: Generalizable 3D Gaussian Splatting\nfrom Uncalibrated Sparse Views\nJia-Chen Zhao1,2, Beiqi Chen1, Xinyang Chen1B, Guangcong Wang2,3B, and\nLiqiang Nie1\n1 Harbin Institute of Technology (Shenzhen)\n2 Great Bay University\n3 Guangzhou CloudBu...",
+    "content_length": 56110,
+    "created_at": "2026-06-29T13:57:11.201538+00:00",
+    "updated_at": "2026-06-29T14:24:34.788001+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_03_2606.28321.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782742710,
+      "processing_end_time": 1782743074
+    },
+    "chunks_list": []
+  },
+  "dup-516e31d5992d23dcf6f56c23b8430851": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-b7518426cdc2db6ac80c54ffbd279eb7",
+    "content_length": 104448,
+    "created_at": "2026-06-29T13:57:14.882381+00:00",
+    "updated_at": "2026-06-29T13:57:14.882393+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_04_2606.28268.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-b7518426cdc2db6ac80c54ffbd279eb7, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-b7518426cdc2db6ac80c54ffbd279eb7",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-ce4b3c68ff89ced5b676029d09c39cc7": {
+    "status": "failed",
+    "error_msg": "C[1/14]: chunk-64414600c3d94ee232a8549b0c64342f: ",
+    "content_summary": "RSICCLLM: A Multimodal Large Language\nModel for Remote Sensing Image Change\nCaptioning\nYelin Wang1,2,* , Zijia Song3,* , Shuo Ye2 , Chuanguang Yang1 , Miaoyu\nWang1 , Yong Xu3, Zhulin An1,† , Yongjun Xu1 , and Zitong Yu2,4,†\n1 State Key Laboratory of ...",
+    "content_length": 52907,
+    "created_at": "2026-06-29T13:57:15.907708+00:00",
+    "updated_at": "2026-06-29T16:00:26.577464+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_05_2606.28266.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782748466,
+      "processing_end_time": 1782748826
+    },
+    "chunks_list": []
+  },
+  "dup-5d87f285580d957898ed5f54caa15cb4": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-dfce5bac659e8ac000f5f75790c89390",
+    "content_length": 86260,
+    "created_at": "2026-06-29T13:57:17.305549+00:00",
+    "updated_at": "2026-06-29T13:57:17.305562+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_06_2606.28226.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-dfce5bac659e8ac000f5f75790c89390, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-dfce5bac659e8ac000f5f75790c89390",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "dup-30a58a3795a7fcbd7ddb7777dc1e7a91": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-8a45ec05228ae5972ab12de14483d7a9",
+    "content_length": 103059,
+    "created_at": "2026-06-29T13:57:19.450251+00:00",
+    "updated_at": "2026-06-29T13:57:19.450261+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_07_2606.28215.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-8a45ec05228ae5972ab12de14483d7a9, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-8a45ec05228ae5972ab12de14483d7a9",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "dup-6fd6218d04d85ee76f4beff8097e7dcb": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-127b740a98cf25ae22e8c8944cc55fac",
+    "content_length": 71748,
+    "created_at": "2026-06-29T13:57:20.519504+00:00",
+    "updated_at": "2026-06-29T13:57:20.519514+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_08_2606.28182.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-127b740a98cf25ae22e8c8944cc55fac, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-127b740a98cf25ae22e8c8944cc55fac",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-97a2ea67fab39f390c3cb298880a7880": {
+    "status": "failed",
+    "error_msg": "C[1/26]: chunk-e76fbebf45d3696d2c11b4bd0f7ed166: ",
+    "content_summary": "EchoSonar-R: A Multi-View Reasoning-Enabled\nModel for Disease Classification and Report\nGeneration in Echocardiography\nDarya Taratynova1 , Ahmed Aly1 , Numan Saeed1 ⋆, and Mohammad\nYaqub1 ⋆\nDivision of Computing and Mathematical Sciences, Mohamed Bin...",
+    "content_length": 94804,
+    "created_at": "2026-06-29T13:57:24.009821+00:00",
+    "updated_at": "2026-06-29T16:02:54.037697+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_09_2606.28164.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782748616,
+      "processing_end_time": 1782748974
+    },
+    "chunks_list": []
+  },
+  "doc-4cceddb21f1f89bdacdc8f35244b5cd9": {
+    "status": "processing",
+    "chunks_count": 12,
+    "chunks_list": [
+      "chunk-d2bb858f70a5005bdcddab1a636781d8",
+      "chunk-1ade91028e0ee1c9dc586ea2990737bc",
+      "chunk-a542e8d97c0ef097b04f2e462f65f890",
+      "chunk-d8ade44421e0e0eb4c3d97d4de87ab13",
+      "chunk-807144d9adf904e2e5e9f5821d6ec2c7",
+      "chunk-9690f8d5ff18b7f2115119766651c290",
+      "chunk-f8334a95729cf9c6a7d993fae9d1104d",
+      "chunk-de94c7404eef8d8e8e14a6732428e5ff",
+      "chunk-ad359bdb6f3f75ab4a1e8def2f2653eb",
+      "chunk-6473bcbc8d9d8c4693835cd73deb4957",
+      "chunk-e2329400963d5b31c46849e0dd535478",
+      "chunk-9231f1627aa91ac35b20edfb31d1f5f1"
+    ],
+    "content_summary": "Enhanced Neural Video Representation\nCompression across Extreme Complexity and\nQuality Scales\nHo Man Kwan1⋆ , Tianhao Peng1⋆ , Fan Zhang1 , Mike Nilsson2 ,\nAndrew Gower2 , and David Bull1\n1 Visual Information Lab, University of Bristol, UK\n{hm.kwan, ...",
+    "content_length": 50980,
+    "created_at": "2026-06-29T13:57:24.744319+00:00",
+    "updated_at": "2026-06-29T16:00:26.703225+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_10_2606.28163.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782748826
+    }
+  },
+  "doc-5abdff37a0381d0d615d1d48397ac8b9": {
+    "status": "processing",
+    "chunks_count": 11,
+    "chunks_list": [
+      "chunk-1384dee8e07d4fbbd05dab8a33d7b1ac",
+      "chunk-eeb57317888bec1f81664ae8e44d42cf",
+      "chunk-1eb0232563e0f393f7aa648e72d4fc00",
+      "chunk-ab0bdbfad022795f8c4f133f56028520",
+      "chunk-7ee6483e2c2df15043d52b3299f856b4",
+      "chunk-c776accd3c6f841a5101cde433a16fba",
+      "chunk-e9379910adde50e74e16bdf468db75d6",
+      "chunk-bab426196fa80a81490f96e66276f37d",
+      "chunk-84d0209b04a520750a20043e3134ba8a",
+      "chunk-e7a546dc01d9b55676e52f598ad39152",
+      "chunk-2de20542bdca8fa35a604574eeb0ece1"
+    ],
+    "content_summary": "Toward Robust In-Context Segmentation\nvia Concept Guidance\nZhigang Chen 1, Xiawu Zheng 1, Rongrong Ji 1,B\n1Key Laboratory of Multimedia Trusted Perception and Efficient Computing, Ministry of Education of\nChina, Xiamen University, 361005, P.R. China\n...",
+    "content_length": 46468,
+    "created_at": "2026-06-29T13:57:26.268114+00:00",
+    "updated_at": "2026-06-29T16:02:54.309410+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_11_2606.28149.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "metadata": {
+      "processing_start_time": 1782748974
+    }
+  },
+  "doc-24b16a937b2d7dd94a0f05270122e742": {
+    "status": "pending",
+    "content_summary": "Monocular Avatar Reconstruction via Cascaded\nDiffusion Priors and UV-Space Differentiable\nShading\nHong Li1,2⋆ , Minqi Meng⋆1 , Yanjun Liang1 , Chongjie Ye3 , Houyuan\nChen4 , Weiqing Xiao5 , Xianda Guo6† , Guojun Lei7 , Xuhui Liu8 ,\nChaojie Yang1 , Ya...",
+    "content_length": 75073,
+    "created_at": "2026-06-29T13:57:29.525832+00:00",
+    "updated_at": "2026-06-29T13:57:29.525850+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_12_2606.28144.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-a8bfddd1630448b0713b0465e9c3a7d8": {
+    "status": "pending",
+    "content_summary": "Astronomy&Astrophysicsmanuscript no. main©ESO 2026\nJune 29, 2026\nDifferentiable design of the PIAA-ZWFS: a flexible wavefront\nsensor that approaches the fundamental limit\nA. K. Taras1,⋆ , S. Y . Haffert1, and L. Desdoigts1\n1Leiden Observatory, Leiden...",
+    "content_length": 61900,
+    "created_at": "2026-06-29T13:57:31.352790+00:00",
+    "updated_at": "2026-06-29T13:57:31.352807+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_13_2606.28136.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-c1e38797261ffef1f3469a936408204b": {
+    "status": "pending",
+    "content_summary": "Translation as a Bridging Action: Transferring\nManipulation Skills from Humans to Robots\nSijin Chen 1,2,∗,Kaixuan Jiang 2,∗,Haixin Shi 2,†,B,Yanhui Wang 2,Weiheng Zhong 2,\nHaosheng Li 2,Bo Jiang 2,Yuxiao Liu 2,Xihui Liu 1,B\n1HKU-MMLab, 2ByteDance See...",
+    "content_length": 63154,
+    "created_at": "2026-06-29T13:57:36.766977+00:00",
+    "updated_at": "2026-06-29T13:57:36.766995+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_14_2606.28133.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-231396f2d4146f8220e12ae732b7eb37": {
+    "status": "pending",
+    "content_summary": "PhysisForcing: Physics Reinforced World Simulator for\nRobotic Manipulation\nPeiwen Zhang ∗,Yufan Deng ∗,Shangkun Sun ∗,Juncheng Ma,Duomin Wang †,\nJonas Du,Zilin Pan,Ye Huang,Hao Liang,Songyan Huang,Ruihua Zhang,Enze\nXie†,Ming-Yu Liu,Daquan Zhou ‡\nPeki...",
+    "content_length": 61546,
+    "created_at": "2026-06-29T13:57:37.881818+00:00",
+    "updated_at": "2026-06-29T13:57:37.881836+00:00",
+    "file_path": "arxiv_Deep_Learning_CV_15_2606.28128.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-f52bfc563b8fec78ac2a467abf52a8ee": {
+    "status": "pending",
+    "content_summary": "Single and Multi Truth Data Fusion using Large\nLanguage Models\nHira Beril Kucuk[0009−0002−4829−2156], Norman W Paton[0000−0003−2008−6617],\nJiaoyan Chen[0000−0003−4643−6750], and Zhenyu Wu[0000−0003−0981−5567]\nDepartment of Computer Science\nUniversity...",
+    "content_length": 41562,
+    "created_at": "2026-06-29T13:57:38.380331+00:00",
+    "updated_at": "2026-06-29T13:57:38.380349+00:00",
+    "file_path": "arxiv_Information_Systems_01_2606.28062.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-439ddf8a772eff277e36560fd3b62bd4": {
+    "status": "pending",
+    "content_summary": "DiStash: A Disaggregated Multi-Stash Transactional Key-Value\nStore\nYiming Gao\nUniversity of Southern California\nLos Angeles, CA, USA\ngaoyiming@usc.edu\nHieu Nguyen\neBay Inc.\nSan Jose, CA, USA\nhieunguyen@ebay.com\nJun Li\neBay Inc.\nSan Jose, CA, USA\njunl...",
+    "content_length": 52611,
+    "created_at": "2026-06-29T13:57:39.013693+00:00",
+    "updated_at": "2026-06-29T13:57:39.013711+00:00",
+    "file_path": "arxiv_Information_Systems_02_2606.27979.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-583f8f591960110bf926bbe48c04e731": {
+    "status": "pending",
+    "content_summary": "Kimball’s Data Warehouse Architecture: Evaluating\nthe Challenges of Conformed Data against the\nInmon Model\nJ´ulio Rocha 1,3,∗, Salviano Soares 2,3, Ant ´onio Valente1,3, Filipe Cabral Pinto 4\n1INESC TEC – INESC Technology and Science, Porto, Portugal...",
+    "content_length": 18189,
+    "created_at": "2026-06-29T13:57:39.206931+00:00",
+    "updated_at": "2026-06-29T13:57:39.206951+00:00",
+    "file_path": "arxiv_Information_Systems_03_2606.27571.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-3b18b42759e4a12170addcda9c203571": {
+    "status": "pending",
+    "content_summary": "Understanding Domain-Aware Distribution Alignment in\nBudgeted Entity Matching\nNicholas Pulsone\nWorcester Polytechnic Institute\nWorcester, MA\nnbpulsone@wpi.edu\nGregory Goren\nIsrael\ngrggoren@gmail.com\nRoee Shraga\nWorcester Polytechnic Institute\nWorcest...",
+    "content_length": 33466,
+    "created_at": "2026-06-29T13:57:39.626009+00:00",
+    "updated_at": "2026-06-29T13:57:39.626027+00:00",
+    "file_path": "arxiv_Information_Systems_04_2606.27342.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-11784a563f9cd4c3f85a97a2d048b31c": {
+    "status": "pending",
+    "content_summary": "BtrLog: Low-Latency Logging for Cloud Database Systems\nMaximilian Kuschewski\nTechnische Universität München\nmaximilian.kuschewski@tum.de\nLam-Duy Nguyen\nTechnische Universität München\nlamduy.nguyen@tum.de\nMatthias Jasny\nTechnische Universität Darmstad...",
+    "content_length": 88609,
+    "created_at": "2026-06-29T13:57:42.626779+00:00",
+    "updated_at": "2026-06-29T13:57:42.626796+00:00",
+    "file_path": "arxiv_Information_Systems_05_2606.27051.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-6d58c3538a051415c5104cd6e1735292": {
+    "status": "pending",
+    "content_summary": "EcoTable: Cost-effective Table Integration in Data Lakes for\nNatural Language Queries\nYuhui Wang, Jinqi Liu, Chengliang Chai, Hangyu Zhao, Yuhao Deng,\nYuyu Luo, Xin Tang, Ye Yuan, Guoren Wang, Fengjin Wang∗, Lei Cao†\nUniversity of Arizona†, Kuaishou ...",
+    "content_length": 120123,
+    "created_at": "2026-06-29T13:57:45.380871+00:00",
+    "updated_at": "2026-06-29T13:57:45.380891+00:00",
+    "file_path": "arxiv_Information_Systems_06_2606.26613.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-e4dcba2850228b615480f2a235128bab": {
+    "status": "pending",
+    "content_summary": "3D Spatial Pattern Matching\nNicole R. Schneider\nnsch@umd.edu\nUniversity of Maryland\nCollege Park, USA\nAvik Das\nadas1236@terpmail.umd.edu\nUniversity of Maryland\nCollege Park, USA\nLukas Arzoumanidis\nlukas.arzumanidis@hcu-hamburg.de\nHafenCity University...",
+    "content_length": 23381,
+    "created_at": "2026-06-29T13:57:46.028960+00:00",
+    "updated_at": "2026-06-29T13:57:46.028976+00:00",
+    "file_path": "arxiv_Information_Systems_07_2606.26465.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-3d045f0e702e412a745bd3e497edc1f8": {
+    "status": "pending",
+    "content_summary": "Query Cost Model Calibration in Confidential Virtual Machines\nQihan Zhang\nUniversity of Southern California\nLos Angeles, USA\nqihanzha@usc.edu\nMengyuan Li\nUniversity of Southern California\nLos Angeles, USA\nmli49061@usc.edu\nIbrahim Sabek\nUniversity of ...",
+    "content_length": 34103,
+    "created_at": "2026-06-29T13:57:46.646731+00:00",
+    "updated_at": "2026-06-29T13:57:46.646750+00:00",
+    "file_path": "arxiv_Information_Systems_08_2606.26385.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-ac7f52b117b9d8bd49f08375db91efa4": {
+    "status": "pending",
+    "content_summary": "CV-Rules: Serializability Verification of\nConcurrency Control Protocols via Explicit\nTransaction Ordering\nTakashi Hoshino/envel⌢pe\nCybozu Labs, Inc., Japan\nShigeo Mitsunari/envel⌢pe\nCybozu Labs, Inc., Japan\nTakashi Kambayashi/envel⌢pe\nNAUTILUS Techno...",
+    "content_length": 66273,
+    "created_at": "2026-06-29T13:57:48.171719+00:00",
+    "updated_at": "2026-06-29T13:57:48.171743+00:00",
+    "file_path": "arxiv_Information_Systems_09_2606.25409.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-7508497b7d10e89786b351d2079aee9b": {
+    "status": "pending",
+    "content_summary": "TABCLEAN: Reusable LLM-Synthesized Programs\nfor Tabular Data Cleaning\nYibo Wang\nPurdue University\nWest Lafayette, USA\nwang7342@purdue.edu\nRiteng Zhang\nPurdue University\nWest Lafayette, USA\nzhang5982@purdue.edu\nYinghao He\nPurdue University\nWest Lafaye...",
+    "content_length": 70719,
+    "created_at": "2026-06-29T13:57:49.163608+00:00",
+    "updated_at": "2026-06-29T13:57:49.163626+00:00",
+    "file_path": "arxiv_Information_Systems_10_2606.25388.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-05e0d349fcb66fc938c4b31454b2b6bf": {
+    "status": "pending",
+    "content_summary": "Are We Ready For An Agent-Native Memory System?\nWei Zhou\nShanghai Jiao Tong\nUniversity\nweizhoudb@sjtu.edu.cn\nXuanhe Zhou∗\nShanghai Jiao Tong\nUniversity\nzhouxuanhe@sjtu.edu.cn\nShaokun Han\nShanghai Jiao Tong\nUniversity\nareedd0@sjtu.edu.cn\nHongming Xu\nS...",
+    "content_length": 99623,
+    "created_at": "2026-06-29T13:57:51.495752+00:00",
+    "updated_at": "2026-06-29T13:57:51.495770+00:00",
+    "file_path": "arxiv_Information_Systems_11_2606.24775.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-663c1db600fdf4cb5229385f2426e37b": {
+    "status": "pending",
+    "content_summary": "One Index for Subsumption and Roll-up across Time, Geography,\nand Ontology\nMadhulatha Mandarapu ∗ Sandeep Kunkunuru †\nVaidhyaMegha Private Limited, India\nhttps://samyama.ai/\nJune 2026\nAbstract\nTime-series, geospatial, andontologysystemseachmaintainah...",
+    "content_length": 14466,
+    "created_at": "2026-06-29T13:57:51.786992+00:00",
+    "updated_at": "2026-06-29T13:57:51.787007+00:00",
+    "file_path": "arxiv_Information_Systems_12_2606.24677.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-67b7d383ed66b35ac8327b327da55140": {
+    "status": "pending",
+    "content_summary": "Accelerating Presto with GPUs\nDaniel Bauer\nLuis Garcés-Erice\nDeepak Majeti∗\nZoltán Arnold Nagy\nSean Rooney\nIBM Research Europe,∗ IBM Data & AI\nGreg Kimball\nDevavret Makkar\nTodd Mostak\nKarthikeyan Natarajan\nNVIDIA\nABSTRACT\nWe describe how we extended ...",
+    "content_length": 63767,
+    "created_at": "2026-06-29T13:57:52.824429+00:00",
+    "updated_at": "2026-06-29T13:57:52.824454+00:00",
+    "file_path": "arxiv_Information_Systems_13_2606.24647.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-45d600bb512036d0e5e46bf0b790168d": {
+    "status": "pending",
+    "content_summary": "Abstractions of Queries in Ontology-Based Data Access\n(Extended version) ∗\nMichel Lecl`ere,Marie-Laure Mugnier,Guillaume P ´erution-Kihli\nLIRMM, Inria, University of Montpellier, CNRS, Montpellier, France\n{michel.leclere, marie-laure.mugnier, guillau...",
+    "content_length": 86632,
+    "created_at": "2026-06-29T13:57:54.380437+00:00",
+    "updated_at": "2026-06-29T13:57:54.380455+00:00",
+    "file_path": "arxiv_Information_Systems_14_2606.24618.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "dup-1ef012cb21d1d1186dc8e1e05f88dfdf": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-f3e97a0d9009abc1fba04768623787ed",
+    "content_length": 35861,
+    "created_at": "2026-06-29T13:59:06.173279+00:00",
+    "updated_at": "2026-06-29T13:59:06.173296+00:00",
+    "file_path": "arxiv_Machine_Learning_09_2606.28277.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-f3e97a0d9009abc1fba04768623787ed, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-f3e97a0d9009abc1fba04768623787ed",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "dup-83013edb0a73f161d8dd907ad57d42c9": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-ffa7d4b1aa82d7eb8da344f00e8fb70c",
+    "content_length": 113893,
+    "created_at": "2026-06-29T13:57:56.424947+00:00",
+    "updated_at": "2026-06-29T13:57:56.424968+00:00",
+    "file_path": "arxiv_Information_Technology_02_2606.28186.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-ffa7d4b1aa82d7eb8da344f00e8fb70c, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-ffa7d4b1aa82d7eb8da344f00e8fb70c",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-26033bb2e5faadb026bb83194225bf56": {
+    "status": "pending",
+    "content_summary": "AI Persuasive Framing in Collective Dilemmas\nANDERS GIOVANNI MØLLER∗,Data Science Section, IT University of Copenhagen, Denmark\nALESSIA GALDEMAN∗,Computer Science Department, University of Milan, Italy\nARIANNA PERA,Copenhagen Center for Social Data S...",
+    "content_length": 56576,
+    "created_at": "2026-06-29T13:57:57.995786+00:00",
+    "updated_at": "2026-06-29T13:57:57.995804+00:00",
+    "file_path": "arxiv_Information_Technology_03_2606.27951.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-cf07401edaa65345fb8b55ca2b2aa4dc": {
+    "status": "pending",
+    "content_summary": "When AI Deceives: A Natural Experiment on the Causal Effects\nof Perceived Deception on Player Ratings in RPGs\nShudong YANG1\n1School of Art and Design, Dalian Jiaotong University, China\nAbstract\nObjective:AI-driven deception mechanisms are increasingl...",
+    "content_length": 95045,
+    "created_at": "2026-06-29T13:57:59.259605+00:00",
+    "updated_at": "2026-06-29T13:57:59.259626+00:00",
+    "file_path": "arxiv_Information_Technology_04_2606.27689.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-5416d55f6f029d567ba711885f898b76": {
+    "status": "pending",
+    "content_summary": "From Celebrities to Anyone: Characterizing AI Nudification\nContent, Technology, and Community Dynamics on 4chan\nChi Cui1 Yixin Wu1 Yang Zhang1\n1CISPA Helmholtz Center for Information Security\nAbstract\nAI nudification uses generative models to create ...",
+    "content_length": 89727,
+    "created_at": "2026-06-29T13:58:00.782853+00:00",
+    "updated_at": "2026-06-29T13:58:00.782872+00:00",
+    "file_path": "arxiv_Information_Technology_05_2606.27234.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-9a9fb904efb39160d841b0662df389ce": {
+    "status": "pending",
+    "content_summary": "Human–LLM Collaboration Is Transforming Complexity\nMetrics in Scientific Texts\nR. Alexander Bentley 1,2, Blai Vidiella 3,1, Damian J. Ruck 4,1, Senjuti Dutta 5,1, Kai Li 6,1,\nand Sergi Valverde 7,8,1\n1Center for the Dynamics of Social Complexity (DyS...",
+    "content_length": 31417,
+    "created_at": "2026-06-29T13:58:29.034149+00:00",
+    "updated_at": "2026-06-29T13:58:29.034167+00:00",
+    "file_path": "arxiv_Information_Technology_06_2606.27052.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-8d8ffc1c44c2c0fff329a3da8049823d": {
+    "status": "pending",
+    "content_summary": "Fortress and Gatekeeper: Theorizing Transitive Trust in Third-Party \nCybersecurity Risk Governance \n \nYijun Chen, Macquarie University, NSW, Australia  \nMisita Anwar, Monash University, Swinburne University of Technology, VIC, Australia \nAbstract \nTh...",
+    "content_length": 66709,
+    "created_at": "2026-06-29T13:58:30.336700+00:00",
+    "updated_at": "2026-06-29T13:58:30.336717+00:00",
+    "file_path": "arxiv_Information_Technology_07_2606.26866.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-e0c01e92b0706cdc1bd33a0842e30126": {
+    "status": "pending",
+    "content_summary": "THEFUNGIBLERESERVESTANDARD: A DETERMINISTIC\nFRAMEWORK FORENCODINGCARRYINGCOSTS IN\nASSET-BACKEDTOKENS\nA PREPRINT\nJJ Jia Jing Tan, Eva Meng, Josh Ng, Zack Zhang,\nSeptember Liu, Teelet Wang, Ludwig Zhang, Seth Yan\nMatrixdock\n{jj.tan, eva.meng, josh.ng, ...",
+    "content_length": 40203,
+    "created_at": "2026-06-29T13:58:31.044937+00:00",
+    "updated_at": "2026-06-29T13:58:31.044956+00:00",
+    "file_path": "arxiv_Information_Technology_08_2606.26704.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-e50b8adc2679eea428fef6457e8b726b": {
+    "status": "pending",
+    "content_summary": "An  exploratory  behavioral  and  \nelectroencephalographic\n \nstudy\n \nof\n \nartificial\n \nintelligence-assisted\n \nlearning\n \nmodes\n \nin\n \nhigh\n \nschool\n \nstudents\n (June  2026)   \nKASHIKA\n \nKHURANA\n  1*\n,\n \nALLY\n \nLIEW\n  1*\n \n  1\nAllen\n \nHigh\n \nSchool,\n...",
+    "content_length": 69133,
+    "created_at": "2026-06-29T13:58:35.538803+00:00",
+    "updated_at": "2026-06-29T13:58:35.538821+00:00",
+    "file_path": "arxiv_Information_Technology_09_2606.26579.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-5ff27a00c84445fa1e78634a19ecacfb": {
+    "status": "pending",
+    "content_summary": "Pingquanqi ( ௜ಃఖ): A Cross-Domain Sociotechnical\nFramework for Human-Agent Interaction\nGovernance\nYu Wang (຦დ)\nIndependent Researcher, Shenyang, China\nORCID: 0009-0002-6386-2938\ngaroter@gmail.com\nᅋေ\nLarge Language Model (LLM) agents are transitioning...",
+    "content_length": 77683,
+    "created_at": "2026-06-29T13:58:37.194894+00:00",
+    "updated_at": "2026-06-29T13:58:37.194910+00:00",
+    "file_path": "arxiv_Information_Technology_10_2606.26573.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-a1c19204374442083e28d434f01c11a1": {
+    "status": "pending",
+    "content_summary": "1 \nCan Large Language Models Reliably Code Qualitative \nHumanitarian Data? A Benchmark Study Against Human \nExpert Adjudication \nJerome Marston1, Tino Kreutzer1 2, Salomé Garnier1, Ella Boone2, Phuong N Pham3, Patrick \nVinck3 \n1Kobo Inc, 2 McGill Uni...",
+    "content_length": 101544,
+    "created_at": "2026-06-29T13:58:39.564918+00:00",
+    "updated_at": "2026-06-29T13:58:39.564935+00:00",
+    "file_path": "arxiv_Information_Technology_11_2606.26541.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-bd6e53ffd4769ec221e164e87b37d2a6": {
+    "status": "pending",
+    "content_summary": "1 \n \nDo more heads imply better performance? An \nempirical study of team thought leaders' impact on \nscientific team performance \nYi Zhao1, Yuzhuo Wang2, Heng Zhang1, Donghun Kim3, Chao Lu4, Yongjun Zhu3*, Chengzhi \nZhang1 \n1. Department of Informat...",
+    "content_length": 83463,
+    "created_at": "2026-06-29T13:58:43.976781+00:00",
+    "updated_at": "2026-06-29T13:58:43.976798+00:00",
+    "file_path": "arxiv_Information_Technology_12_2606.26483.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-af32846fe4ed76e4d515ad3dfb2fa5ae": {
+    "status": "pending",
+    "content_summary": "The Tilted Playing Field for Women in Science\nCasandra Rustia,b,1,2, Hussain Hussainc,b, Kian Ahrabiana,b, Jay Pujaraa,b, Allon G. Percusd, Buddhika Nettasinghee, and\nKristina Lermanf,a,b,1\nPreprint. Under review.\nInstitutional prestige shapes access...",
+    "content_length": 64058,
+    "created_at": "2026-06-29T13:58:47.661125+00:00",
+    "updated_at": "2026-06-29T13:58:47.661143+00:00",
+    "file_path": "arxiv_Information_Technology_13_2606.26469.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-13286b6f2fa456f4bf0afd2a569905cf": {
+    "status": "pending",
+    "content_summary": "SCORING ISNOTENOUGH: ADDRESSINGGAPS IN\nUTILITY-FAIRNESSTRADE-OFFS FORRANKING\nShubham Singh\nDepartment of Computer Science\nUniversity of Illinois Chicago\nChicago, IL 60607\nssing57@uic.edu\nIan A. Kash\nDepartment of Computer Science\nUniversity of Illino...",
+    "content_length": 88368,
+    "created_at": "2026-06-29T13:58:49.139537+00:00",
+    "updated_at": "2026-06-29T13:58:49.139558+00:00",
+    "file_path": "arxiv_Information_Technology_14_2606.26369.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-09b03a22b2645f8bdb40f58c47758242": {
+    "status": "pending",
+    "content_summary": "Surprises in Proper Positive-Only Learning\nShai Ben-David Farnam Mansouri\nUniversity of Waterloo and Vector Institute University of Waterloo and Vector Institute\nshai@uwaterloo.ca f5mansou@uwaterloo.ca\nAnay Mehrotra Manolis Zampetakis\nStanford Univer...",
+    "content_length": 99286,
+    "created_at": "2026-06-29T13:58:52.401081+00:00",
+    "updated_at": "2026-06-29T13:58:52.401098+00:00",
+    "file_path": "arxiv_Machine_Learning_02_2606.28309.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "dup-40e9f51cd637b4b36b1b50d194e91bd8": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-a716a13a52213338512b179a0818cbed",
+    "content_length": 49867,
+    "created_at": "2026-06-29T13:58:53.122179+00:00",
+    "updated_at": "2026-06-29T13:58:53.122193+00:00",
+    "file_path": "arxiv_Machine_Learning_03_2606.28308.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-a716a13a52213338512b179a0818cbed, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-a716a13a52213338512b179a0818cbed",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-db282df59670393e1eef32d162ca7c13": {
+    "status": "pending",
+    "content_summary": "Second-Order KKT Guarantees for\nBregman ADMM in Nonconvex and Non-Lipschitz Optimization\nShuang Li, Zhihui Zhu, and Qiuwei Li*\nJune 29, 2026\nAbstract\nWe analyze Bregman ADMM for nonconvex linearly constrained problems under two-sided relative smoothn...",
+    "content_length": 112868,
+    "created_at": "2026-06-29T13:58:55.958277+00:00",
+    "updated_at": "2026-06-29T13:58:55.958378+00:00",
+    "file_path": "arxiv_Machine_Learning_04_2606.28307.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-1459a5af039ccde2de98fb6b29cf7a1d": {
+    "status": "pending",
+    "content_summary": "VGB for Masked Diffusion Model: Efficient Test-time\nScaling for Reward Satisfaction and Sample Editing\nKijung Jeon\nGeorgia Tech\nkjeon@gatech.edu\nThuy-Duong Vuong∗\nUCSD\nthvuong@ucsd.edu\nMolei Tao∗\nGeorgia Tech\nmtao@gatech.edu\nAbstract\nInference-time s...",
+    "content_length": 172576,
+    "created_at": "2026-06-29T13:59:00.778613+00:00",
+    "updated_at": "2026-06-29T13:59:00.778630+00:00",
+    "file_path": "arxiv_Machine_Learning_05_2606.28301.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-ede9d47fca4b5f8d70f55fac74fa61e1": {
+    "status": "pending",
+    "content_summary": "Democratic ICAI: Debating Our Way to Steering Principles from\nPreferences\nKevin Kingslin1, Anish Natekar1, Ashutosh Ranjan1, Vivek Srivastava1,\nSavita Bhat1,Shirish Karande 1\n1TCS Research\n{kevin.kingslin, anish.natekar, ashutosh.ranjan2, srivastava....",
+    "content_length": 112123,
+    "created_at": "2026-06-29T13:59:02.761054+00:00",
+    "updated_at": "2026-06-29T13:59:02.761070+00:00",
+    "file_path": "arxiv_Machine_Learning_06_2606.28294.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-ce4618de8d0f5ae226d434579eaf4132": {
+    "status": "pending",
+    "content_summary": "BridgingAb InitioSymmetries and Global Nuclear Masses with\nInterpretable Neural Networks\nPhong Dang a,∗, Evander Espinozaa, Xiaoliang Wanb, Michela Negro a, Jerry P. Draayer a,c, Feng Pan d,e,a, Tomáš\nDytrych f,a,c, Daniel Langr g,c, David Kekejian c...",
+    "content_length": 64338,
+    "created_at": "2026-06-29T13:59:03.542004+00:00",
+    "updated_at": "2026-06-29T13:59:03.542023+00:00",
+    "file_path": "arxiv_Machine_Learning_07_2606.28287.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-ba3a9ba4fe385a36782b58b2b3f3d215": {
+    "status": "pending",
+    "content_summary": "PAC-Bayesian Certificates for Quadratic Closed-Loop\nControl\nDomagoj Herceg∗\nDepartment of Mechanical Engineering\nEindhoven University of Technology\nThe Netherlands\nd.herceg@tue.nl\nAbstract\nPAC-Bayesian bounds provide finite-sample guarantees for data...",
+    "content_length": 79304,
+    "created_at": "2026-06-29T13:59:05.634843+00:00",
+    "updated_at": "2026-06-29T13:59:05.634862+00:00",
+    "file_path": "arxiv_Machine_Learning_08_2606.28281.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "dup-7bb59e526f3e6fc57f741539a2ecd180": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-b91e489e535a2723fa1ef87200441080",
+    "content_length": 30231,
+    "created_at": "2026-06-29T13:59:06.845426+00:00",
+    "updated_at": "2026-06-29T13:59:06.845436+00:00",
+    "file_path": "arxiv_Machine_Learning_10_2606.28274.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-b91e489e535a2723fa1ef87200441080, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-b91e489e535a2723fa1ef87200441080",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-87b8f8e70d01136819cee1ffed6009f6": {
+    "status": "pending",
+    "content_summary": "* akshaybhagwan.sonawane@utdallas.edu \nParameter-Efficient Continuous-Variable Photonic Quantum Neural Networks for Edge \nQuantum AI: Demonstration in Oral Cancer Detection \nAkshay Bhagwan Sonawane*, Sophie Choe, and Lakshman Tamil \nDept. of Electric...",
+    "content_length": 82687,
+    "created_at": "2026-06-29T13:59:08.721248+00:00",
+    "updated_at": "2026-06-29T13:59:08.721264+00:00",
+    "file_path": "arxiv_Machine_Learning_11_2606.28252.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "dup-49d2b225d76411fa5d9ec4dc782b12f5": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-556437908581757f75b9a132a2140b93",
+    "content_length": 86573,
+    "created_at": "2026-06-29T13:59:11.816043+00:00",
+    "updated_at": "2026-06-29T13:59:11.816074+00:00",
+    "file_path": "arxiv_Machine_Learning_12_2606.28242.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-556437908581757f75b9a132a2140b93, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-556437908581757f75b9a132a2140b93",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-decbafad2b55b90ef4c9a230a5d6c65a": {
+    "status": "pending",
+    "content_summary": "Disentangling Continuous-Time Latent Dynamics:\nIdentifiability of Latent SDEs via Diffusion Shifts\nYuanyuan Wang1, Wenjie Wang 2, Haoxuan Li 3, Mingming Gong 1,2, Kun Zhang 1,4\n1Mohamed bin Zayed University of Artificial Intelligence\n2The University ...",
+    "content_length": 106138,
+    "created_at": "2026-06-29T13:59:14.081148+00:00",
+    "updated_at": "2026-06-29T13:59:14.081166+00:00",
+    "file_path": "arxiv_Machine_Learning_13_2606.28228.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-d111aa98f09c091f51eac19f2b6afcfd": {
+    "status": "pending",
+    "content_summary": "Estimation–Prediction Tradeoff in Causal Probabilistic Temporal Graphs\nAniq Ur Rahman 1\nAbstract\nTemporal link prediction is usually evaluated by\npredictive performance on unseen edges, but in\nprobabilistic temporal graphs this criterion can\nconflate...",
+    "content_length": 30617,
+    "created_at": "2026-06-29T13:59:15.215654+00:00",
+    "updated_at": "2026-06-29T13:59:15.215671+00:00",
+    "file_path": "arxiv_Machine_Learning_14_2606.28225.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-fbabd49a6a59c7a4098f46070bca3437": {
+    "status": "pending",
+    "content_summary": "Physics-Informed Neural Network with Transfer Learning for State Estimation\nin Lithium-Ion Batteries using the Single Particle Model with Electrolyte\nGift Modekwe a and Qiugang Lu a,1\na Department of Chemical Engineering, Texas Tech University, Lubbo...",
+    "content_length": 27704,
+    "created_at": "2026-06-29T13:59:15.824226+00:00",
+    "updated_at": "2026-06-29T13:59:15.824243+00:00",
+    "file_path": "arxiv_Machine_Learning_15_2606.28220.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-54fdafa636cbda4fd6ba1ff24b76665f": {
+    "status": "pending",
+    "content_summary": "Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence\nfrom Attention Head Specialization in Large Language Models\nYanchen Yin* 1 Dongqi Han * 1 Linghui Li 1\nAbstract\nJailbreak attacks bypass LLM safety alignment,\nyet their mechanisms ...",
+    "content_length": 115484,
+    "created_at": "2026-06-29T13:59:22.015558+00:00",
+    "updated_at": "2026-06-29T13:59:22.015575+00:00",
+    "file_path": "arxiv_Network_Security_01_2606.28153.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-e13fe1cec6267702b58acf7e7a3766f6": {
+    "status": "pending",
+    "content_summary": "How Humans, Bots, and Agents Communicate\nAbout Vulnerabilities in Pull Requests\nPien Rooijendijk\nRadboud University\nThe Netherlands\nChristoph Treude\nSingapore Management University\nSingapore\nMairieli Wessel\nRadboud University\nThe Netherlands\nAbstract...",
+    "content_length": 35635,
+    "created_at": "2026-06-29T13:59:22.528040+00:00",
+    "updated_at": "2026-06-29T13:59:22.528065+00:00",
+    "file_path": "arxiv_Network_Security_02_2606.28125.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-2a80aecadfcee5161a01c59434c3c520": {
+    "status": "pending",
+    "content_summary": "GTI-mSEMP Framework : A Proposed Framework to Stimulate Malware \nPropagation with Inclusion of Attacker-Defender Strategy  \n \nShadeeb Hossain1,2,ϯ [ORCID ID: 0000-0002-5224-7684],  \nKristopher Wilson1, \n1 Capitol Technology University, Department of ...",
+    "content_length": 34048,
+    "created_at": "2026-06-29T13:59:23.856857+00:00",
+    "updated_at": "2026-06-29T13:59:23.856876+00:00",
+    "file_path": "arxiv_Network_Security_03_2606.28079.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-d3cba8fd9ed5bc9aafb249c236829ac1": {
+    "status": "pending",
+    "content_summary": "ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents⋆\nShijing Hua, Liang Liub, Zhu Menga,∗, Zhicheng Zhaoa,∗\naBeijing University of Posts and Telecommunications, Beijing, 100876, China\nbBeijing Academy of Blockchain and Edge ...",
+    "content_length": 121113,
+    "created_at": "2026-06-29T13:59:26.463445+00:00",
+    "updated_at": "2026-06-29T13:59:26.463465+00:00",
+    "file_path": "arxiv_Network_Security_04_2606.28061.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-e86f5e0ea07b7a8ce784b2ff8800eae4": {
+    "status": "pending",
+    "content_summary": "Ghost Without Shell: Measuring Non-Interactive SSH Attacks on\nHoneypots\nVeronica Valeros\nCzech Technical University in Prague\nPrague, Czechia\nvalerver@fel.cvut.cz\nMuris Sladić\nCzech Technical University in Prague\nPrague, Czechia\nsladimur@fel.cvut.cz\n...",
+    "content_length": 30344,
+    "created_at": "2026-06-29T13:59:26.869860+00:00",
+    "updated_at": "2026-06-29T13:59:26.869875+00:00",
+    "file_path": "arxiv_Network_Security_05_2606.28006.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-ef4d232f3cff4dbab5c4533d89f6cc38": {
+    "status": "pending",
+    "content_summary": "Quantum Multi-Party Threshold Private Set Intersection with Explicit\nCardinality Testing\nZixian Gonga,∗, Kun Tiana, Yi Zhanga and Fengxia Liub\naSchool of Mathematics, Renmin University of China, Beijing, 100872, P. R. China\nbGreat Bay University, Don...",
+    "content_length": 53239,
+    "created_at": "2026-06-29T13:59:28.333612+00:00",
+    "updated_at": "2026-06-29T13:59:28.333629+00:00",
+    "file_path": "arxiv_Network_Security_06_2606.27996.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-cf087a052b6cceb042952f499936f2f7": {
+    "status": "pending",
+    "content_summary": "Verifiable and Collusion-Resistant Multi-Party Quantum Private Set\nOperations\nZixian Gonga,∗, Kun Tiana, Yi Zhanga and Fengxia Liub\naSchool of Mathematics, Renmin University of China, Beijing, 100872, P. R. China\nbGreat Bay University, DongGuan, 5238...",
+    "content_length": 61054,
+    "created_at": "2026-06-29T13:59:29.988944+00:00",
+    "updated_at": "2026-06-29T13:59:29.989056+00:00",
+    "file_path": "arxiv_Network_Security_07_2606.27994.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-0303ec6f3d3c47822403e8dbaebaab2f": {
+    "status": "pending",
+    "content_summary": "AdvancedShelLM: A Stateful Multi-Agent LLM\nHoneypot for SSH Deception\nMuris Sladić1, Eman Alibalić1, Veronica Valeros1, Carlos Catania2, and\nSebastian Garcia1\n1 Faculty of Electrical Engineering, Czech Technical University in Prague, Czechia\nsladimur...",
+    "content_length": 44630,
+    "created_at": "2026-06-29T13:59:30.616802+00:00",
+    "updated_at": "2026-06-29T13:59:30.616819+00:00",
+    "file_path": "arxiv_Network_Security_08_2606.27990.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-1fe0fb501f1ce6eaf96554bdfb711bc8": {
+    "status": "pending",
+    "content_summary": "SHARD: cell-keyed residual splitting for\nalignment-resistant private dense retrieval\nSergey M. Kurilenko\nMoscow Institute of Physics and Technology\nsergkurilenko@gmail.com\nJune 29, 2026\nAbstract\nDense embeddings underpin semantic search and Retrieval...",
+    "content_length": 127852,
+    "created_at": "2026-06-29T13:59:32.735411+00:00",
+    "updated_at": "2026-06-29T13:59:32.735428+00:00",
+    "file_path": "arxiv_Network_Security_09_2606.27976.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-e6411cb4f0f8d5e489d469e527db2359": {
+    "status": "pending",
+    "content_summary": "Decoys Cannot Go Everywhere: Mapping the\nDeception Surface in MITRE ATT&CK\nVeronica Valeros1, Carlos Catania2, Viliam Lisý1, and Harm Griffioen3\n1 Faculty of Electrical Engineering, Czech Technical University in Prague, Czechia\nvalerver@fel.cvut.cz, ...",
+    "content_length": 48277,
+    "created_at": "2026-06-29T13:59:33.578153+00:00",
+    "updated_at": "2026-06-29T13:59:33.578498+00:00",
+    "file_path": "arxiv_Network_Security_10_2606.27966.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-1d3bb3c02d7e06d9e26104bd51a4d2c8": {
+    "status": "pending",
+    "content_summary": "TRANSVERSAL DIFFERENCE NUMBERS IN FINITE ABELIAN\nQUOTIENTS\nMUGUREL BARCAU, VICENT ¸ IU PAS ¸OL, AND GEORGE C. T ¸ URCAS ¸\nAbstract.GivenH≤Gfinite abelian groups, a transversalT⊆GforG/H\nhas fixed size|G/H|, but its ambient difference supportD(T) =T−Tc...",
+    "content_length": 62588,
+    "created_at": "2026-06-29T13:59:34.926987+00:00",
+    "updated_at": "2026-06-29T13:59:34.927005+00:00",
+    "file_path": "arxiv_Network_Security_11_2606.27961.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-83fd6f6d37c9afdbd903d47c9595eb82": {
+    "status": "pending",
+    "content_summary": "Agentic AI-Powered Re-Identification:\nAn Emerging, Scalable Threat to Mobility\nMicrodata Privacy\nOscar Thees 1⋆, Roman Müller 1∗, and Matthias Templ 1\nUniversity of Applied Sciences and Arts Northwestern Switzerland (FHNW),\nRiggenbachstrasse 16, 4600...",
+    "content_length": 40643,
+    "created_at": "2026-06-29T13:59:35.663914+00:00",
+    "updated_at": "2026-06-29T13:59:35.663931+00:00",
+    "file_path": "arxiv_Network_Security_12_2606.27936.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-cf87cd366bd5c460e0609ac15e9028bf": {
+    "status": "pending",
+    "content_summary": "Self-Verifying Measurement Records:\nHash-Linked Evidence Graphs for Hardware\nBenchmarking\nFaruk Alpay∗ Barış Başaran\nDepartment of Computer Engineering, Bahçeşehir University, Istanbul, Turkey\n{faruk.alpay, baris.basaran}@bahcesehir.edu.tr\nAbstract\nP...",
+    "content_length": 63569,
+    "created_at": "2026-06-29T13:59:36.822603+00:00",
+    "updated_at": "2026-06-29T13:59:36.822624+00:00",
+    "file_path": "arxiv_Network_Security_13_2606.27934.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-aea73a5ce1739e98b51a400e2835614d": {
+    "status": "pending",
+    "content_summary": "Computer Science and Information Systems 00(0):0000–0000https://doi.org/10.2298/CSIS123456789X\nRAMSES: Secure high-performance computing for\nsensitive data\nPeter Heger1 , Lech Nieroda 1 , Roland Pabel 1 , Christoph Stollwerk 1 , Stefan\nBorowski1 , Ka...",
+    "content_length": 80318,
+    "created_at": "2026-06-29T13:59:38.738085+00:00",
+    "updated_at": "2026-06-29T13:59:38.738101+00:00",
+    "file_path": "arxiv_Network_Security_14_2606.27919.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "dup-f2a41f81136f3dd8e5df0b1b24915caa": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-db6ef0d9c62e646ca799a95728e00b1f",
+    "content_length": 69230,
+    "created_at": "2026-06-29T13:59:39.622161+00:00",
+    "updated_at": "2026-06-29T13:59:39.622170+00:00",
+    "file_path": "arxiv_Software_Engineering_01_2606.28235.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-db6ef0d9c62e646ca799a95728e00b1f, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-db6ef0d9c62e646ca799a95728e00b1f",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-742f7b906d7eef21419f96398afc3127": {
+    "status": "pending",
+    "content_summary": "Humanizing Automatically Generated Unit Test Suites with\nLLM-Based Refactoring\nWENDKÛUNI C. OUÉDRAOGO,University of Luxembourg, Luxembourg\nYINGHUA LI∗,Nanjing University of Science and Technology, China\nXUEQI DANG,University of Luxembourg, Luxembourg...",
+    "content_length": 142410,
+    "created_at": "2026-06-29T13:59:53.673893+00:00",
+    "updated_at": "2026-06-29T13:59:53.673909+00:00",
+    "file_path": "arxiv_Software_Engineering_02_2606.28229.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-43543260bb07bcdf0acd59f165e78451": {
+    "status": "pending",
+    "content_summary": "CrossLangFuzzer: Differential Testing of Cross-Language JVM\nCompilers\nXiaotian Ma\nNanjing University of Science and\nTechnology\nNanjing, China\nxyzboom@njust.edu.cn\nQiong Feng\nNanjing University of Science and\nTechnology\nNanjing, China\nqiongfeng@njust....",
+    "content_length": 25997,
+    "created_at": "2026-06-29T13:59:54.157745+00:00",
+    "updated_at": "2026-06-29T13:59:54.157762+00:00",
+    "file_path": "arxiv_Software_Engineering_03_2606.28132.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "dup-9f8c44e12f348b74966029842ad791d7": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-e13fe1cec6267702b58acf7e7a3766f6",
+    "content_length": 35635,
+    "created_at": "2026-06-29T13:59:54.561724+00:00",
+    "updated_at": "2026-06-29T13:59:54.561734+00:00",
+    "file_path": "arxiv_Software_Engineering_04_2606.28125.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "error_msg": "Content already exists. Original doc_id: doc-e13fe1cec6267702b58acf7e7a3766f6, Status: DocStatus.PENDING",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-e13fe1cec6267702b58acf7e7a3766f6",
+      "original_track_id": "scan_20260629_205642_378733e6"
+    },
+    "chunks_list": []
+  },
+  "doc-a0b82a607bacdfff8668f32602f4b7da": {
+    "status": "pending",
+    "content_summary": "The Reciprocal Impact of Science and Software:\nA Cross-Corpus Analysis of How Research Shapes\nSoftware and\nSoftware Enables Research\nAudris Mockus1\n1University of Tennessee, Knoxvilleaudris@utk.edu\nDraft June 29, 2026\nAbstract\nSoftware and scientific...",
+    "content_length": 71179,
+    "created_at": "2026-06-29T13:59:55.385695+00:00",
+    "updated_at": "2026-06-29T13:59:55.385713+00:00",
+    "file_path": "arxiv_Software_Engineering_05_2606.28120.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-05e27347b7d1efa49cb44b6be3224317": {
+    "status": "pending",
+    "content_summary": "The ARDoCo Tool Landscape: REST API, TraceView, and TraceViz\nfor Architecture Traceability\nJan Keim\nDominik Fuchß\njan.keim@kit.edu\ndominik.fuchss@kit.edu\nKarlsruhe Institute of Technology\nKarlsruhe, Germany\nSophie Corallo\nTobias Hey\nsophie.corallo@ki...",
+    "content_length": 20071,
+    "created_at": "2026-06-29T13:59:55.757680+00:00",
+    "updated_at": "2026-06-29T13:59:55.757697+00:00",
+    "file_path": "arxiv_Software_Engineering_06_2606.28064.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-ca2427d772a43faf0cfadbde2e8d11ae": {
+    "status": "pending",
+    "content_summary": "SBridge: Identifying Source-to-Binary Function Similarity\nvia Cross-Domain Control Block Matching\nHEEDONG YANG,Korea University, Republic of Korea\nJEONGWOO LEE,Korea University, Republic of Korea\nHAJIN YUN,Korea University, Republic of Korea\nSEUNGHOO...",
+    "content_length": 86737,
+    "created_at": "2026-06-29T14:00:03.879624+00:00",
+    "updated_at": "2026-06-29T14:00:03.879737+00:00",
+    "file_path": "arxiv_Software_Engineering_07_2606.28058.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-5415166ef58f7b56294dedfeae065c3c": {
+    "status": "pending",
+    "content_summary": "Evolution-Aware Regression Test Prioritization of ML-Enabled\nSystems Using Gradient-Based Behavior Vectors\nEunho Cho\nehcho@kaist.ac.kr\nSchool of Computing, Korea\nAdvanced Institute of Science and\nTechnology\nDaejeon, Korea\nDonghwan Shin\nd.shin@sheffie...",
+    "content_length": 58410,
+    "created_at": "2026-06-29T14:00:04.710849+00:00",
+    "updated_at": "2026-06-29T14:00:04.710867+00:00",
+    "file_path": "arxiv_Software_Engineering_08_2606.28037.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-06e40ce7b2747d2ab03b376a024c0125": {
+    "status": "pending",
+    "content_summary": "Reasoning Beyond Prediction: From Data-Driven to Causal\nSo/f_tware Engineering\nROBERTO PIETRANTUONO, LUCA GIAMATTEI, and STEFANO RUSSO,University of Naples\nFederico II, Italy\nSoftware engineering is an intellectually demanding, crea tive discipline t...",
+    "content_length": 52298,
+    "created_at": "2026-06-29T14:00:05.884072+00:00",
+    "updated_at": "2026-06-29T14:00:05.884088+00:00",
+    "file_path": "arxiv_Software_Engineering_09_2606.27960.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-aa4916c513ca0e0f32eb7c0a024f6299": {
+    "status": "pending",
+    "content_summary": "UNICS: Multilingual Code Search via Unified Pseudocode and\nContrastive Transfer Learning\nYE FAN,Nanjing University, China\nJIDONG GE∗,Nanjing University, China\nCHUANYI LI,Nanjing University, China\nLIGUO HUANG,Southern Methodist University, USA\nBIN LUO...",
+    "content_length": 93344,
+    "created_at": "2026-06-29T14:00:07.323298+00:00",
+    "updated_at": "2026-06-29T14:00:07.323316+00:00",
+    "file_path": "arxiv_Software_Engineering_10_2606.27747.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "error-6da4da5e996fe7eb6d2f678d2c407dc5": {
+    "status": "failed",
+    "content_summary": "Document enqueue error",
+    "content_length": 1467254,
+    "error_msg": "Failed to enqueue document: Text contains uncleanable UTF-8 encoding issues: 'utf-8' codec can't encode character '\\ud83d' in position 28846: surrogates not allowed",
+    "chunks_count": 0,
+    "created_at": "2026-06-29T14:12:24.595153+00:00",
+    "updated_at": "2026-06-29T14:12:24.595153+00:00",
+    "file_path": "arxiv_Software_Engineering_11_2606.27733.pdf",
+    "track_id": "scan_20260629_211222_17674134",
+    "metadata": {
+      "error_type": "file_extraction_error"
+    },
+    "chunks_list": []
+  },
+  "doc-a7bfd0375b859647a9fdfa3bbc084fe0": {
+    "status": "pending",
+    "content_summary": "LLM-Assisted Model-Based GUI Testing for Vue.js Web\nApplications\nTAO LI,School of Computer Science and Engineering, Macau University of Science and Technology, China\nand School of Artificial Intelligence (Institute of Artificial Intelligence), Beihan...",
+    "content_length": 86795,
+    "created_at": "2026-06-29T14:00:10.896791+00:00",
+    "updated_at": "2026-06-29T14:00:10.896808+00:00",
+    "file_path": "arxiv_Software_Engineering_12_2606.27665.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-5213079a3be3fd62ef68bbbac120e044": {
+    "status": "pending",
+    "content_summary": "Test Case Selection for Deep Neural Networks: A Replication\nStudy on LLMs for Code\nALI ASGARI,Delft University of Technology, The Netherlands\nMITCHELL OLSTHOORN,Delft University of Technology, The Netherlands\nANNIBALE PANICHELLA,Delft University of T...",
+    "content_length": 103596,
+    "created_at": "2026-06-29T14:00:12.412879+00:00",
+    "updated_at": "2026-06-29T14:00:12.412897+00:00",
+    "file_path": "arxiv_Software_Engineering_13_2606.27601.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  },
+  "doc-29884b3102c798b97fbe61fed8ce9e3f": {
+    "status": "pending",
+    "content_summary": "Contextual Associations Between Webpage\nElements for Web Accessibility: An Empirical\nStudy\nKishan Rakesh/envel⌢pe/h⌢me\nDepartment of Computer Science, University of Texas at Dallas, USA\nShiyi Wei/envel⌢pe/h⌢me\nDepartment of Computer Science, Universi...",
+    "content_length": 40506,
+    "created_at": "2026-06-29T14:00:12.966343+00:00",
+    "updated_at": "2026-06-29T14:00:12.966358+00:00",
+    "file_path": "arxiv_Software_Engineering_14_2606.27506.pdf",
+    "track_id": "scan_20260629_205642_378733e6",
+    "chunks_list": []
+  }
+}

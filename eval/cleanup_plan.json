@@ -1,0 +1,869 @@
+{
+  "stats": {
+    "total_nodes": 4738,
+    "delete_count": 46,
+    "merge_groups": 104,
+    "merge_node_count": 107
+  },
+  "delete": [
+    {
+      "name": "1957",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "1970",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "127.0.0.1",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "X",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "Y",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "1111.1",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "2560",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "6250",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "16245",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "204.125",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "255.875",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "631.25",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "568",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "1001.1111",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "110101.011001",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "101001111.111011",
+      "category": "invalid",
+      "reason": "pure-numbers/punct"
+    },
+    {
+      "name": "Các hệ đếm thông dụng",
+      "category": "fragment",
+      "reason": "sentence-fragment"
+    },
+    {
+      "name": "C",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "p",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "a",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "Z",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "IMG_2-CSS_6",
+      "category": "invalid",
+      "reason": "image marker"
+    },
+    {
+      "name": "x",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "==",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "===",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "!=",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "<<=",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "=",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "<=",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "E",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "//",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "/*",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "&&",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "!",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "^",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "$",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": ".*",
+      "category": "invalid",
+      "reason": "punctuation-only"
+    },
+    {
+      "name": "g",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "i",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "m",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "IMG_5-Jquery_110",
+      "category": "invalid",
+      "reason": "image marker"
+    },
+    {
+      "name": "y",
+      "category": "malformed",
+      "reason": "too-short"
+    },
+    {
+      "name": "IMG_5-Jquery_112",
+      "category": "invalid",
+      "reason": "image marker"
+    },
+    {
+      "name": "IMG_5-Jquery_111",
+      "category": "invalid",
+      "reason": "image marker"
+    },
+    {
+      "name": "Các luật",
+      "category": "fragment",
+      "reason": "sentence-fragment"
+    },
+    {
+      "name": "Các Kết Hợp Đa Phương Tiện",
+      "category": "fragment",
+      "reason": "sentence-fragment"
+    }
+  ],
+  "merge": [
+    {
+      "canonical": "Knowledge Base",
+      "duplicates": [
+        "knowledge base"
+      ]
+    },
+    {
+      "canonical": "Data Integration",
+      "duplicates": [
+        "Data integration"
+      ]
+    },
+    {
+      "canonical": "Data",
+      "duplicates": [
+        "data"
+      ]
+    },
+    {
+      "canonical": "Multi-Core Chip",
+      "duplicates": [
+        "Multi-core Chip"
+      ]
+    },
+    {
+      "canonical": "32-Bit Floating Point",
+      "duplicates": [
+        "32-bit Floating Point"
+      ]
+    },
+    {
+      "canonical": "SET",
+      "duplicates": [
+        "Set"
+      ]
+    },
+    {
+      "canonical": "Cost Per Bit",
+      "duplicates": [
+        "Cost per Bit"
+      ]
+    },
+    {
+      "canonical": "Tag",
+      "duplicates": [
+        "tag"
+      ]
+    },
+    {
+      "canonical": "Head",
+      "duplicates": [
+        "head"
+      ]
+    },
+    {
+      "canonical": "X86 Architecture",
+      "duplicates": [
+        "x86 Architecture"
+      ]
+    },
+    {
+      "canonical": "Computer Evolution And Performance",
+      "duplicates": [
+        "Computer Evolution and Performance"
+      ]
+    },
+    {
+      "canonical": "Bộ Nhớ",
+      "duplicates": [
+        "Bộ nhớ"
+      ]
+    },
+    {
+      "canonical": "Title",
+      "duplicates": [
+        "title"
+      ]
+    },
+    {
+      "canonical": "URL",
+      "duplicates": [
+        "url"
+      ]
+    },
+    {
+      "canonical": "LAYOUT",
+      "duplicates": [
+        "Layout"
+      ]
+    },
+    {
+      "canonical": "Server",
+      "duplicates": [
+        "server"
+      ]
+    },
+    {
+      "canonical": "JavaScript",
+      "duplicates": [
+        "Javascript",
+        "javascript"
+      ]
+    },
+    {
+      "canonical": "AJAX",
+      "duplicates": [
+        "Ajax"
+      ]
+    },
+    {
+      "canonical": "Method",
+      "duplicates": [
+        "method"
+      ]
+    },
+    {
+      "canonical": "Image",
+      "duplicates": [
+        "image"
+      ]
+    },
+    {
+      "canonical": "Button",
+      "duplicates": [
+        "button"
+      ]
+    },
+    {
+      "canonical": "JQuery",
+      "duplicates": [
+        "jQuery"
+      ]
+    },
+    {
+      "canonical": "Name Attribute",
+      "duplicates": [
+        "name attribute"
+      ]
+    },
+    {
+      "canonical": "Variable-Length Instructions",
+      "duplicates": [
+        "Variable-length Instructions"
+      ]
+    },
+    {
+      "canonical": "READ",
+      "duplicates": [
+        "read"
+      ]
+    },
+    {
+      "canonical": "Interrupt-Driven I/O",
+      "duplicates": [
+        "Interrupt-driven I/O"
+      ]
+    },
+    {
+      "canonical": "WRITE",
+      "duplicates": [
+        "write"
+      ]
+    },
+    {
+      "canonical": "Memory-Mapped I/O",
+      "duplicates": [
+        "Memory-mapped I/O"
+      ]
+    },
+    {
+      "canonical": "INCREMENT",
+      "duplicates": [
+        "Increment",
+        "increment"
+      ]
+    },
+    {
+      "canonical": "DECREMENT",
+      "duplicates": [
+        "Decrement"
+      ]
+    },
+    {
+      "canonical": "Text",
+      "duplicates": [
+        "text"
+      ]
+    },
+    {
+      "canonical": "Number Of Addresses",
+      "duplicates": [
+        "Number of Addresses"
+      ]
+    },
+    {
+      "canonical": "STORE",
+      "duplicates": [
+        "store"
+      ]
+    },
+    {
+      "canonical": "CLEAR",
+      "duplicates": [
+        "clear"
+      ]
+    },
+    {
+      "canonical": "N-Bit Block",
+      "duplicates": [
+        "n-bit Block"
+      ]
+    },
+    {
+      "canonical": "Function",
+      "duplicates": [
+        "function"
+      ]
+    },
+    {
+      "canonical": "Attribute",
+      "duplicates": [
+        "attribute"
+      ]
+    },
+    {
+      "canonical": "Manager",
+      "duplicates": [
+        "manager"
+      ]
+    },
+    {
+      "canonical": "Thiết Bị",
+      "duplicates": [
+        "thiết bị"
+      ]
+    },
+    {
+      "canonical": "Value",
+      "duplicates": [
+        "value"
+      ]
+    },
+    {
+      "canonical": "Platform",
+      "duplicates": [
+        "platform"
+      ]
+    },
+    {
+      "canonical": "Users",
+      "duplicates": [
+        "users"
+      ]
+    },
+    {
+      "canonical": "Document",
+      "duplicates": [
+        "document"
+      ]
+    },
+    {
+      "canonical": "Data Analytics",
+      "duplicates": [
+        "Data analytics"
+      ]
+    },
+    {
+      "canonical": "Data Lake",
+      "duplicates": [
+        "Data lake"
+      ]
+    },
+    {
+      "canonical": "Data Warehousing",
+      "duplicates": [
+        "Data warehousing"
+      ]
+    },
+    {
+      "canonical": "IoT Devices",
+      "duplicates": [
+        "IoT devices"
+      ]
+    },
+    {
+      "canonical": "Students",
+      "duplicates": [
+        "students"
+      ]
+    },
+    {
+      "canonical": "Bác Sĩ",
+      "duplicates": [
+        "bác sĩ"
+      ]
+    },
+    {
+      "canonical": "Human-Computer Interaction",
+      "duplicates": [
+        "human-computer interaction"
+      ]
+    },
+    {
+      "canonical": "Animation",
+      "duplicates": [
+        "animation"
+      ]
+    },
+    {
+      "canonical": "Script",
+      "duplicates": [
+        "script"
+      ]
+    },
+    {
+      "canonical": "Procedure",
+      "duplicates": [
+        "procedure"
+      ]
+    },
+    {
+      "canonical": "Bệnh Nhân",
+      "duplicates": [
+        "bệnh nhân"
+      ]
+    },
+    {
+      "canonical": "COVID-19",
+      "duplicates": [
+        "Covid-19"
+      ]
+    },
+    {
+      "canonical": "Dữ Liệu",
+      "duplicates": [
+        "Dữ liệu"
+      ]
+    },
+    {
+      "canonical": "Customer",
+      "duplicates": [
+        "customer"
+      ]
+    },
+    {
+      "canonical": "Length",
+      "duplicates": [
+        "length"
+      ]
+    },
+    {
+      "canonical": "p Tag",
+      "duplicates": [
+        "p tag"
+      ]
+    },
+    {
+      "canonical": "Web Page",
+      "duplicates": [
+        "web page",
+        "Web page"
+      ]
+    },
+    {
+      "canonical": "Table",
+      "duplicates": [
+        "table"
+      ]
+    },
+    {
+      "canonical": "Row",
+      "duplicates": [
+        "row"
+      ]
+    },
+    {
+      "canonical": "src Attribute",
+      "duplicates": [
+        "src attribute"
+      ]
+    },
+    {
+      "canonical": "Body",
+      "duplicates": [
+        "body"
+      ]
+    },
+    {
+      "canonical": "Textarea",
+      "duplicates": [
+        "textarea"
+      ]
+    },
+    {
+      "canonical": "Radio Button",
+      "duplicates": [
+        "radio button"
+      ]
+    },
+    {
+      "canonical": "Checkbox",
+      "duplicates": [
+        "checkbox"
+      ]
+    },
+    {
+      "canonical": "Red",
+      "duplicates": [
+        "red"
+      ]
+    },
+    {
+      "canonical": "ListBox",
+      "duplicates": [
+        "Listbox"
+      ]
+    },
+    {
+      "canonical": "ComboBox",
+      "duplicates": [
+        "Combobox"
+      ]
+    },
+    {
+      "canonical": "Border",
+      "duplicates": [
+        "border"
+      ]
+    },
+    {
+      "canonical": "Width",
+      "duplicates": [
+        "width"
+      ]
+    },
+    {
+      "canonical": "Element",
+      "duplicates": [
+        "element"
+      ]
+    },
+    {
+      "canonical": "Highlight",
+      "duplicates": [
+        "highLight"
+      ]
+    },
+    {
+      "canonical": "Input Field",
+      "duplicates": [
+        "input field"
+      ]
+    },
+    {
+      "canonical": "Webpage",
+      "duplicates": [
+        "webpage"
+      ]
+    },
+    {
+      "canonical": "Padding",
+      "duplicates": [
+        "padding"
+      ]
+    },
+    {
+      "canonical": "BOX MODEL",
+      "duplicates": [
+        "Box Model"
+      ]
+    },
+    {
+      "canonical": "Margin",
+      "duplicates": [
+        "margin"
+      ]
+    },
+    {
+      "canonical": "Float",
+      "duplicates": [
+        "float"
+      ]
+    },
+    {
+      "canonical": "Selector",
+      "duplicates": [
+        "selector"
+      ]
+    },
+    {
+      "canonical": "Color",
+      "duplicates": [
+        "color"
+      ]
+    },
+    {
+      "canonical": "Background Image",
+      "duplicates": [
+        "background image"
+      ]
+    },
+    {
+      "canonical": "Left",
+      "duplicates": [
+        "left"
+      ]
+    },
+    {
+      "canonical": "Style Tag",
+      "duplicates": [
+        "style tag"
+      ]
+    },
+    {
+      "canonical": "Class",
+      "duplicates": [
+        "class"
+      ]
+    },
+    {
+      "canonical": "Window",
+      "duplicates": [
+        "window"
+      ]
+    },
+    {
+      "canonical": "Semicolon",
+      "duplicates": [
+        "semicolon"
+      ]
+    },
+    {
+      "canonical": "Hover",
+      "duplicates": [
+        "hover"
+      ]
+    },
+    {
+      "canonical": "Event",
+      "duplicates": [
+        "event"
+      ]
+    },
+    {
+      "canonical": "String",
+      "duplicates": [
+        "string"
+      ]
+    },
+    {
+      "canonical": "Click",
+      "duplicates": [
+        "click"
+      ]
+    },
+    {
+      "canonical": "After",
+      "duplicates": [
+        "after"
+      ]
+    },
+    {
+      "canonical": "Before",
+      "duplicates": [
+        "before"
+      ]
+    },
+    {
+      "canonical": "Append",
+      "duplicates": [
+        "append"
+      ]
+    },
+    {
+      "canonical": "Prepend",
+      "duplicates": [
+        "prepend"
+      ]
+    },
+    {
+      "canonical": "JQuery Filter",
+      "duplicates": [
+        "jQuery Filter"
+      ]
+    },
+    {
+      "canonical": "Regex",
+      "duplicates": [
+        "regex"
+      ]
+    },
+    {
+      "canonical": "Console.log",
+      "duplicates": [
+        "console.log"
+      ]
+    },
+    {
+      "canonical": "Regex Pattern",
+      "duplicates": [
+        "Regex pattern"
+      ]
+    },
+    {
+      "canonical": "Text Field",
+      "duplicates": [
+        "text field"
+      ]
+    },
+    {
+      "canonical": "Pop-Up Window",
+      "duplicates": [
+        "Pop-up Window"
+      ]
+    },
+    {
+      "canonical": "OK Button",
+      "duplicates": [
+        "Ok Button"
+      ]
+    },
+    {
+      "canonical": "Task-Oriented Help",
+      "duplicates": [
+        "Task-oriented Help"
+      ]
+    }
+  ]
+}

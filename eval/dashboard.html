@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>TLU-Chatbot Pairwise Benchmark Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 1200px; margin: 24px auto; padding: 0 20px; color: #1f2937; }
+  h1 { margin-bottom: 4px; }
+  .subtitle { color: #6b7280; margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .card { background: #f9fafb; border-radius: 8px; padding: 16px; }
+  .card h2 { margin: 0 0 12px; font-size: 16px; }
+  .full { grid-column: 1 / -1; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 8px 12px; text-align: right; border-bottom: 1px solid #e5e7eb; }
+  th:first-child, td:first-child { text-align: left; }
+  th { background: #f3f4f6; font-weight: 600; }
+  tr:hover { background: #fafafa; }
+  .winner { color: #059669; font-weight: 600; }
+  .canvas-wrap { height: 320px; position: relative; }
+  .legend-note { font-size: 12px; color: #6b7280; margin-top: 8px; }
+</style>
+</head>
+<body>
+<h1>TLU-Chatbot — Pairwise Benchmark Dashboard</h1>
+<p class="subtitle">577 queries × 5 modes = 2885 responses · LLM-as-judge Option F · Borda count</p>
+
+<div class="grid">
+  <div class="card">
+    <h2>Win Count per Mode per Type</h2>
+    <div class="canvas-wrap"><canvas id="winChart"></canvas></div>
+    <p class="legend-note">Số query mode đó được judge xếp rank 1 (cao = tốt)</p>
+  </div>
+  <div class="card">
+    <h2>Mean Rank per Mode per Type</h2>
+    <div class="canvas-wrap"><canvas id="rankChart"></canvas></div>
+    <p class="legend-note">Mean rank (1=best, 5=worst). THẤP hơn = tốt hơn</p>
+  </div>
+</div>
+
+<div class="card full">
+  <h2>Overall Summary (across 5 query types)</h2>
+  <table>
+    <thead><tr><th>Mode</th><th>Total Wins</th><th>Win %</th><th>Mean Rank (avg of 5 types)</th></tr></thead>
+    <tbody>
+      <tr class="winner"><td>graph</td><td>155</td><td>26.9%</td><td>2.671</td></tr>
+      <tr><td>mix</td><td>137</td><td>23.7%</td><td>2.566</td></tr>
+      <tr><td>hybrid</td><td>134</td><td>23.2%</td><td>2.609</td></tr>
+      <tr><td>naive</td><td>110</td><td>19.1%</td><td>3.08</td></tr>
+      <tr><td>bm25</td><td>41</td><td>7.1%</td><td>4.075</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card full" style="margin-top: 24px;">
+  <h2>Per-Type Detail</h2>
+  <table>
+    <thead><tr><th>Type</th><th>bm25<br><small>wins / rank</small></th><th>naive<br><small>wins / rank</small></th><th>hybrid<br><small>wins / rank</small></th><th>mix<br><small>wins / rank</small></th><th>graph<br><small>wins / rank</small></th></tr></thead>
+    <tbody>
+      <tr><td><b>factoid</b></td><td>8 / 4.00</td><td>28 / 3.08</td><td>28 / 2.63</td><td>28 / 2.56</td><td class="winner">39 / 2.73</td></tr>
+      <tr><td><b>relational</b></td><td>4 / 4.32</td><td>23 / 3.00</td><td>30 / 2.54</td><td class="winner">37 / 2.49</td><td class="winner">37 / 2.65</td></tr>
+      <tr><td><b>broad</b></td><td>19 / 3.86</td><td>22 / 3.18</td><td>28 / 2.58</td><td class="winner">34 / 2.61</td><td>28 / 2.77</td></tr>
+      <tr><td><b>aggregate</b></td><td>7 / 4.15</td><td>28 / 2.82</td><td class="winner">36 / 2.54</td><td>27 / 2.63</td><td>33 / 2.86</td></tr>
+      <tr><td><b>2hop</b></td><td>3 / 4.04</td><td>9 / 3.32</td><td>12 / 2.75</td><td>11 / 2.55</td><td class="winner">18 / 2.34</td></tr>
+    </tbody>
+  </table>
+  <p class="legend-note">Highlight = mode thắng nhiều nhất per type. Format: wins / mean_rank</p>
+</div>
+
+<div class="grid" style="margin-top: 24px;">
+  <div class="card">
+    <h2>Mean Latency per Mode (seconds)</h2>
+    <div class="canvas-wrap"><canvas id="latChart"></canvas></div>
+    <p class="legend-note">Mean response time tính trên tất cả queries × types. THẤP hơn = nhanh hơn</p>
+  </div>
+  <div class="card">
+    <h2>Latency Summary</h2>
+    <table>
+      <thead><tr><th>Mode</th><th>Mean</th><th>P50</th><th>P95</th><th>n</th></tr></thead>
+      <tbody>
+      <tr class="winner"><td>bm25</td><td>15.27s</td><td>13.83s</td><td>27.05s</td><td>577</td></tr>
+      <tr><td>naive</td><td>19.29s</td><td>16.83s</td><td>33.75s</td><td>577</td></tr>
+      <tr><td>mix</td><td>43.0s</td><td>41.77s</td><td>57.73s</td><td>576</td></tr>
+      <tr><td>hybrid</td><td>44.95s</td><td>43.28s</td><td>60.19s</td><td>576</td></tr>
+      <tr><td>graph</td><td>67.6s</td><td>63.01s</td><td>140.52s</td><td>574</td></tr>
+      </tbody>
+    </table>
+    <p class="legend-note">Highlight = mode nhanh nhất. Tính trên tất cả types.</p>
+  </div>
+</div>
+
+<script>
+const labels = ["factoid", "relational", "broad", "aggregate", "2hop"];
+const winDatasets = [
+  {label: "bm25", data: [8, 4, 19, 7, 3], backgroundColor: "#9CA3AF"},
+  {label: "naive", data: [28, 23, 22, 28, 9], backgroundColor: "#60A5FA"},
+  {label: "hybrid", data: [28, 30, 28, 36, 12], backgroundColor: "#34D399"},
+  {label: "mix", data: [28, 37, 34, 27, 11], backgroundColor: "#FBBF24"},
+  {label: "graph", data: [39, 37, 28, 33, 18], backgroundColor: "#F87171"},
+];
+const rankDatasets = [
+  {label: "bm25", data: [4.0, 4.321, 3.863, 4.153, 4.038], backgroundColor: "#9CA3AF"},
+  {label: "naive", data: [3.084, 3.0, 3.176, 2.817, 3.321], backgroundColor: "#60A5FA"},
+  {label: "hybrid", data: [2.626, 2.542, 2.58, 2.542, 2.755], backgroundColor: "#34D399"},
+  {label: "mix", data: [2.557, 2.489, 2.611, 2.626, 2.547], backgroundColor: "#FBBF24"},
+  {label: "graph", data: [2.733, 2.649, 2.771, 2.863, 2.34], backgroundColor: "#F87171"},
+];
+new Chart(document.getElementById('winChart'), {
+  type: 'bar',
+  data: {labels, datasets: winDatasets},
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {legend: {position: 'bottom'}},
+    scales: {y: {beginAtZero: true, title: {display: true, text: 'Wins (rank 1)'}}}
+  }
+});
+new Chart(document.getElementById('rankChart'), {
+  type: 'bar',
+  data: {labels, datasets: rankDatasets},
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {legend: {position: 'bottom'}},
+    scales: {y: {beginAtZero: false, min: 2, max: 5, title: {display: true, text: 'Mean Rank (lower=better)'}}}
+  }
+});
+</script>
+<script>
+new Chart(document.getElementById('latChart'), {
+  type: 'bar',
+  data: {
+    labels: ["bm25", "naive", "hybrid", "mix", "graph"],
+    datasets: [
+      {label: 'Mean', data: [15.27, 19.29, 44.95, 43.0, 67.6], backgroundColor: ["#9CA3AF", "#60A5FA", "#34D399", "#FBBF24", "#F87171"]},
+      {label: 'P50',  data: [13.83, 16.83, 43.28, 41.77, 63.01],  backgroundColor: ["#9CA3AF99", "#60A5FA99", "#34D39999", "#FBBF2499", "#F8717199"]},
+      {label: 'P95',  data: [27.05, 33.75, 60.19, 57.73, 140.52],  backgroundColor: ["#9CA3AF44", "#60A5FA44", "#34D39944", "#FBBF2444", "#F8717144"]},
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {legend: {position: 'bottom'}},
+    scales: {y: {beginAtZero: true, title: {display: true, text: 'Seconds'}}}
+  }
+});
+</script>
+</body>
+</html>

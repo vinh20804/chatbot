@@ -1,0 +1,1991 @@
+
+--- PAGE 1 ---
+  
+ 
+TRƯỜNG ĐẠI HỌC THỦY LỢI 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TỐNG THU PHƯƠNG 
+ 
+ 
+ 
+ 
+ỨNG DỤNG MÔ HÌNH HỌC SÂU CNN DENSENET121 
+TRONG PHÁT HIỆN DẤU HIỆU UNG THƯ PHỔI TỪ ẢNH  
+ X-QUANG LỒNG NGỰC 
+ 
+ 
+ĐỒ ÁN TỐT NGHIỆP 
+NGÀNH HỆ THỐNG THÔNG TIN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HÀ NỘI, NĂM 2026 
+BỘ GIÁO DỤC VÀ ĐÀO TẠO BỘ NÔNG NGHIỆP VÀ MT 
+--- PAGE 2 ---
+  
+BỘ GIÁO DỤC VÀ ĐÀO TẠO BỘ NÔNG NGHIỆP VÀ MT 
+TRƯỜNG ĐẠI HỌC THỦY LỢI 
+ 
+ 
+ 
+TỐNG THU PHƯƠNG 
+ 
+ 
+ỨNG DỤNG MÔ HÌNH HỌC SÂU CNN DENSENET121 
+TRONG PHÁT HIỆN DẤU HIỆU UNG THƯ PHỔI TỪ ẢNH  
+X-QUANG LỒNG NGỰC 
+ 
+ 
+ 
+ 
+ 
+ 
+Ngành : Hệ Thống Thông Tin 
+Mã số: 7480104 
+ 
+GIÁO VIÊN HƯỚNG DẪN: TS. LÊ THỊ TÚ KIÊN 
+  
+ 
+ 
+ 
+HÀ NỘI, NĂM 2026 
+--- PAGE 3 ---
+  
+ 
+ 
+ 
+--- PAGE 4 ---
+ 
+ 
+ 
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+Độc lập - Tự do - Hạnh phúc 
+  
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP 
+ 
+Họ tên sinh viên: Tống Thu Phương                            Hệ đào tạo: Chính quy 
+Lớp: 63HTTT2                                                             Ngành: Hệ thống thông tin 
+Khoa: Công nghệ thông tin 
+1. TÊN ĐỀ TÀI: ỨNG DỤNG MÔ HÌNH HỌC SÂU CNN DENSENET121 TRONG 
+PHÁT HIỆN DẤU HIỆU UNG THƯ PHỔI TỪ ẢNH X-QUANG LỒNG NGỰC 
+2. NỘI DUNG CÁC PHẦN THUYẾT MINH VÀ TÍNH TOÁN:   Tỷ lệ % 
+Nội dung các phần Tỷ lệ % 
+Chương 1: Tổng quan đề tài 10% 
+Chương 2: Cơ sở lý thuyết 20% 
+Chương 3: Xây dựng mô hình 40% 
+Chương 4: Thực nghiệm và đánh giá 30% 
+3. GIÁO VIÊN HƯỚNG DẪN TỪNG PHẦN 
+Phần Họ và tên giáo viên hướng dẫn 
+Chương 1: Tổng quan đề tài TS. Lê Thị Tú Kiên 
+Chương 2: Cơ sở lý thuyết TS. Lê Thị Tú Kiên 
+Chương 3: Xây dựng mô hình TS. Lê Thị Tú Kiên 
+Chương 4: Thực nghiệm và đánh giá TS. Lê Thị Tú Kiên 
+
+--- PAGE 5 ---
+ 
+ 
+4. NGÀY GIAO NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP 
+Ngày .......tháng….. năm 2025 
+Trưởng Bộ môn 
+(Ký và ghi rõ Họ tên) 
+          
+   
+   Giáo viên hướng dẫn chính 
+            (Ký và ghi rõ Họ tên)
+ 
+ 
+Nhiệm vụ Đồ án tốt nghiệp đã được Hội đồng thi tốt nghiệp của Khoa thông qua. 
+Ngày............ tháng năm 2025 
+Chủ tịch Hội đồng 
+(Ký và ghi rõ Họ tên ) 
+                
+ 
+ 
+ 
+Sinh viên đã hoàn thành và nộp bản Đồ án tốt nghiệp cho Hội đồng thi ngày.... 
+tháng......năm 2025 
+Sinh viên làm Đồ án tốt nghiệp 
+(Ký và ghi rõ Họ tên ) 
+ 
+--- PAGE 6 ---
+ 
+ 
+ 
+TRƯỜNG ĐẠI HỌC THUỶ LỢI  
+KHOA CÔNG NGHỆ THÔNG TIN 
+ 
+BẢN TÓM TẮT ĐỀ CƯƠNG ĐỒ ÁN TỐT NGHIỆP 
+ 
+Tên đề tài: ỨNG DỤNG MÔ HÌNH HỌC SÂU CNN DENSENET121 TRONG PHÁT 
+HIỆN DẤU HIỆU UNG THƯ PHỔI TỪ ẢNH  X-QUANG LỒNG NGỰC 
+Sinh viên thực hiện: Tống Thu Phương 
+Lớp: 63HTTT2 
+Mã sinh viên: 2151163715 
+Số điện thoại: 0393531006 
+Email:  2151163715@e.tlu.edu.vn 
+Giáo viên hướng dẫn: TS. Lê Thị Tú Kiên           
+Email:kienltt@tlu.edu.vn 
+ 
+TÓM TẮT ĐỀ TÀI 
+Ung thư phổi (UTP) là bệnh lý ác tính xuất phát từ biểu mô niêm mạc phế quản, phế nang, 
+từ các tuyến của phế quản hoặc từ các thành phần khác của phổi. Đây là loại ung thư chiếm 
+vị trí hàng đầu về tỷ lệ mắc cũng như tỷ lệ tử vong trên toàn thế giới.  Đồ án tập trung vào 
+việc xây dựng mô hình học sâu phát hiện dấu hiệu ung thư phổi dựa trên ảnh X-quang 
+ngực. Bên cạnh đó, sinh viên tập trung phát triển một ứng dụng thử nghiệm có giao diện 
+thân thiện, cho phép người dùng tải lên ảnh chụp X -quang lồng ngực  và nhận kết quả 
+dự đoán ngay lập tức, hướng đến tính ứng dụng thực tiễn trong chăm sóc sức khỏe. 
+CÁC MỤC TIÊU CHÍNH 
+• Nghiên cứu lý thuy ết, tổng quan v ề ung thư ph ổi, các phương pháp h ọc sâu trong 
+phân tích ảnh y t ế. Trong đó, m ạng nơ-ron tích ch ập (CNN), đ ặc biệt là ki ến trúc 
+DenseNet121, được phân tích chi tiết và lựa chọn để xây dựng mô hình phân lớp ảnh 
+có dấu hiệu ung thư phổi. 
+• Tiền xử lý và phân tích dữ liệu  NIH Chest X-ray. 
+
+--- PAGE 7 ---
+ 
+• Xây dựng mô hình h ọc sâu phát hi ện dấu hiệu ung thư ph ổi dựa trên ảnh X-quang 
+ngực. 
+• Xây dựng Demo ứng dụng. 
+NỘI DUNG CHÍNH 
+• Thu thập và tiền xử lý dữ liệu 
+• Cài đặt, huấn luyện và đánh giá mô hình phân lớp ảnh dựa trên DenseNet121 
+• Xây dựng giao diện thử nghiệm 
+• Báo cáo và tổng kết: Viết báo cáo, đánh giá kết quả đạt được và đề xuất hướng phát 
+triển tiếp theo. 
+KẾT QUẢ DỰ KIẾN 
+• Báo cáo đồ án 
+• Chương trình demo thử nghiệm phát hiện dấu hiệu ung thư ph ổi dựa trên ảnh X-
+quang ngực 
+--- PAGE 8 ---
+ 
+i 
+LỜI CAM ĐOAN 
+Tác giả xin cam đoan đây là Đồ án tốt nghiệp của bản thân tác giả. Các kết quả 
+trong Đồ án tốt nghiệp này là trung thực, và không sao chép từ bất kỳ một nguồn 
+nào và dưới bất kỳ hình thức nào.  Việc tham khảo các nguồn tài liệu (nếu có) đã 
+được thực hiện trích dẫn và ghi nguồn tài liệu tham khảo đúng quy định. 
+   Tác giả ĐATN 
+ 
+ 
+ 
+ 
+Tống Thu Phương 
+ 
+ 
+ 
+ 
+ 
+  
+--- PAGE 9 ---
+ ii 
+LỜI CẢM ƠN 
+Trong thời gian làm đồ án tốt nghiệp, em đã nhận được nhiều sự giúp đỡ, đóng 
+góp ý kiến và chỉ bảo nhiệt tình của thầy cô, gia đình và bạn bè. 
+Em xin gửi lời cảm ơn chân thành đến TS. Lê Thị Tú Kiên, người đã tận tình 
+hướng dẫn, chỉ bảo em trong suốt quá trình làm đồ án tốt nghiệp. 
+Em cũng xin chân thành cảm ơn các thầy cô giáo trong trường Đại học Thủy Lợi 
+nói chung, các thầy cô trong khoa Công Nghệ Thông Tin nói riêng đã dạy dỗ cho em 
+kiến thức về các môn đại cương cũng như các môn chuyên ngành, giúp em có được cơ 
+sở lý thuyết vững vàng và tạo điều kiện giúp đỡ em trong suốt quá trình học tập. 
+Cuối cùng, em xin chân thành cảm ơn gia đình và bạn bè, đã luôn tạo điều kiện, 
+quan tâm, giúp đỡ, động viên em trong suốt quá trình học tập và hoàn thành khoá luận 
+tốt nghiệp. 
+Với điều kiện thời gian cũng như kinh nghiệm còn hạn chế của một sinh viên, đồ 
+án này không thể tránh được những thiếu sót. Em rất mong nhận được sự chỉ bảo, đóng 
+góp ý kiến của các thầy cô để em có điều kiện bổ sung, nâng cao ý thức của mình, phục 
+vụ tốt hơn công tác thực tế sau này 
+Em xin chân thành cảm ơn! 
+--- PAGE 10 ---
+ 
+iii 
+MỤC LỤC 
+MỤC LỤC .................................................................................................................... iii 
+DANH MỤC BẢNG BIỂU ........................................................................................... v 
+DANH MỤC HÌNH ẢNH ............................................................................................ vi 
+DANH MỤC CÁC TỪ VIẾT TẮT VÀ GIẢI THÍCH CÁC THUẬT NGỮ .......... vii 
+PHẦN MỞ ĐẦU ............................................................................................................ 1 
+CHƯƠNG 1. GIỚI THIỆU ........................................................................................... 6 
+1.1 Giới thiệu bài toán ..................................................................................................... 6 
+1.2 Mạng Neural network ................................................................................................ 7 
+1.3 Học Sâu (Deep Learning) .......................................................................................... 9 
+1.4 Tổng quan các phương pháp và nghiên cứu liên quan ............................................ 13 
+1.5 Kết luận.................................................................................................................... 14 
+CHƯƠNG 2.  XÂY DỰNG MÔ HÌNH  PHÂN LỚP ẢNH CÓ  DẤU HIỆU UNG 
+THƯ PHỔI DỰA TRÊN DENSENET121 ................................................................ 16 
+2.1 Mạng Nơ-ron tích chập ............................................................................................ 16 
+2.2 Mô hình DenseNet (Densely Connected Convolutional Network) ......................... 20 
+2.2.1 Densenet ............................................................................................................... 20 
+2.2.2 Các biến thể của Densenet .................................................................................... 24 
+2.2.3 Ưu điểm của DenseNet ......................................................................................... 24 
+2.3 Mô hình DenseNet121 ............................................................................................. 25 
+2.4 Học chuyển giao (Transfer Learning) ..................................................................... 26 
+2.5 Xây dựng mô hình hỗ trợ phát hiện dấu hiệu ung thư phổi dựa trên ảnh X -quang 
+ngực ............................................................................................................................... 28 
+2.6 Các độ đo được sử dụng để đánh giá mô hình phân lớp ......................................... 31 
+2.6.1 Ma trận nhầm lẫn (Confusion Matrix) ................................................................. 31 
+2.6.2 Accuracy – Độ chính xác tổng thể ....................................................................... 32 
+2.6.3 Precision – Độ chính xác theo lớp dương ............................................................ 32 
+2.6.4 Recall – Độ bao phủ (Sensitivity) ........................................................................ 32 
+2.6.5 F1-Score – Trung bình điều hòa giữa Precision và Recall ................................... 32 
+2.6.6 ROC Curve và AUC – Khả năng phân biệt mô hình ........................................... 33 
+--- PAGE 11 ---
+ 
+iv 
+CHƯƠNG 3. CÀI ĐẶT VÀ THỰC NGHIỆM ......................................................... 34 
+3.1 Tập dữ liệu ............................................................................................................... 34 
+3.2 Huấn luyện mô hình phân lớp ảnh........................................................................... 34 
+3.3 Phân tích kết quả thực nghiệm ................................................................................ 38 
+3.4 So sánh với mô hình Densenet121 thuần ................................................................ 42 
+3.5 Ứng dụng hỗ trợ phát hiện dấu hiệu ung thư phổi................................................... 45 
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN CỦA ĐỀ TÀI ......................................... 50 
+TÀI LIỆU THAM KHẢO ........................................................................................... 52 
+PHỤ LỤC ..................................................................................................................... 53 
+ 
+--- PAGE 12 ---
+ 
+v 
+DANH MỤC BẢNG BIỂU 
+Bảng 3. 1 Bảng kết quả mô hình Densenet121 ............................................................. 39 
+--- PAGE 13 ---
+ 
+vi 
+DANH MỤC HÌNH ẢNH 
+Hình 1. 1  Kiến trúc mạng Nơ -ron nhân tạo dạng lan truyền tiến (Feedforward Neural 
+Network) gồm một lớp ẩn. .............................................................................................. 8 
+Hình 1. 2 Minh họa cách CNN học đặc trưng từ mức thấp đến mức cao trong nhận dạng 
+hình ảnh. ........................................................................................................................ 10 
+Hình 2. 1 Tổng quan kiến trúc mô hình CNN ............................................................... 16 
+Hình 2. 2 Minh họa quá trình tích chập với kernel 3×3 để phát hiện cạnh dọc tại vùng 
+chuyển tiếp giữa da sáng và vùng nốt ruồi sẫm màu ..................................................... 17 
+Hình 2. 3 Minh họa kiến trúc Dense Block trong mạng DenseNet ............................... 21 
+Hình 2. 4 Sơ đồ kiến trúc tổng thể của mô hình DenseNet ........................................... 22 
+Hình 2. 5  Sơ đồ kiến trúc xây dựng mô hình phân lớp ảnh ung thư phổi .................... 29 
+Hình 3. 1 Ma trận nhầm lẫn trên mô hình Densenet121 ............................................... 39 
+Hình 3. 2 Biểu đồ chỉ số ROC trên mô hình ................................................................. 40 
+Hình 3. 3 Biểu đồ chỉ số Precision-Recall AUC trên mô hình ...................................... 40 
+Hình 3. 4  Biểu đồ huấn luyện giữa các epoch trên mô hình kết hợp ........................... 41 
+Hình 3. 5 Ma trận nhầm lẫn trên mô hình Densenet121 thuần ..................................... 43 
+Hình 3. 6 Biểu đồ ROC trên mô hình Densenet121 thuần ............................................ 43 
+Hình 3. 7 Biểu đồ Precision-Recall AUC trên mô hình Densenet121 thuần ................ 44 
+Hình 3. 8 Biểu đồ huấn luyện giữa các epoch trên mô hình Densenet121 thuần.......... 44 
+Hình 3. 9 Giao diện thao tác của chức năng Chẩn đoán ca bệnh .................................. 46 
+Hình 3. 10 Giao diện thao tác của chức năng Sàng lọc hàng loạt ................................. 46 
+Hình 3. 11 Giao diện kết quả phân tích của chức năng Chẩn đoán ca bệnh ................. 47 
+Hình 3. 12 Giao diện kết quả phân tích của chức năng Sàng lọc hàng loạt .................. 47 
+Hình 3. 13 Giao diện Vùng chú ý .................................................................................. 48 
+Hình 3. 14 Giao diện chức năng xem Lịch sử ............................................................... 49 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 14 ---
+ 
+vii 
+DANH MỤC CÁC TỪ VIẾT TẮT VÀ GIẢI THÍCH CÁC THUẬT NGỮ 
+Từ viết tắt Thuật ngữ Giải thích 
+AI Artificial Intelligence Trí tuệ nhân tạo 
+DL Deep Learning Học sâu 
+ML Machine Learning Học máy 
+CNN Convolutional Neural Network  Mạng nơ-ron tích  chập 
+ANN Artificial Neural Network Mạng nơ-ron nhân tạo 
+UTP Ung thư phổi Ung thư phổi 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 15 ---
+1 
+ 
+ 
+PHẦN MỞ ĐẦU 
+Đặt vấn đề  
+Ung thư phổi là một trong những nguyên nhân gây tử vong hàng đầu trên toàn 
+thế giới, với tỷ lệ phát hiện muộn rất cao. Nguyên nhân chủ yếu là do các triệu chứng ở 
+giai đoạn đầu thường mơ hồ, dễ nhầm lẫn với các bệnh hô hấp thông thường. Khi bệnh 
+được chẩn đoán ở giai đoạn muộn, khả năng điều trị hiệu quả giảm mạnh, đồng thời chi 
+phí điều trị và nguy cơ tử vong tăng lên đáng kể, gây gánh nặng lớn cho bệnh nhân và 
+hệ thống y tế. 
+Trong bối cảnh đó, chẩn đoán sớm  dấu hiệu ung thư phổi đóng vai trò then chốt 
+trong việc nâng cao tỷ lệ sống sót và cải thiện chất lượng cuộc sống cho người bệnh. 
+Chụp X-quang ngực là một trong những phương pháp chẩn đoán hình ảnh phổ biến, chi 
+phí thấp và được sử dụng rộng rãi trong sàng lọc ban đầu. Tuy nhiên, việc khai thác hiệu 
+quả thông tin từ ảnh X-quang vẫn còn nhiều hạn chế, đặc biệt đối với các dấu hiệu ung 
+thư phổi ở giai đoạn sớm. Điều này đặt ra nhu cầu cần có các phương pháp hỗ trợ nhằm 
+nâng cao hiệu quả phát hiện các dấu hiệu bất thường trên ảnh X-quang. 
+Trong thực tế lâm sàng, việc phát hiện và đánh giá các dấu hiệu ung thư phổi trên 
+ảnh X-quang lồng ngực chủ yếu dựa vào kinh nghiệm và chuyên môn của bác sĩ chẩn 
+đoán hình ảnh. Quy trình này bao gồm việc quan sát trực tiếp các đặc điểm bất thường 
+trên phim X-quang, kết hợp với tiền sử bệnh và các kết quả cận lâm sàng liên quan. 
+Trong những trường hợp phức tạp, kết luận cuối cùng thường cần sự tham gia của nhiều 
+bác sĩ hoặc hội đồng chuyên môn nhằm đảm bảo độ chính xác.  Phương pháp đánh giá 
+thủ công này không chỉ tốn nhiều thời gian mà còn phụ thuộc lớn vào kinh nghiệm cá 
+nhân, dẫn đến khả năng khác biệt trong kết luận  giữa các bác sĩ. Ngoài ra, các tổn 
+thương nhỏ hoặc mờ ở giai đoạn sớm thường khó nhận biết trên ảnh X-quang, làm tăng 
+nguy cơ bỏ sót hoặc phát hiện muộn. 
+Trước những hạn chế đó, sự phát triển mạnh mẽ của trí tuệ nhân tạo, đặc biệt là 
+học sâu (Deep Learning), đã mở ra hướng tiếp cận mới trong lĩnh vực phân tích ảnh y 
+tế. Các mô hình mạng nơ-ron tích chập (Convolutional Neural Network – CNN) có khả 
+năng tự động học và trích xuất các đặc trưng hình ảnh phức tạp, từ đó hỗ trợ hiệu quả 
+--- PAGE 16 ---
+2 
+ 
+ 
+cho bài toán phát hiện và phân loại bệnh từ ảnh X-quang. Trong số đó, DenseNet121 là 
+một kiến trúc CNN hiện đại, nổi bật với khả năng truyền đặc trưng hiệu quả và giảm 
+hiện tượng mất gradient khi huấn luyện mô hình sâu. 
+Tuy nhiên, việc ứng dụng học sâu trong trong lĩnh vực phân tích ảnh X -quang 
+ngực vẫn phải đối mặt với nhiều thách thức như chất lượng và sự mất cân bằng của dữ 
+liệu y tế, yêu cầu tài nguyên tính toán lớn, cũng như nhu cầu đánh giá mô hình theo các 
+độ đo phù hợp với bối cảnh y khoa. Do đó, việc nghiên cứu, xây dựng và đánh giá mô 
+hình DenseNet121 cho bài toán phát hiện dấu hiệu ung thư phổi từ ảnh X -quang là cần 
+thiết, có ý nghĩa khoa học và giá trị ứng dụng thực tiễn cao. 
+Mục tiêu nghiên cứu: 
+Mục tiêu c ủa đề tài là nghiên cứu, xây d ựng và đánh giá mô hình h ọc sâu d ựa 
+trên kiến trúc DenseNet121 nhằm hỗ trợ phát hiện các dấu hiệu nghi ngờ ung thư phổi 
+trên ảnh X-quang lồng ngực, góp phần nâng cao hiệu quả sàng lọc ban đầu. Để đạt được 
+mục tiêu này đầu tiên, đề tài tập trung tìm hiểu tổng quan về ung thư phổi, bao gồm các 
+dạng tổn thương thường gặp và các dấu hiệu nghi ngờ ung thư thể hiện trên ảnh X-quang 
+lồng ngực như nốt phổi (nodule), khối u (mass). Đồng thời, nghiên cứu các phương pháp 
+chẩn đoán hình ảnh hiện nay và vai trò của trí tuệ nhân tạo trong việc hỗ trợ phát hiện 
+sớm ung thư phổi. 
+Tiếp theo, đề tài tiến hành nghiên cứu các phương pháp học sâu, trong đó tập 
+trung vào mạng nơ-ron tích chập (Convolutional Neural Network – CNN) nhằm tìm 
+ra giải pháp phù hợp cho bài toán phân tích ảnh X -quang lồng ngực. Kiến trúc 
+DenseNet121 được lựa chọn để trích xuất các đặc trưng quan trọng từ ảnh X-quang 
+như cấu trúc mô phổi, hình dạng và mật độ tổn thương, phục vụ cho quá trình phân 
+loại ảnh. Trên cơ sở đó mô hình CNN DenseNet121 được sử dụng để huấn luyện và 
+nhận diện các ảnh X-quang có hoặc không có dấu hiệu nghi ngờ ung thư phổi. Thông 
+qua quá trình huấn luyện và kiểm thử trên tập dữ liệu X -quang lồng ngực, mô hình 
+được đánh giá khả năng học đặc trưng và phân loại ảnh một cách hiệu quả. 
+Mục tiêu cuối cùng của đề tài l à ứng dụng kiến thức đã thu thập để phát triển 
+một mô hình học sâu dựa trên DenseNet121 nhằm hỗ trợ sàng lọc và phát hiện sớm 
+các dấu hiệu nghi ngờ ung thư phổi từ ảnh X -quang lồng ngực.  Hiệu quả của mô 
+--- PAGE 17 ---
+3 
+ 
+ 
+hình được đánh giá thông qua các độ đo phổ biến, từ đó phân tích ưu điểm, hạn chế 
+và đề xuất các hướng cải tiến nhằm nâng cao độ chính xác và tính ứng dụng của mô 
+hình trong thực tiễn. 
+Đối tượng và phạm vi nghiên cứu: 
+Đối tượng nghiên cứu của đề tài này là dấu hiệu ung thư phổi, các mô hình học 
+sâu dựa trên mạng nơ-ron tích chập (CNN), cụ thể là DenseNet121, và các đ ộ đo đánh 
+giá hiệu năng mô hình phân loại trong bài toán y tế.  
+Phạm vi nghiên cứu: 
+⚫ Sử dụng bộ dữ liệu con của bộ dữ liệu công khai NIH Chest X-ray. 
+⚫ Ứng dụng mô hình học sâu Densenet121. 
+⚫ Tập trung vào giai đoạn dự đoán và đánh giá hiệu năng. 
+Phương pháp nghiên cứu: 
+Để đạt được các mục tiêu đã đề ra, đề tài trước hết tiến hành nghiên cứu lý thuyết 
+về ung thư phổi, các dạng tổn thương thường gặp và các yếu tố nguy cơ liên quan; đồng 
+thời tìm hiểu cơ sở lý thuyết của các phương pháp học sâu, đặc biệt là các mô hình mạng 
+nơ-ron tích chập (CNN) được ứng dụng trong bài toán phân loại ảnh y tế. Trên cơ sở đó, 
+đề tài tiến hành khảo sát và tiền xử lý tập dữ liệu ảnh X-quang lồng ngực (tập con của 
+bộ dữ liệu NIH ChestX -ray14) nhằm đảm bảo chất lượng dữ liệu cho quá trình hu ấn 
+luyện. Tiếp theo, mô hình DenseNet121 được xây dựng và huấn luyện để học các đặc 
+trưng quan trọng từ ảnh X-quang phục vụ cho bài toán phát hiện các dấu hiệu nghi ngờ 
+ung thư phổi. Cuối cùng, hiệu năng của mô hình được đánh giá thông qua các độ đo phù 
+hợp, kết quả thực nghiệm được phân tích nhằm rút ra nhận xét và đề xuất các hướng cải 
+tiến trong tương lai. 
+Phương pháp thực nghiệm: 
+⚫ Tiền xử lý dữ liệu. 
+⚫ Huấn luyện mô hình Densenet121. 
+⚫ Đánh giá hiệu năng: dùng Accuracy, Precision, Recall, F1, ROC-AUC. 
+⚫ Phân tích so sánh 
+--- PAGE 18 ---
+4 
+ 
+ 
+⚫ Đánh giá ưu, nhược điểm và khả năng ứng dụng thực tế. 
+Xây dựng ứng dụng demo: Thiết kế giao diện bằng Streamlit với chức năng phát 
+hiện dấu hiệu ung thư phổi dựa trên ảnh X-quang ngực và chức năng xem lại lịch sử 
+chẩn đoán. 
+Ý nghĩa và tính ứng dụng thực tiễn 
+Ý nghĩa khoa học: 
+  Ung thư phổi là một trong những nguyên nhân gây tử vong hàng đầu trên thế 
+giới, trong đó việc phát hiện sớm đóng vai trò then chốt trong nâng cao khả năng điều 
+trị và kéo dài thời gian sống cho bệnh nhân. Tuy nhiên, việc đọc và phân tích ảnh X -
+quang ngực phụ thuộc nhiều vào kinh nghiệm chủ quan của bác sĩ và có thể bỏ sót các 
+tổn thương nhỏ hoặc không điển hình. Việc ứng dụng mô hình học sâu, cụ thể là mạng 
+nơ-ron tích chập DenseNet121, cho phép tự động trích xuất các đặc trưng hình ảnh phức 
+tạp và phi tuy ến, từ đó hỗ trợ phát hiện các dấu hiệu bất thường mà các phương pháp 
+truyền thống khó nhận biết. 
+Tính ứng dụng thực tiễn: 
+  Kết quả nghiên cứu của đề tài được ứng dụng trong các nội dung thực tiễn như: 
+● Hỗ trợ sàng lọc sớm: Mô hình được sử dụng như một công cụ hỗ trợ, giúp sàng 
+lọc nhanh các ảnh X-quang có nguy cơ cao trong các chương trình khám sức khỏe 
+định kỳ. 
+● Hỗ trợ bác sĩ chẩn đoán: Kết quả dự đoán từ mô hình đóng vai trò như “ý kiến 
+thứ hai”, giúp bác sĩ giảm tải công việc và nâng cao độ tin cậy trong quá trình ra 
+quyết định. 
+● Nền tảng cho hệ thống y tế thông minh:  Kết quả nghiên cứu có thể làm cơ sở 
+để phát triển các hệ thống hỗ trợ chẩn đoán dựa trên trí tuệ nhân tạo trong lĩnh 
+vực chẩn đoán hình ảnh y tế. 
+Cấu trúc đồ án: 
+Ngoài các phần Mở đầu, Kết luận và Tài liệu tham khảo, nội dung chính của đồ 
+án được bố cục thành ba chương như sau: 
+--- PAGE 19 ---
+5 
+ 
+ 
+⚫ Chương 1 – Trình bày các kiến thức nền tảng về ung thư phổi, mô tả bài toán 
+nghiên cứu, giới thiệu các khái niệm và thuật toán cơ bản trong học sâu được áp 
+dụng trong đề tài. 
+⚫ Chương 2 – Trình bày cơ sở lý thuyết và quá trình xây dựng mô hình phân lớp 
+ảnh dựa trên h ọc sâu. N ội dung chương t ập trung vào m ạng nơ-ron tích ch ập 
+(CNN), kiến trúc DenseNet và mô hình DenseNet121. Bên c ạnh đó, chương 
+cũng mô tả quá trình xây dựng mô hình hỗ trợ phát hiện dấu hiệu ung thư phổi 
+và giới thiệu các độ đo được sử dụng để đánh giá hiệu năng mô hình 
+⚫ Chương 3 – Thực nghiệm và đánh giá: Trình bày quá trình thử nghiệm, phân 
+tích kết quả, đối chiếu các mô hình và đánh giá mức độ hiệu quả của hệ thống 
+dự đoán được xây dựng cũng như triển khai giao diện ứng dụng bằng Streamlit. 
+--- PAGE 20 ---
+6 
+ 
+CHƯƠNG 1. GIỚI THIỆU 
+1.1  Giới thiệu bài toán 
+Ung thư phổi (UTP) là bệnh lý ác tính xuất phát từ biểu mô niêm mạc phế quản, phế 
+nang, từ các tuyến của phế quản hoặc từ các thành phần khác của phổi. UTP là loại ung thư 
+chiếm vị trí hàng đầu về tỷ lệ mắc cũng như tỷ lệ tử vong trên toàn thế giới. Theo các thống 
+kê gần đây của hiệp hội quốc tế về nghiên cứu ung thư (IARC) và cơ sở dữ liệu 
+GLOBOCAN 2018 [1], ung thư phổi và ung thư vú ở nữ giới đang dẫn đầu về số ca được 
+chẩn đoán mắc mới; với mỗi loại, ước tính khoảng 2,09 triệu ca mắc mới được phát hiện 
+trong năm 2018, chiếm đến 11,6% tất cả các loại ung thư. Ung thư phổi cũng là loại ung 
+thư gây tử vong nhiều nhất (1,76 triệu ca tử vong, chiếm 18,4% tất cả các loại ung thư).  
+Các nguyên nhân chính của ung thư phổi bao gồm việc hút thuốc lá, tiếp xúc với 
+chất gây ung hại như amiăng, ô nhiễm không khí và yếu tố di truyền.  Ung thư phổi được 
+chia thành hai loại chính: 
+● Ung thư phổi tế bào nhỏ (Small Cell Lung Cancer - SCLC): phát triển nhanh, 
+thường liên quan tới hút thuốc lá; 
+● Ung thư phổi không tế bào nhỏ (Non-Small Cell Lung Cancer - NSCLC): 
+chiếm phần lớn các trường hợp ung thư phổi.  
+Tuy nhiên, ung thư phổi nếu được phát hiện sớm thì cơ hội chữa khỏi rất cao, có thể 
+lên đến khoảng 80% đến 90% [2]. Chính vì vậy, việc phát hiện và nhận dạng vị trí khối u ở 
+giai đoạn đầu là hết sức cần thiết, có thể giảm được tỷ lệ tử vong cho người bệnh.  
+Trong thời đại công nghệ số, trí tuệ nhân tạo (AI) và học máy (Machine Learning 
+– ML) đã và đang trở thành nền tảng cốt lõi trong việc xử lý dữ liệu lớn và hỗ trợ ra 
+quyết định trong nhiều lĩnh vực, đặc biệt là y tế. Một trong những nhánh nổi bật của 
+học máy là học sâu (Deep Learning) – lĩnh vực tập trung vào việc sử dụng các mạng 
+nơ-ron nhân tạo nhiều lớp để mô phỏng cơ chế học của con người, giúp máy tính có 
+khả năng tự động phát hiện và trích xuất đặc trưng từ dữ liệu phức tạp, điển hình là 
+hình ảnh y khoa. 
+Trong bối cảnh đó, nhu cầu phát hiện sớm và hỗ trợ nhận diện các dấu hiệu ung 
+thư phổi từ ảnh X-quang lồng ngực đặt ra những yêu cầu cao về hiệu quả, độ tin cậy 
+--- PAGE 21 ---
+7 
+ 
+và khả năng tổng quát hóa của các mô hình phân loại hình ảnh. Việc ứng dụng mạng 
+nơ-ron tích chập (Convolutional Neural Networks – CNN) đã cho thấy nhiều kết 
+quả tích cực trong lĩnh vực phân tích và phân loại ảnh y tế. Tuy nhiên, một trong 
+những thách thức lớn của bài toán này là sự hạn chế về dữ liệu huấn luyện có chất 
+lượng cao và đa dạng, đặc biệt đối với các bộ dữ liệu y tế thực tế, nơi việc thu thập và 
+gán nhãn dữ liệu thường tốn nhiều thời gian, chi phí và phụ thuộc vào chuyên môn 
+của bác sĩ. 
+Thách thức chính của bài toán là thiết kế một quy trình xử lý dữ liệu hiệu quả để 
+giải quyết các vấn đề thực tế trong bộ dữ liệu  ChestXray như xử lý tình trạng mất cân 
+bằng dữ liệu (imbalanced data), do số lượng mẫu "không mắc bệnh" nhiều hơn đáng kể 
+so với mẫu "mắc bệnh”. 
+1.2  Mạng Neural network 
+Mạng Nơ-ron Nhân tạo (ANN) đại diện cho một sự thay đổi mô hình (paradigm 
+shift) trong khoa học máy tính: thay vì lập trình tường minh các quy tắc để xử lý dữ 
+liệu, chúng ta xây dựng các hệ thống có khả năng tự học các quy luật đó từ các ví dụ 
+thực tế. Lấy cảm hứng từ cấu trúc kết nối phức tạp của các nơ-ron thần kinh trong não 
+bộ con người, ANN là một mô hình toán học bao gồm các đơn vị xử lý thông tin được 
+kết nối với nhau, gọi là các nơ-ron nhân tạo. 
+Về bản chất, mỗi nơ-ron là một đơn vị tính toán thực hiện một quy trình gồm hai 
+bước chính. Đầu tiên, nó nhận một tập hợp các tín hiệu đầu vào từ lớp trước đó, trong 
+đó mỗi tín hiệu có một "trọng số" (weight) riêng thể hiện mức độ quan trọng. Nơ -ron 
+sẽ tính toán một tổng hợp của tất cả các tín hiệu này dựa trên trọng số của chúng. Sau 
+đó, kết quả tổng hợp này sẽ được đưa qua một hàm kích hoạt (activation function). 
+Hàm này hoạt động như một "cổng quyết định" phi tuyến, có nhiệm vụ xác định xem 
+tín hiệu có đủ mạnh để được truyền đi hay không và định hình tín hiệu đầu ra cuối cùng 
+mà nơ-ron sẽ gửi đến lớp tiếp theo. 
+Tuy nhiên, sức mạnh thực sự của ANN không nằm ở một nơ-ron đơn lẻ, mà nằm 
+ở kiến trúc kết nối đa lớp của chúng. Một kiến trúc mạng nơ -ron truyền thẳng (Feed-
+forward Neural Network) điển hình được cấu thành từ ba thành phần chính: 
+--- PAGE 22 ---
+8 
+ 
+ 
+Hình 1. 1 Kiến trúc mạng Nơ-ron nhân tạo dạng lan truyền tiến (Feedforward Neural 
+Network) gồm một lớp ẩn. 
+Kiến trúc phân lớp: Các nơ-ron được tổ chức thành các lớp tuần tự. 
+Lớp đầu vào (Input Layer):  Đóng vai trò là "cổng cảm biến" của mạng, có 
+nhiệm vụ duy nhất là tiếp nhận và truyền dữ liệu thô ban đầu (ví dụ: các giá trị pixel của 
+ảnh, các đặc trưng của bệnh nhân) vào hệ thống. Số lượng nơ -ron ở lớp này luôn bằng 
+số lượng đặc trưng của dữ liệu đầu vào. 
+Lớp ẩn (Hidden Layer): Đây là "bộ não xử lý" của mạng, nơi các phép tính toán 
+chính diễn ra. Một mạng có thể có một hoặc nhiều lớp ẩn. Chính tại đây, mạng học cách 
+kết hợp các thông tin từ lớp trước để tạo ra các biểu diễn ngày càng trừu tượng và phức 
+tạp hơn. Chiều sâu của một mô hình học sâu chính là được quyết định bởi số lượng các 
+lớp ẩn này. 
+Lớp đầu ra (Output Layer):  Là lớp cuối cùng, có nhiệm vụ đưa ra kết quả dự 
+đoán cuối cùng của mô hình. Cấu trúc của lớp này (số nơ -ron và hàm kích hoạt) được 
+thiết kế riêng để phù hợp với từng bài toán cụ thể. 
+Hệ tham số có thể học được (Learnable Parameters): Mỗi kết nối giữa hai nơ-
+ron trong các lớp khác nhau được gắn với một trọng số (weight). Toàn bộ các trọng số 
+
+--- PAGE 23 ---
+9 
+ 
+và các giá trị ngưỡng (biases) trong mạng tạo thành một hệ thống tham số có thể điều 
+chỉnh được. Các tham số này đại diện cho "kiến thức" mà mạng học được từ dữ liệu. 
+Mục tiêu của quá trình huấn luyện chính là tìm ra một bộ tham số tối ưu. 
+Quá trình học (Huấn luyện): Quá trình này là một vòng lặp tối ưu hóa tinh vi. 
+Nó bắt đầu bằng việc cho dữ liệu lan truyền tiến (forward propagation) qua mạng để tạo 
+ra một dự đoán. Sau đó, một hàm mất mát (loss function) sẽ so sánh dự đoán này với 
+kết quả thực tế để định lượng mức độ sai sót. Điểm kỳ diệu nằm ở thuật toán Lan truyền 
+ngược (Backpropagation). Nó hoạt động như một hệ thống "phân bổ trách nhiệm", tính 
+toán xem mỗi trọng số trong mạng đã "đóng góp" vào sai sót chung đó như thế nào, sau 
+đó điều c hỉnh các trọng số đó một cách từ từ theo hướng làm giảm thiểu sai sót. Quá 
+trình này được lặp đi lặp lại hàng nghìn lần, giống như một người quản lý liên tục đưa 
+ra phản hồi cho từng nhân viên để cả hệ thống hoạt động ngày càng hiệu quả và chính 
+xác hơn. 
+Từ nền tảng của mạng nơ-ron nhân tạo, các kiến trúc chuyên biệt hơn như mạng 
+nơ-ron tích chập (CNN) đã được phát triển nhằm xử lý dữ liệu dạng lưới, đặc biệt là 
+hình ảnh, và tr ở thành nền tảng cho các mô hình hi ện đại như DenseNet121 đư ợc sử 
+dụng trong đồ án này. 
+1.3  Học Sâu (Deep Learning) 
+Học sâu (Deep Learning) là một phân ngành chuyên biệt và tiên tiến của Học máy 
+(Machine Learning), dựa trên nền tảng của các Mạng Nơ -ron Nhân tạo (ANN). Đặc 
+trưng định danh của học sâu là việc sử dụng các mạng nơ-ron có kiến trúc "sâu" – tức là 
+sở hữu nhiều lớp ẩn được xếp chồng lên nhau. Sự gia tăng về chiều sâu này không chỉ 
+đơn thuần làm cho mô hình trở nên lớn hơn, mà nó mang lại một năng lực tính toán hoàn 
+toàn mới: khả năng tự động học hỏi các biểu diễn dữ liệu ở nhiều cấp độ trừu tượng khác 
+nhau, từ các chi tiết cơ bản nhất đến các khái niệm phức tạp và toàn cục. 
+--- PAGE 24 ---
+10 
+ 
+  
+Hình 1. 2 Minh họa cách CNN học đặc trưng từ mức thấp đến mức cao trong nhận dạng 
+hình ảnh. 
+Khả năng tự động học đặc trưng của học sâu được thực hiện thông qua một cơ 
+chế phân cấp tinh vi, có thể được hình dung như cách bộ não con người xử lý thông tin 
+thị giác: 
+⚫ Các lớp đầu (Low-Level Features): Các lớp gần với dữ liệu đầu vào nhất hoạt 
+động như một "võng mạc nhân tạo". Chúng tiếp xúc với dữ liệu pixel thô và học 
+cách nhận diện các đặc trưng cơ bản và nguyên thủy nhất. Đây là "bảng chữ cái" 
+của ngôn ngữ thị giác, bao gồm các đường thẳng, cạnh viề n ở các góc độ khác 
+nhau, các gradient màu, hay các đốm sáng-tối. 
+⚫ Các lớp giữa (Mid-Level Features): Các lớp này nhận đầu vào là các đặc trưng 
+cơ bản từ lớp trước và học cách tổng hợp chúng để tạo thành các "từ vựng" phức 
+tạp hơn. Ví dụ, nó có thể học cách kết hợp các đường cong và các mảng màu để 
+nhận diện các bộ phận có ý nghĩa hơn như mắt, mũi, vây cá, hoặc trong bài toán 
+y tế là các cấu trúc mạng lưới sắc tố, các đốm không đều. 
+⚫ Các lớp cuối (High-Level Features): Các lớp sâu nhất sẽ nhận các "từ vựng" 
+này và học cách kết hợp chúng thành các "câu" hoàn chỉnh, mang ý nghĩa trừu 
+tượng và toàn cục. Chúng có thể nhận diện toàn bộ một đối tượng như "khuôn 
+mặt người" hay "con cá". Trong bối cảnh của đồ án này, đây là nơi mô hình học 
+cách kết hợp các dấu hiệu bệnh lý đã được phát hiện để đưa ra quyết định phân 
+loại cuối cùng.  
+
+--- PAGE 25 ---
+11 
+ 
+Từ nền tảng của Mạng Nơ -ron Nhân tạo, thực tiễn các bài toán với những dạng 
+dữ liệu đa dạng đã thúc đẩy sự ra đời của các kiến trúc chuyên biệt. Mỗi kiến trúc được 
+thiết kế với một triết lý riêng, tối ưu hóa cho việc xử lý một loại cấu trúc dữ liệu cụ thể. 
+Trước khi đi vào chi tiết từng kiến trúc, việc hiểu cách các mô hình học sâu được 
+phân loại sẽ cung cấp một bối cảnh hữu ích. Về cơ bản, các mô hình thường được phân 
+loại dựa trên phương thức học của chúng, chủ yếu là Học có giám sát và Học không 
+giám sát. 
+⚫ Học có giám sát (Supervised Learning):  Đây là phương thức học phổ biến 
+nhất. Mô hình được huấn luyện trên một tập dữ liệu đã được gán nhãn đầy đủ, 
+tức là mỗi điểm dữ liệu đầu vào đều đi kèm với một kết quả đầu ra (nhãn) chính 
+xác. Mục tiêu của mô hình là học một hàm ánh xạ từ đầu vào đến đầu r a để có 
+thể dự đoán kết quả cho các dữ liệu mới chưa từng thấy. Các bài toán phân loại 
+và hồi quy thuộc nhóm này. 
+⚫ Học không giám sát (Unsupervised Learning):  Trong phương thức này, mô 
+hình được huấn luyện trên một tập dữ liệu không có nhãn. Thay vì dự đoán một 
+đầu ra cụ thể, mục tiêu của nó là tự khám phá ra các cấu trúc, các mẫu hình, 
+hoặc các mối quan hệ tiềm ẩn bên trong dữ liệu. Các bài toán như phân cụm 
+(clustering) hay giảm chiều dữ liệu thuộc nhóm này. 
+Mạng Nơ-ron Tích chập (Convolutional Neural Network – CNN) ra đời như 
+một lời giải cho những hạn chế của mạng nơ -ron truyền thống khi xử lý dữ liệu có cấu 
+trúc không gian như hình ảnh. Lấy cảm hứng từ cách vỏ não thị giác của con người xử 
+lý thông tin theo từng vùng tiếp nhận cục bộ, CNN không kết nối toàn bộ các  nơ-ron 
+giữa các lớp. Thay vào đó, mạng sử dụng các bộ lọc tích chập (kernels) hoạt động như 
+những “máy dò đặc trưng” di động, trượt trên toàn bộ ảnh để phát hiện các mẫu cục bộ 
+như cạnh, góc và kết  cấu, từ đó tạo ra các bản đồ đặc trưng (feature maps). Bằng cách 
+xếp chồng nhiều lớp tích chập, CNN có khả năng học được các biểu diễn ngày càng trừu 
+tượng, từ các đặc trưng mức thấp đến các đặc trưng mức cao. Nhờ cơ chế này, CNN 
+được lựa chọn làm kiến trúc chủ đạo trong đề tài để phân tích và phân loại ảnh X-quang 
+lồng ngực, phục vụ cho bài toán phát hiện dấu hiệu ung thư phổi. 
+Mạng DenseNet (Densely Connected Convolutional Network)  đại diện cho 
+--- PAGE 26 ---
+12 
+ 
+một hướng phát triển hiệu quả của mạng nơ -ron tích chập trong lĩnh vực học sâu. Nếu 
+các kiến trúc CNN truyền thống chỉ kết nối tuần tự giữa các lớp, thì DenseNet được thiết 
+kế với cơ chế kết nối dày đặc (dense connections), trong đó mỗi lớp nhận đầu vào tr ực 
+tiếp từ tất cả các lớp trước đó và truyền đặc trưng của mình cho các lớp sau. Cách kết 
+nối này giúp tăng cường khả năng lan truyền thông tin và gradient trong quá trình huấn 
+luyện, đồng thời giảm hiện tượng mất mát gradient khi mạng trở nên rất sâu. 
+Trong kiến trúc DenseNet121, mô hình bao gồm 121 lớp với các khối Dense 
+Block và Transition Layer, cho phép học được các đặc trưng hình ảnh ở nhiều mức độ 
+khác nhau. Nhờ khả năng tái sử dụng đặc trưng và hiệu quả huấn luyện cao, 
+DenseNet121 được lựa chọn trong đề tài này để trích xuất đặc trưng và phân loại ảnh X-
+quang lồng ngực, phục vụ cho bài toán phát hiện dấu hiệu ung thư phổi. 
+1. Huấn luyện mô hình (Model Training): 
+Sau khi tiền xử lý, các ảnh X -quang được đưa vào mô hình DenseNet121, 
+một kiến trúc mạng nơ -ron tích chập sâu đã được huấn luyện trước trên tập dữ liệu 
+ImageNet. Mô hình được tinh chỉnh (fine-tuning) để phù hợp với bài toán phát hiện 
+dấu hiệu ung thư phổi. Trong quá trình huấn luyện, các lớp trích xuất đặc trưng của 
+DenseNet121 học các đặc điểm hình ảnh quan trọng liên quan đến tổn thương phổi, 
+trong khi các lớp phân loại ở cuối mạng được huấn luyện để đưa ra dự đoán nhị phân. 
+Quá trình huấn luyện được thực  hiện trên tập huấn luyện, với các siêu tham số như 
+tốc độ học, số epoch và batch size được lựa chọn phù hợp nhằm tối ưu hiệu năng mô 
+hình và tránh hiện tượng quá khớp. 
+2. Đánh giá mô hình (Model Evaluation): 
+⚫ Hiệu năng của mô hình được đánh giá trên tập kiểm thử (test set) dựa trên 5 chỉ 
+số đo lường quan trọng trong y tế : Accuracy, Precision, Recall, F1 -score, và 
+ROC-AUC. 
+⚫ Việc này giúp lựa chọn mô hình tối ưu, cân bằng giữa khả năng dự đoán chính 
+xác (Precision) và khả năng phát hiện bệnh (Recall). 
+3.  Xây dựng ứng dụng Demo: 
+⚫ Triển khai mô hình học máy vào một ứng dụng web tương tác bằng Streamlit. 
+--- PAGE 27 ---
+13 
+ 
+⚫ Ứng dụng cho phép người dùng nhập thông tin, nhận dự đoán. 
+1.4  Tổng quan các phương pháp và nghiên cứu liên quan 
+Trong bài toán phân tích ảnh y tế nói chung và ảnh X-quang lồng ngực nói riêng, 
+nhiều phương pháp xử lý ảnh và học máy đã được đề xuất nhằm hỗ trợ phát hiện các 
+dấu hiệu bệnh lý. Các phương pháp truyền thống thường dựa trên xử lý ảnh cổ điển , 
+bao gồm các bước tiền xử lý, trích xuất đặc trưng thủ công và sử dụng các bộ phân loại 
+học máy. 
+Cụ thể, trong các phương pháp học máy truyền thống, ảnh X-quang thường được 
+biểu diễn dưới dạng các vector đặc trưng thông qua các kỹ thuật như histogram mức 
+xám, đặc trưng kết cấu (GLCM), đặc trưng hình dạng hoặc các phương pháp trích xuất 
+đặc trưng cục bộ. Sau đó, các vector đặc trưng này được đưa vào các mô hình phân loại 
+như Support Vector Machine (SVM) , k-Nearest Neighbors (k -NN) hoặc Random 
+Forest để thực hiện phân loại. Mặc dù các phương pháp này đạt được một số kết quả 
+nhất định nhưng chúng phụ thuộc lớn vào chất lượng của quá trình trích xuất đặc trưng 
+thủ công và thường gặp hạn chế khi xử lý các cấu trúc phức tạp trong ảnh X-quang. 
+Một trong những nhược điểm chính của các phương pháp học máy truyền thống 
+là quá trình vector hóa ảnh có thể làm mất đi các mối quan hệ không gian quan 
+trọng giữa các điểm ảnh. Đối với ảnh X-quang lồng ngực, nơi các dấu hiệu ung thư phổi 
+thường biểu hiện dưới dạng các đường nét mờ, hình dạng không đồng nhất hoặc chồng 
+lấp cấu trúc giải phẫu, việc biểu diễn ảnh bằng các đặc trưng thủ công khó có thể phản 
+ánh đầy đủ thông tin cần thiết, dẫn đến hiệu quả phân loại còn hạn chế. 
+Trước những hạn chế đó, học sâu (Deep Learning) , đặc biệt là mạng nơ-ron 
+tích chập (Convolutional Neural Network – CNN), đã được phát triển nhằm tự động 
+học các đặc trưng phân cấp trực tiếp từ dữ liệu ảnh. CNN cho phép mô hình khai thác 
+thông tin không gian và ngữ cảnh cục bộ thông qua các phép tích chập, từ đó nhận diện 
+hiệu quả các đường nét, hình dạng và cấu trúc đặc trưng trong ảnh X -quang mà không 
+cần thiết kế đặc trưng thủ công. Tuy nhiên, việc huấn luyện các mô hình học sâu từ đầu 
+thường đòi hỏi lượng dữ liệu lớn và tài nguyên tính toán đáng kể, điều này gây khó khăn 
+trong bối cảnh dữ liệu y tế thường hạn chế. Để khắc phục vấn đề này, các phương pháp 
+học chuyển giao (Transfer Learning)  đã được đề xuất, trong đó các kiến trúc CNN 
+--- PAGE 28 ---
+14 
+ 
+sâu được huấn luyện sẵn trên các tập dữ liệu lớn  và sau đó được tinh chỉnh cho các bài 
+toán cụ thể. 
+Các mạng nơ-ron tích chập (Convolutional Neural Networks – CNNs) đã và đang 
+đóng vai trò trung tâm trong lĩnh vực nhận dạng đối tượng thị giác. Từ mô hình tiên 
+phong LeNet cho đến các kiến trúc được sử dụng rộng rãi như VGG và ResNet, quá 
+trình nghiên cứu luôn hướng tới việc xây dựng các mạng ngày càng sâu hơn và hiệu quả 
+hơn. Một bước đột phá quan trọng trong quá trình phát triển này là sự ra đời của Mạng 
+nơ-ron tích chập kết nối dày đặc (Densely Connected Convolutional Network – 
+DenseNet), được giới thiệu bởi Gao Huang, Zhuang Liu, Laurens van der Maaten và 
+Kilian Q. Weinberger. Kiến trúc mới mẻ của DenseNet giúp cải thiện đáng kể khả năng 
+lan truyền thông tin và gradient  trong quá trình huấn luyện, từ đó mang lại nhiều ưu 
+điểm vượt trội so với các mạng CNN truyền thống cũng như kiến trúc ResNet. Một 
+nghiên cứu với 108,948 ảnh báo cáo DenseNet121 đạt AUC khoảng 94 % khi xác định 
+các tình trạng như pneumothorax và oedema trên X -quang [3]. Trong một bài so sánh 
+với VGG16, DenseNet121 đạt độ chính xác ~98.8 %, cho thấy khả năng nhận diện các 
+đặc trưng đư ờng nét ph ức tạp trong ảnh X-quang hiệu quả hơn so v ới kiến trúc CNN 
+truyền thống [4]. 
+Xuất phát từ những ưu điểm trên, đề tài đã lựa chọn mô hình DenseNet121 làm 
+nền tảng để xây dựng hệ thống hỗ trợ phát hiện các dấu hiệu nghi ngờ ung thư phổi từ 
+ảnh X-quang lồng ngực. 
+1.5  Kết luận 
+Chương 1 đã trình bày các khái niệm và kiến thức nền tảng làm cơ sở cho việc 
+xây dựng mô hình hỗ trợ phát hiện dấu hiệu ung thư phổi trên ảnh X -quang ngực. Nội 
+dung chương bắt đầu với việc giới thiệu tổng quan về trí tuệ nhân tạo và học sâu, sau đó 
+đi sâu vào nguyên lý hoạt động của mạng nơ -ron nhân tạo (ANN), mạng nơ -ron tích 
+chập (CNN) và các kiến trúc học sâu trong xử lý ảnh. 
+Những kiến thức lý thuyết này giúp làm rõ cách các mô hình học sâu tiếp cận, 
+trích xuất đặc trưng và phân loại dữ liệu hình ảnh y tế, đặc biệt là ảnh X -quang lồng 
+ngực. Đồng thời, chương cũng đã tổng quan các phương pháp và nghiên cứu liên quan, 
+qua đó cho thấy tiềm năng ứng dụng của học sâu trong bài toán hỗ trợ phát hiện sớm 
+--- PAGE 29 ---
+15 
+ 
+các dấu hiệu ung thư phổi. 
+Trên cơ sở các kiến thức nền tảng đã trình bày, chương tiếp theo sẽ tập trung vào việc 
+xây dựng mô hình phân lớp ảnh dựa trên kiến trúc DenseNet121 và phương pháp học 
+chuyển giao, bao gồm quá trình thiết kế mô hình, tiền xử lý dữ liệu và các độ đo được 
+sử dụng để đánh giá hiệu năng của hệ thống. 
+  
+--- PAGE 30 ---
+16 
+ 
+CHƯƠNG 2. XÂY D ỰNG MÔ HÌNH  PHÂN L ỚP ẢNH CÓ  DẤU HI ỆU 
+UNG THƯ PHỔI DỰA TRÊN DENSENET121 
+2.1  Mạng Nơ-ron tích chập 
+Mạng Nơ-ron Tích chập (Convolutional Neural Network – CNN) là một kiến trúc 
+học sâu chuyên biệt, và là công nghệ nền tảng được lựa chọn trong đề tài này để trích 
+xuất đặc trưng và phân loại các ảnh X -quang lồng ngực với cấu trúc không gian phức 
+tạp. Để hiể u cơ chế hoạt động và ưu điểm của CNN, chúng ta sẽ phân tích các thành 
+phần cấu tạo và triết lý thiết kế của mô hình. 
+ Các lớp cơ bản của mạng CNN 
+      Một mạng CNN có thể được hình dung như một "dây chuyền lắp ráp" thông tin, 
+trong đó mỗi công đoạn là một lớp (layer) thực hiện một nhiệm vụ chuyên biệt. Sự kết 
+hợp của các lớp này tạo nên sức mạnh cho toàn bộ kiến trúc. 
+ 
+Hình 2. 1 Tổng quan kiến trúc mô hình CNN 
+1. Lớp Tích chập (Convolutional Layer): Trái tim của việc trích xuất đặc trưng 
+Đây là thành phần mang tính định danh và quan trọng nhất của CNN, đóng vai 
+trò như "võng mạc" và "vỏ não thị giác sơ cấp" của mạng nơ -ron. Nhiệm vụ của nó 
+không chỉ đơn thuần là xử lý, mà là "nhìn" và "hiểu" dữ liệu ảnh bằng cách phát hiện 
+các mẫu hình ảnh (patterns) có ý nghĩa. 
+Lớp này vận hành một tập hợp các bộ lọc (Filter hay Kernel), là những ma trận 
+trọng số nhỏ có thể học được. Hãy xem mỗi bộ lọc như một "máy dò đặc trưng" được 
+
+--- PAGE 31 ---
+17 
+ 
+đào tạo chuyên biệt. Ban đầu, các trọng số của bộ lọc này được khởi tạo ngẫu nhiên, 
+nhưng qua quá trình huấn luyện, chúng sẽ được tinh chỉnh một cách tỉ mỉ thông qua 
+thuật toán lan truyền ngược để trở thành chuyên gia phát hiện một loại mẫu cụ thể. Bộ 
+lọc này sẽ trượt trên toàn bộ ảnh đầu vào, thực hiện phép tích chập tại mỗi vị trí. Phép 
+tính này bao gồm việc nhân từng giá trị của bộ lọc với giá trị pixel tương ứng trên ảnh, 
+sau đó cộng tất cả các kết quả đó lại và cộng thêm một hệ số thiên vị (bias) để ra  một 
+giá trị duy nhất. Giá trị này thể hiện mức độ phản ứng hay "kích hoạt" của bộ lọc tại vị 
+trí đó. Tập hợp tất cả các giá trị này tạo thành một ma trận hai chiều gọi là bản đồ đặc 
+trưng (Feature Map). Về cơ bản, bản đồ đặc trưng là một "bản đồ nhiệt" tr ực quan, cho 
+thấy đặc trưng mà bộ lọc tìm kiếm xuất hiện ở đâu và mạnh mẽ như thế nào trên ảnh 
+gốc. 
+o Ví dụ:  
+ 
+Hình 2. 2 Minh họa quá trình tích chập với kernel 3×3 để phát hiện cạnh dọc tại vùng 
+chuyển tiếp giữa da sáng và vùng nốt ruồi sẫm màu 
+Để minh họa, có một vùng ảnh nhỏ 5x5 pixel, chụp ngay tại đường viền của một 
+nốt ruồi. Các giá trị pixel của vùng da sáng là 10, và vùng nốt ruồi sẫm màu là 90. Chúng 
+ta áp dụng một kernel 3x3 chuyên phát hiện cạnh dọc. 
+Khi kernel này trượt qua một vùng hoàn toàn là da (tất cả pixel là 10) hoặc hoàn 
+toàn là nốt ruồi (tất cả pixel là 90), kết quả của phép tích chập sẽ gần bằng 0, vì không 
+có sự thay đổi. 
+
+--- PAGE 32 ---
+18 
+ 
+Nhưng khi kernel trượt đến đúng vị trí đường viền, nó sẽ bao phủ cả các pixel 10 
+và 90. Phép tính sẽ cho ra một giá trị có độ lớn cao (ví dụ: +240 hoặc -240). 
+Kết quả là, bản đồ đặc trưng đầu ra sẽ làm nổi bật rõ nét đường viền của tổn 
+thương bằng các giá trị cao, trong khi các vùng phẳng khác có giá trị gần 0. Việc xác 
+định được các đường viền rõ ràng là bước đầu tiên và cơ bản nhất để sau này mô hình 
+có thể đánh giá được tính bất đối xứng (Asymmetry) và đường viền không đều (Border 
+irregularity) của tổn thương. 
+2. Hàm kích hoạt ReLU (ReLU Activation): Ngưỡng quyết định phi tuyến 
+Đầu ra từ lớp tích chập sẽ được đưa qua một hàm kích hoạt phi tuyến. Nếu không 
+có bước này, một mạng CNN dù có bao nhiêu lớp cũng chỉ tương đương với một phép 
+biến đổi tuyến tính lớn hơn, và sẽ thất bại trong việc học các mối quan hệ phức tạp 
+trong dữ liệu. ReLU (Rectified Linear Unit) là lựa chọn phổ biến nhất. 
+ReLU hoạt động như một "cổng kiểm soát" hay một "bộ lọc tín hiệu nhiễu" cực 
+kỳ đơn giản và hiệu quả. Nó sẽ loại bỏ tất cả các giá trị âm bằng cách chuyển chúng 
+thành 0, và giữ nguyên tất cả các giá trị dương. Cơ chế này giúp tạo ra sự thưa thớt 
+(sparsity) trong các biểu diễn, nghĩa là chỉ những tín hiệu kích hoạt tích cực và quan 
+trọng nhất mới được giữ lại và truyền đến các lớp sau, giúp mạng tập trung vào những 
+thông tin thực sự có giá trị. 
+Tiếp nối ví dụ trên, bản đồ đặc trưng về cạnh viền chứa cả các giá trị dương (ví 
+dụ: +240, phát hiện cạnh từ sáng sang tối) và âm (ví dụ: -240, phát hiện cạnh từ tối 
+sang sáng). Giả sử em có bản đồ đặc trưng này, khi đưa nó qua hàm ReLU, tất cả các 
+giá trị -240 sẽ bị chuyển thành 0. Kết quả là một bản đồ đặc trưng mới, "sạch" hơn, chỉ 
+còn lại những điểm sáng thể hiện sự kích hoạt mạnh mẽ, đại diện cho những bằng 
+chứng rõ ràng nhất về sự tồn tại của một đường viền. 
+ 
+3. Lớp Gộp (Pooling Layer): Tầng tinh giản và tổng quát hóa 
+Lớp gộp có nhiệm vụ chính là thực hiện một quá trình tổng hợp và cô đọng thông 
+tin, thường được gọi là lấy mẫu phụ (downsampling), nhằm giảm kích thước không 
+gian (chiều rộng và cao) của các bản đồ đặc trưng. 
+--- PAGE 33 ---
+19 
+ 
+Max Pooling (Gộp Cực đại) là phương pháp phổ biến nhất. Nó hoạt động bằng 
+cách trượt một cửa sổ (ví dụ: 2x2) trên bản đồ đặc trưng và chỉ giữ lại giá trị lớn nhất 
+trong mỗi cửa sổ. Việc này mang lại hai lợi ích chiến lược: (1) giảm số lượng tham số 
+và khối lượng tính toán, giúp mạng hoạt động hiệu quả hơn; và (2) tạo ra một biểu diễn 
+có tính bất biến cao hơn với các thay đổi nhỏ về vị trí (local translation invariance), 
+làm cho mô hình trở nên mạnh mẽ hơn trước các biến dạng nhỏ trong ảnh.  
+Để làm rõ hơn, có một bản đồ đặc trưng kích thước 4x4 sau khi đi qua lớp ReLU. 
+Khi áp dụng phép Max Pooling với cửa sổ 2x2 và bước trượt là 2, quy trình sẽ chia vùng 
+này thành bốn khu vực 2x2 không chồng chéo. Trong mỗi khu vực 2x2, nó sẽ tìm và chỉ 
+giữ lại giá trị pixel lớn nhất. Kết quả là một ma trận 4x4 ban đầu được nén lại thành một 
+ma trận 2x2, chỉ chứa những tín hiệu đặc trưng nổi bật nhất. Mạng đã "hy sinh" thông 
+tin về vị trí chính xác của đặc trưng trong từng vùng nhỏ, để đổi lấy một thông tin "cá i 
+gì" mạnh mẽ và tổng quát hơn, ví dụ: "có một đặc trưng cạnh rất mạnh đã xuất hiện 
+trong góc phần tư trên bên trái này". 
+4. Lớp Kết nối đầy đủ (Fully Connected Layer): Khối ra quyết định cuối cùng 
+Sau khi chuỗi các lớp tích chập và gộp đã trích xuất thành công một tập hợp các đặc 
+trưng bậc cao, các bản đồ đặc trưng cuối cùng sẽ được "làm phẳng" (flatten) thành một 
+vector một chiều. Thao tác này là một bước chuyển đổi quan trọng, nơi cấu trúc không 
+gian được hy sinh một cách có chủ đích để chuẩn bị cho giai đoạn suy luận và phân loại 
+cuối cùng. 
+Vector đặc trưng này sau đó được đưa vào một hoặc nhiều lớp kết nối đầy đủ. Lớp 
+FC này đóng vai trò như một bộ phân loại. Nó sẽ kết hợp và phân tích tất cả các đặc 
+trưng đã được học để đưa ra quyết định cuối cùng. 
+Giả sử vector đặc trưng cuối cùng sau khi làm phẳng có 512 giá trị. Mỗi giá trị 
+này là kết quả tổng hợp của toàn bộ quá trình trước đó, có thể được xem như một "bằng 
+chứng" định lượng cho một đặc trưng trừu tượng. Ví dụ, giá trị ở vị trí thứ nhất là điểm 
+số cho "mức độ bất đối xứng của tổn thương", giá trị ở vị trí thứ hai là điểm số cho "sự 
+hiện diện của cấu trúc mạng lưới sắc tố không điển hình", giá trị ở vị trí thứ ba là "sự đa 
+dạng của màu sắc trên toàn bộ tổn thương",... Lớp kết nối đầy đủ hoạt động n hư một 
+"ban giám khảo" tinh vi. Các trọng số của nó, được học qua quá trình huấn luyện, đại 
+--- PAGE 34 ---
+20 
+ 
+diện cho "kinh nghiệm" của ban giám khảo này. Nó học cách cân nhắc và kết hợp tất cả 
+các bằng chứng này. Ví dụ, nó có thể học được một quy tắc phức tạp rằng: "Nếu bằng 
+chứng về 'bất đối xứng' cao, và bằng chứng về 'đa dạng màu sắc' cao, thì xác suất ác tính 
+sẽ tăng lên đáng kể". Dựa trên sự kết hợp phức tạp này, nó sẽ đưa ra phán quyết cuối 
+cùng dưới dạng một phân phối xác suất trên các lớp. 
+2.2  Mô hình DenseNet (Densely Connected Convolutional Network) 
+2.2.1  Densenet 
+DenseNet, viết tắt của Dense Convolutional Network là một kiến trúc mạng nơ-
+ron tích chập sâu được giới thiệu bởi Gao Huang,và cộng sự trong bài báo có tiêu đ ề 
+“Densely Connected Convolutional Networks”  công b ố năm 2017, với mục tiêu cải 
+thiện hiệu suất học của các mạng CNN sâu thông qua việc tăng cường khả năng lan 
+truyền thông tin và gradient trong mạng. Trong các kiến trúc CNN truyền thống, khi số 
+lượng lớp tăng lên, mô hình thường gặp phải các vấn đề như hiện tượng m ất gradient, 
+trùng lặp đặc trưng và số lượng tham số lớn, làm giảm hiệu quả huấn luyện và khả năng 
+khái quát hóa. DenseNet được thiết kế nhằm giải quyết trực tiếp các hạn chế này thông 
+qua một cơ chế kết nối mới, gọi là kết nối dày đặc (dense connectivity). 
+Điểm khác biệt cốt lõi của DenseNet so với các mô hình CNN trước đó nằm ở 
+cách các lớp trong mạng được kết nối với nhau. Trong khi hầu hết các kiến trúc CNN 
+truyền thống chỉ cho phép mỗi lớp nhận đầu vào từ lớp liền trước, DenseNet cho phép 
+mỗi lớp nhận đầ u vào là tập hợp đặc trưng của tất cả các lớp trước đó trong cùng một 
+khối (Dense Block). Nói cách khác, đầu ra của mỗi lớp sẽ được truyền trực tiếp tới tất 
+cả các lớp phía sau thông qua phép nối đặc trưng (concatenation). Cơ chế  kết nối dày 
+đặc này giúp đảm bảo rằng các đặc trưng đã học ở những lớp nông không bị mất đi khi 
+mạng trở nên sâu hơn, đồng thời cho phép các lớp phía sau khai thác trực tiếp những 
+thông tin quan trọng từ các lớp trước. 
+--- PAGE 35 ---
+21 
+ 
+ 
+Hình 2. 3 Minh họa kiến trúc Dense Block trong mạng DenseNet 
+Connectivity 
+Trong DenseNet, tại mỗi lớp, các bản đồ đặc trưng của tất cả các lớp trước đó 
+không được cộng (sum) mà được nối (concatenate) và sử dụng làm đầu vào. Nhờ cơ 
+chế này, DenseNet yêu cầu số lượng tham số ít hơn so với các mạng CNN truyền thống 
+có độ sâu tương đương, đồng thời cho phép tái sử dụng đặc trưng , vì các bản đồ đặc 
+trưng dư thừa có thể được loại bỏ. 
+Cụ thể, lớp thứ l sẽ nhận các bản đồ đặc trưng của tất cả các lớp trước đó x0, x1, 
+…, xl−1 làm đầu vào, được biểu diễn bởi công thức: 
+Xl = H1. ([x0, x1, ..., xl-1]) 
+trong đó [x0, x1, ..., xl-1] biểu thị phép nối (concatenation) các bản đồ đặc trưng, tức là 
+đầu ra được tạo ra từ toàn bộ các lớp đứng trước lớp l (từ lớp 0 đến lớp l−1). Các đầu 
+vào này của hàm biến đổi Hl được kết hợp thành một tensor duy nhất, giúp đơn giản 
+hóa việc cài đặt và triển khai mô hình. 
+Dense Block 
+Trong kiến trúc DenseNet, các lớp tích chập được nhóm lại thành các khối gọi là 
+Dense Block. Dense Block là thành phần cơ bản cấu thành nên kiến trúc DenseNet. Mỗi 
+
+--- PAGE 36 ---
+22 
+ 
+dense block bao gồm nhiều lớp tích chập, thường được theo sau bởi chuẩn hóa theo lô 
+(Batch Normalization) và hàm kích hoạt phi tuyến  (ví dụ: ReLU). Điểm đặc biệt của 
+dense block là mỗi lớp bên trong đều nhận các bản đồ đặc trưng từ tất cả các lớp trước 
+đó làm đầu vào, qua đó thúc đẩy việc tái sử dụng đặc trưng và tăng cường khả năng lan 
+truyền thông tin.  Trong một dense block, đầu vào của mỗi lớp là phép nối 
+(concatenation) giữa đầu ra của toàn bộ các lớp phía trước. Giả sử một dense block có 
+m lớp, và mỗi lớp sinh ra k bản đồ đặc trưng, trong đó k được gọi là tốc độ tăng trưởng 
+(growth rate). Khi đó, lớp thứ l sẽ có tổng số bản đồ đặc trưng đầu vào là: 
+k x (l + l0) 
+trong đó l0 là số kênh đầu vào ban đầu của dense block. 
+Cơ chế này giúp DenseNet duy trì số lượng tham số ở mức hợp lý, đồng thời đảm 
+bảo rằng các đặc trưng được học ở các lớp sớm có thể được khai thác trực tiếp ở các lớp 
+sâu hơn, góp phần cải thiện hiệu quả huấn luyện và độ chính xác của mô hình. 
+ 
+Hình 2. 4 Sơ đồ kiến trúc tổng thể của mô hình DenseNet 
+Trong hình minh họa, một mô hình DenseNet sâu với ba Dense Block được trình 
+bày. Các l ớp nằm giữa hai dense block li ền kề là các transition layers, thực hiện quá 
+trình down-sampling (tức là thay đổi kích thước của feature maps) thông qua các phép 
+tích chập và pooling. Ngược lại, bên trong mỗi dense block, kích thước của các feature 
+maps được giữ cố định nhằm đảm bảo khả năng nối đặc trưng (feature concatenation)  
+giữa các lớp. 
+Transition Layer 
+Transition Layer được sử dụng để kết nối giữa các Dense Block  trong kiến trúc 
+DenseNet. Các lớp chuyển tiếp này đảm nhiệm hai vai trò chính: giảm số lượng bản đồ 
+
+--- PAGE 37 ---
+23 
+ 
+đặc trưng (feature maps)  và giảm kích thước không gian (downsampling)  của các bản 
+đồ đặc trưng. Điều này giúp duy trì hiệu quả tính toán và độ gọn nhẹ của mạng  khi độ 
+sâu của mô hình ngày càng tăng. Một transition layer điển hình bao gồm các thành phần 
+sau: 
+⚫ Batch Normalization: Chuẩn hóa các bản đồ đặc trưng nhằm ổn định và tăng tốc 
+quá trình huấn luyện. 
+⚫ Tích chập 1×1 (1×1 Convolution):  Giảm số lượng kênh đặc trưng, qua đó hạn 
+chế số tham số và chi phí tính toán. 
+⚫ Gộp trung bình (Average Pooling): Thực hiện giảm kích thước không gian của 
+bản đồ đặc trưng, giúp trích xuất đặc trưng ở mức trừu tượng cao hơn. 
+Thông qua việc sử dụng transition layers, DenseNet có thể kiểm soát độ phức tạp 
+của mô hình, tránh hiện tượng bùng nổ số lượng đặc trưng khi các dense block được xếp 
+chồng lên nhau, đồng thời vẫn giữ được khả năng lan truyền thông tin hiệu quả giữa các 
+tầng. 
+Growth rate (k) 
+Growth rate hay còn gọi là tham số k là một siêu tham số quan trọng  trong kiến 
+trúc DenseNet, dùng để điều tiết lượng thông tin được bổ sung tại mỗi lớp.Giá trị của k 
+càng lớn thì lượng thông tin mới được bổ sung tại mỗi lớp càng nhiều , tuy nhiên điều 
+này cũng đồng thời làm tăng chi phí tính toán và số lượng tham số của mô hình. 
+Giả sử mỗi hàm biến đổi H l tạo ra k bản đồ đặc trưng, thì lớp thứ l sẽ có tổng số 
+bản đồ đặc trưng đầu vào là: 
+k0 + k x (l - 1) 
+trong đó k 0 là số lượng kênh của lớp đầu vào ban đầu . Nhờ cơ chế này, mỗi lớp trong 
+DenseNet có thể truy cập trực tiếp vào toàn bộ các đặc trưng đã được học ở các lớp 
+trước, giúp tăng cường khả năng lan truyền thông tin và tái sử dụng đặc trưng. 
+Việc lựa chọn giá trị k có ảnh hưởng trực tiếp đến khả năng biểu diễn (capacity) 
+và hiệu năng tổng thể của mạng. Do đó, k cần được cân nhắc hợp lý nhằm đạt được sự 
+cân bằng giữa độ chính xác của mô hình  và hiệu quả tính toán , đặc biệt trong các ứng 
+--- PAGE 38 ---
+24 
+ 
+dụng yêu cầu tài nguyên hạn chế như hệ thống chẩn đoán y khoa. 
+2.2.2  Các biến thể của Densenet 
+DenseNet bao gồm nhiều biến thể khác nhau, chủ yếu được phân biệt dựa trên độ 
+sâu và số lượng lớp của mạng: 
+⚫ DenseNet-121: Gồm 121 lớp, nổi bật với sự cân bằng giữa hiệu quả tính toán và 
+độ chính xác. Kiến trúc này phù hợp cho các bài toán yêu cầu tài nguyên tính 
+toán ở mức trung bình. 
+⚫ DenseNet-169: Với 169 lớp, biến thể này cho khả năng trích xuất đặc trưng sâu 
+hơn, phù hợp với các tập dữ liệu phức tạp hoặc các bài toán đòi hỏi độ chính 
+xác cao hơn. 
+⚫ DenseNet-201 và DenseNet-264: Đây là các biến thể có kiến trúc rất sâu, thích 
+hợp cho những bài toán phức tạp yêu cầu khả năng biểu diễn đặc trưng mạnh 
+mẽ và dữ liệu huấn luyện quy mô lớn. 
+2.2.3  Ưu điểm của DenseNet 
+⚫ Giảm hiện tượng mất gradient (Reduced Vanishing Gradient Problem): 
+Các kết nối dày đặc trong DenseNet giúp cải thiện khả năng lan truyền gradient, 
+từ đó hỗ trợ hiệu quả quá trình huấn luyện các mạng nơ-ron rất sâu. 
+⚫ Tái sử dụng đặc trưng (Feature Reuse):  Mỗi lớp trong DenseNet có quyền truy 
+cập trực tiếp vào các bản đồ đặc trưng của tất cả các lớp trước đó, khuyến khích 
+việc tái sử dụng các đặc trưng đã học và nâng cao hiệu quả học tập của mô hình. 
+⚫ Giảm số lượng tham số (Fewer Parameters):  Nhờ cơ chế tái sử dụng đặc trưng 
+hiệu quả, DenseNet thường có ít tham số hơn  so với các mạng CNN truyền 
+thống có độ sâu tương đương, giúp giảm chi phí tính toán và nguy cơ quá khớp. 
+⚫ Cải thiện độ chính xác (Improved Accuracy): DenseNet đã chứng minh được độ 
+chính xác cao trên nhiều bộ dữ liệu chuẩn như ImageNet và CIFAR, khẳng định 
+tính hiệu quả và khả năng tổng quát hóa của kiến trúc này. 
+Từ những ưu điểm trên, DenseNet được xem là một kiến trúc CNN hiện đại và 
+hiệu quả, đặc biệt phù hợp cho các bài toán phân tích ảnh y tế. Trên cơ sở kiến trúc 
+--- PAGE 39 ---
+25 
+ 
+DenseNet, nhiều biến thể đã được phát triển, trong đó DenseNet121 là một trong những 
+mô hình phổ biến và được sử dụng rộng rãi nhất. Mô hình này sẽ được trình bày chi tiết 
+trong mục tiếp theo và được lựa chọn để áp dụng trong bài toán phát hiện dấu hiệu un g 
+thư phổi trên ảnh X-quang ngực của luận văn. 
+2.3  Mô hình DenseNet121 
+DenseNet121 là một trong những biến thể tiêu biểu và được sử dụng rộng rãi nhất 
+của kiến trúc DenseNet. Mô hình này được xây dựng dựa trên ý tưởng kết nối dày đặc 
+đã trình bày ở mục trước, với tổng cộng 121 lớp bao gồm các lớp tích chập, lớp gộp, lớp 
+chuyển tiếp và lớp phân loại. DenseNet121 được thiết kế nhằm đạt được sự cân bằng 
+giữa độ sâu của mạng, hiệu suất phân loại và số lượng tham số, qua đó phù hợp với 
+nhiều bài toán thị giác máy tính, đặc biệt là các bài toán trong lĩnh vực ảnh y tế. 
+Về mặt kiến trúc tổng thể, DenseNet121 bao gồm một lớp tích chập ban đầu để 
+trích xuất các đặc trưng mức thấp từ ảnh đầu vào, tiếp theo là bốn Dense Block được kết 
+nối với nhau thông qua các Transition Layer. Mỗi Dense Block chứa một số lượng lớp 
+tích chập xác định, trong đó các lớp được kết nối theo cơ chế dense connectivity, cho 
+phép mỗi lớp khai thác trực tiếp toàn bộ đặc trưng đã được học trước đó. Sau Dense 
+Block cuối cùng, mô hình sử dụng lớp gộp toàn cục (global average pooling) và một lớp 
+phân loại để đưa ra kết quả dự đoán.  Cụ thể, bốn Dense Block trong DenseNet121 lần 
+lượt bao gồm 6, 12, 24 và 16 lớp tích chập. Với cấu trúc này, mô hình có khả năng học 
+các đặc trưng từ mức thấp đến mức cao một cách hiệu quả, đồng thời vẫn kiểm soát 
+được độ phức tạp nhờ các lớp chuyển tiếp. M ỗi Transition Layer thực hiện việc giảm 
+kích thước và số lượng đặc trưng trước khi chuyển sang Dense Block tiếp theo, giúp mô 
+hình tránh được việc gia tăng quá mức số tham số khi mạng trở nên sâu hơn. 
+Một đặc điểm quan trọng của DenseNet121 là việc sử dụng tốc độ tăng trưởng 
+(growth rate) cố định cho các Dense Block. Growth rate xác định số lượng bản đồ đặc 
+trưng mới được tạo ra tại mỗi lớp tích chập. Nhờ cơ chế tái sử dụng đặc trưng thông qua 
+phép nối, DenseNet121 không cần growth rate quá lớn nhưng vẫn đạt hiệu quả học cao. 
+Điều này giúp mô hình có số lượng tham số thấp hơn so với nhiều kiến trúc CNN sâu 
+khác, trong khi vẫn duy trì hoặc cải thiện độ chính xác phân loại. 
+DenseNet121 thường được sử dụng dưới dạng mô hình đã được huấn luyện sẵn 
+--- PAGE 40 ---
+26 
+ 
+(pre-trained model) trên tập dữ liệu ImageNet, bao gồm hơn một triệu ảnh thuộc 1000 
+lớp khác nhau. Việc sử dụng mô hình huấn luyện sẵn cho phép tận dụng các đặc trưng 
+tổng quát đã được học từ tập dữ liệu lớn, sau đó tinh chỉnh (fine-tuning) để phù hợp với 
+bài toán cụ thể. Trong bối cảnh ảnh X -quang ngực, các đặc trưng như biên, kết cấu và 
+hình dạng học được từ ImageNet có thể được tái sử dụng và điều chỉnh để nhận diện các 
+dấu hiệu bất thường trong phổi. 
+So với các kiến trúc CNN khác như VGG16 hay ResNet50, DenseNet121 thể 
+hiện nhiều ưu điểm trong các bài toán phân tích ảnh y tế. Mô hình có khả năng truyền 
+thông tin hiệu quả giữa các lớp, giảm hiện tượng mất gradient và tăng độ ổn định trong 
+quá trình huấn  luyện. Đồng thời, số lượng tham số của DenseNet121 tương đối nhỏ, 
+giúp giảm nguy cơ overfitting, đặc biệt khi tập dữ liệu huấn luyện không lớn – một tình 
+huống thường gặp trong các bài toán y sinh.  Nhiều nghiên cứu đã chỉ ra rằng 
+DenseNet121 đạt hiệu suất cao trong các bài toán liên quan đến ảnh X-quang ngực, bao 
+gồm phân loại bệnh phổi, phát hiện viêm phổi và hỗ trợ chẩn đoán ung thư phổi. Nhờ 
+khả năng trích xuất và tái sử dụng đặc trưng hiệu quả, mô hình có thể phát hiện những 
+thay đổi tinh vi trong cấu trúc phổi mà mắt thường khó nhận biết. Điều này làm cho 
+DenseNet121 trở thành một lựa chọn phù hợp cho bài toán phát hiện dấu hiệu ung thư 
+phổi từ ảnh X-quang ngực. 
+Từ những phân tích trên, có thể thấy rằng DenseNet121 không chỉ là một kiến 
+trúc CNN sâu hiệu quả về mặt kỹ thuật mà còn có tính ứng dụng cao trong lĩnh vực ảnh 
+y tế. Việc lựa chọn DenseNet121 làm mô hình chính trong đề tài này nhằm tận dụng ưu 
+điểm về khả năng học đặc trưng, tính ổn định và hiệu suất phân loại, qua đó góp phần 
+nâng cao độ chính xác trong việc phát hiện dấu hiệu ung thư phổi trên ảnh X -quang 
+ngực. 
+2.4  Học chuyển giao (Transfer Learning) 
+Trong các bài toán học sâu, đặc biệt là những bài toán liên quan đến phân tích 
+ảnh y tế, một trong những thách thức lớn nhất là sự hạn chế về dữ liệu huấn luyện. Việc 
+thu thập và gán nhãn ảnh y tế đòi hỏi nhiều thời gian, chi phí và chuyên môn của bác sĩ, 
+do đó các tập dữ liệu thường có quy mô nhỏ hơn rất nhiều so với các tập dữ liệu thị giác 
+máy tính thông thường. Trong bối cảnh đó, học chuyển giao (Transfer Learning) đã trở 
+--- PAGE 41 ---
+27 
+ 
+thành một phương pháp hiệu quả nhằm cải thiện hiệu suất mô hình và giảm chi phí huấn 
+luyện. 
+Transfer Learning là kỹ thuật trong đó một mô hình đã được huấn luyện trước 
+trên một tập dữ liệu lớn được tái sử dụng cho một bài toán mới có liên quan. Thay vì 
+huấn luyện mô hình từ đầu với trọng số ngẫu nhiên, mô hình sẽ kế thừa các trọng số đã 
+học được từ bài toán trước, sau đó được điều chỉnh (fine-tuning) để phù hợp với bài toán 
+mục tiêu. Cách tiếp cận này cho phép mô hình tận dụng được các đặc trưng tổng quát 
+đã học, đồng thời rút ngắn thời gian huấn luyện và cải thiện khả năng hội tụ. 
+Trong lĩnh vực xử lý ảnh, các mô hình CNN thường được huấn luyện sẵn trên tập 
+dữ liệu ImageNet, bao gồm hơn một triệu ảnh thuộc 1000 lớp khác nhau. Quá trình huấn 
+luyện này giúp mô hình học được các đặc trưng cơ bản và phổ quát của ảnh như cạnh, 
+đường viền, hình dạng và kết cấu. Những đặc trưng này không chỉ hữu ích cho ảnh tự 
+nhiên mà còn có thể được tái sử dụng hiệu quả trong các bài toán ảnh y tế, bao gồm ảnh 
+X-quang ngực. 
+Khi áp dụng Transfer Learning cho bài toán phát hiện dấu hiệu ung thư phổi, 
+DenseNet121 thường được sử dụng dưới dạng mô hình tiền huấn luyện (pre -trained 
+model). Các lớp tích chập ban đầu của mô hình, vốn học các đặc trưng mức thấp và 
+trung gian, được giữ nguyên hoặc chỉ tinh chỉnh nhẹ. Trong khi đó, các lớp phân loại ở 
+phần cuối của mạng sẽ được thay thế hoặc huấn luyện lại để phù hợp với số lớp của bài 
+toán cụ thể, chẳng hạn như phân loại ảnh X -quang thành nhóm có hoặc không có dấu 
+hiệu ung thư phổi. 
+Có hai chiến lược Transfer Learning phổ biến thường được áp dụng. Chiến lược 
+thứ nhất là đóng băng (freeze) các lớp trích xuất đặc trưng và chỉ huấn luyện lại các lớp 
+phân loại ở cuối mạng. Cách tiếp cận này phù hợp khi tập dữ liệu huấn luyện nhỏ và có 
+độ tương đồng cao với tập dữ liệu ban đầu. Chiến lược thứ hai là tinh chỉnh toàn bộ hoặc 
+một phần mạng (fine-tuning), trong đó một số lớp sâu hơn được phép cập nhật trọng số 
+trong quá trình huấn luyện. Phương pháp này giúp mô hình thích nghi tốt hơn với đặc 
+trưng riêng của ảnh X -quang ngực, đặc biệt khi dữ liệu có sự khác biệt đáng kể so với 
+ảnh tự nhiên trong ImageNet. 
+Việc sử dụng Transfer Learning mang lại nhiều lợi ích quan trọng trong bài toán 
+--- PAGE 42 ---
+28 
+ 
+phân tích ảnh X -quang. Trước hết, mô hình có thể đạt được hiệu suất cao hơn so với 
+việc huấn luyện từ đầu trong điều kiện dữ liệu hạn chế. Thứ hai, thời gian huấn luyện 
+được rút ngắn đáng kể do mô hình đã có sẵn các trọng số tốt. Cuối cùng, Transfer 
+Learning giúp giảm nguy cơ overfitting, do mô hình không cần học lại toàn bộ đặc trưng 
+từ dữ liệu nhỏ. 
+Trong nhiều nghiên cứu về phân tích ảnh y tế, Transfer Learning kết hợp với các 
+kiến trúc CNN hiện đại như DenseNet121 đã cho thấy hiệu quả vượt trội trong việc phát 
+hiện và phân loại bệnh lý. Đối với ảnh X -quang ngực, phương pháp này giúp mô hình 
+nhận diện các dấu hiệu bất thường trong cấu trúc phổi một cách chính xác hơn, từ đó hỗ 
+trợ hiệu quả cho quá trình chẩn đoán ung thư phổi. Vì những lý do đó, Transfer Learning 
+được lựa chọn và áp dụng trong đề  này nhằm nâng cao hiệu suất của mô hình 
+DenseNet121 trong bài toán phát hiện dấu hiệu ung thư phổi trên ảnh X-quang ngực. 
+2.5  Xây dựng mô hình h ỗ trợ phát hiện dấu hiệu ung thư ph ổi dựa trên ảnh X-
+quang ngực 
+Từ những cơ sở lý thuyết đã trình bày trong các phần trước, có thể thấy rằng 
+mạng nơ-ron tích chập (Convolutional Neural Network – CNN) đóng vai trò then chốt 
+trong việc trích xuất đặc trưng và phân loại ảnh y khoa, đặc biệt là trong các bài toán 
+phân tích ảnh X-quang lồng ngực. Nhờ khả năng khai thác hiệu quả các đặc trưng không 
+gian và cấu trúc phức tạp trong ảnh, CNN đã cho thấy nhiều ưu thế trong việc hỗ trợ 
+phát hiện các dấu hiệu bất thường trên ảnh X-quang. 
+Tuy nhiên, trong thực tế, dữ liệu y tế thường tồn tại nhiều hạn chế, trong đó nổi 
+bật là vấn đề mất cân bằng dữ liệu. Cụ thể, số lượng ảnh X -quang không có dấu hiệu 
+bệnh thường chiếm ưu thế so với số lượng ảnh có dấu hiệu nghi ngờ ung thư phổi. Sự 
+mất cân bằng này có thể khiến mô hình học máy dễ thiên lệch về lớp đa số, làm giảm 
+khả năng phát hiện chính xác các trường hợp bất thường và gia tăng nguy cơ bỏ sót tổn 
+thương trong quá trình sàng lọc. 
+Để giải quyết vấn đề trên, trong đồ án này, chiến lược xử lý mất cân bằng dữ liệu 
+được thực hiện trực tiếp trong quá trình huấn luyện mô hình thông qua việc gán trọng 
+số cho lớp thiểu số trong hàm mất mát. Cách tiếp cận này giúp mô hình chú ý nhiều hơn 
+đến các mẫu ảnh chứa dấu hiệu nghi ngờ ung thư phổi, đồng thời không làm thay đổi 
+--- PAGE 43 ---
+29 
+ 
+cấu trúc dữ liệu ban đầu hay phát sinh thêm dữ liệu tổng hợp. 
+Trên cơ sở đó, phần này tập trung trình bày chi tiết quy trình xây dựng và huấn 
+luyện mô hình hỗ trợ phát hiện dấu hiệu ung thư phổi từ ảnh X -quang lồng ngực trong 
+đồ án. Mô hình được xây dựng dựa trên kiến trúc DenseNet121 kết hợp với chiến lược 
+học chuyển giao và cơ chế xử lý mất cân bằng dữ liệu trong hàm mất mát, nhằm nâng 
+cao hiệu quả phân loại và khả năng ứng dụng trong thực tiễn lâm sàng. 
+ 
+Hình 2. 5  Sơ đồ kiến trúc xây dựng mô hình phân lớp ảnh ung thư phổi 
+Quy trình xây d ựng mô hình phân l ớp ảnh X-quang lồng ngực trong đề tài này 
+được chúng tôi trình bày trong hình 2.5, dựa trên phương pháp học sâu với mạng nơ-ron 
+tích chập (Convolutional Neural Network – CNN). Mục tiêu của quy trình là xây dựng 
+một mô hình có khả năng phát hiện các dấu hiệu nghi ngờ ung thư phổi từ ảnh X-quang, 
+đồng thời xử lý hiệu quả các đặc thù của dữ liệu y tế như mất cân b ằng giữa các lớp. 
+Các bước chính của quy trình được mô tả như sau: 
+ 
+
+--- PAGE 44 ---
+30 
+ 
+Bước 1: Thu thập dữ liệu (Data Collection) 
+Đây là giai đoạn mở đầu nhưng cũng mang tính quyết định nhất, vì hiệu quả của 
+mô hình học máy phụ thuộc trực tiếp vào mức độ đầy đủ, chính xác và sạch của dữ liệu 
+đầu vào. Trong đề tài này, quá trình huấn luyện và đánh giá mô hình được thực hiện trên 
+bộ dữ liệu ảnh X-quang lồng ngực công khai NIH Chest X -ray, được trích xuất từ 
+kho dữ liệu do Viện Y tế Quốc gia Hoa Kỳ (National Institutes of Health – NIH) công 
+bố. Cụ thể, đề tài sử dụng tập con của bộ dữ liệu này thông qua kho mã nguồn mở nih-
+chest-xray-webdataset-subset, bao g ồm các ảnh X-quang phổi đã đư ợc chuẩn hóa và 
+gán nhãn bệnh lý tương ứng. Bộ dữ liệu cung cấp các ảnh X-quang lồng ngực ở tư thế 
+chuẩn, phản ánh nhi ều tình tr ạng bệnh phổi khác nhau, trong đó có các d ấu hiệu bất 
+thường liên quan đến ung thư phổi. Với quy mô lớn và tính đa dạng cao, bộ dữ liệu này 
+được cộng đồng nghiên cứu sử dụng rộng rãi trong các bài toán học sâu về phân tích ảnh 
+y t ế, đ ặc bi ệt là hu ấn luy ện và đánh giá các mô hình m ạng nơ -ron tích ch ập như 
+DenseNet121 trong bài toán phát hiện bệnh phổi từ ảnh X-quang. 
+Bước 2: Tiền xử lý dữ liệu (Data Preprocessing) 
+Đây là bước đòi hỏi nhiều thời gian và công sức trong toàn bộ quy trình thực hiện 
+đề tài, đồng thời có ảnh hưởng trực tiếp đến hiệu suất và độ ổn định của mô hình. Trong 
+thực tế, dữ liệu ảnh X -quang y tế thường tồn tại nhiều vấn đề như nhiễu, chất lượng 
+không đồng đều và đặc biệt là sự mất cân bằng giữa các lớp dữ liệu. Do đó, việc xử lý 
+và chuẩn bị dữ liệu đóng vai trò then chốt trong việc đảm bảo mô hình học sâu có thể 
+học được các đặc trưng có ý nghĩa. Mục tiêu của bước này là làm sạch và chuẩn hóa dữ 
+liệu, đưa ảnh đầu vào về định dạng thống nhất và phù hợp nhất cho quá trình huấn luyện 
+mô hình học máy. Thông qua các bước tiền xử lý thích hợp, dữ liệu được chuẩn bị sao 
+cho mô hình DenseNet121 có thể khai thác hiệu quả các đặc trưng hình ảnh, đồng thời 
+giảm thiểu tác động tiêu cực của các yếu tố nhiễu và sự mất cân bằng dữ liệu. Các bước 
+xử lý dữ liệu chi tiết sẽ được trình bày cụ thể ở mục 3.2. 
+Bước 3: Xây dựng và huấn luyện mô hình phân lớp ảnh 
+Đây là giai đoạn "học" của máy tính.  Mục tiêu là sử dụng tập dữ liệu huấn luyện (train 
+set) để "dạy" cho các thuật toán học ra các mẫu và mối quan hệ bên trong dữ liệu. Trong 
+đề tài này, mô hình DenseNet121 đư ợc huấn luyện theo chiến lược transfer learning, 
+--- PAGE 45 ---
+31 
+ 
+sử dụng trọng số pretrained trên ImageNet. Quá trình hu ấn luyện được chia thành hai 
+giai đoạn: giai đoạn đầu cố định backbone và chỉ huấn luyện lớp phân loại, sau đó mở 
+khóa toàn bộ mạng với tốc độ học nhỏ để tinh chỉnh mô hình. Chiến lược này giúp mô 
+hình học hiệu quả trên dữ liệu X-quang ngực và giảm nguy cơ overfitting. 
+Bước 4: Triển khai mô hình (Deployment) 
+Một mô hình, dù chính xác đến đâu, cũng sẽ vô dụng nếu nó không được đưa vào 
+ứng dụng thực tế để giải quyết vấn đề.  Mục tiêu của đề tài là tích hợp mô hình đã huấn 
+luyện vào một hệ thống hoặc ứng dụng mà người dùng cuối có thể tương tác. Trong đề 
+tài này bước này được hiện thực hóa bằng cách xây dựng một ứng dụng demo trên nền 
+tảng web bằng thư viện Streamlit. Ứng dụng này cho phép người dùng tải lên ảnh chụp 
+x-quang ngựngực và nhận kết quả dự đoán (Có nguy cơ / Không có nguy cơ) gần như 
+ngay lập tức, biến mô hình từ một khái niệm trừu tượng thành một công cụ hữu ích. 
+Bước 5: Đánh giá mô hình (Model Evaluation) 
+Việc huấn luyện mô hình chỉ là bước khởi đầu; để đảm bảo độ tin cậy, chúng ta 
+cần kiểm chứng hiệu quả hoạt động của nó trên những dữ liệu chưa từng tiếp xúc. Bằng 
+cách sử dụng tập kiểm thử (test set) làm chuẩn đánh giá khách quan, hệ thống sẽ thực 
+hiện dự báo và so sánh kết quả đầu ra với nhãn thực tế, từ đó xác định được mức độ 
+chính xác của thuật toán .Các độ đo (sẽ được đi sâu ở mục 2.6): Sử dụng một loạt các 
+chỉ số như Accuracy, Precision, Recall, F1 -Score, và ROC -AUC để có cái nhìn toàn 
+diện, đặc biệt là trong bối cảnh y tế nơi việc bỏ sót bệnh (False Negative) là rất nguy 
+hiểm. 
+2.6  Các độ đo được sử dụng để đánh giá mô hình phân lớp 
+Với đề tài này, em sử dụng một tập hợp các độ đo đánh giá phổ biến trong lĩnh 
+vực học sâu để đo lường hiệu quả của mô hình. Các độ đo này không chỉ phản ánh độ 
+chính xác tổng thể, mà còn giúp đánh giá cụ thể năng lực của mô hình trong việc phát 
+hiện tổn thương ác tính – vốn là yếu tố then chốt trong bối cảnh ứng dụng y học. 
+2.6.1  Ma trận nhầm lẫn (Confusion Matrix) 
+Đây là công cụ trực quan cho phép chúng tôi theo dõi cụ thể số lượng dự 
+đoán đúng và sai của mô hình đối với từng lớp. Ma trận gồm bốn thành phần: 
+--- PAGE 46 ---
+32 
+ 
+- True Positive (TP): Mẫu ác tính được dự đoán đúng là ác tính. 
+- True Negative (TN): Mẫu lành tính được dự đoán đúng là lành tính. 
+- False Positive (FP): Mẫu lành tính bị dự đoán nhầm là ác tính. 
+- False Negative (FN): Mẫu ác tính bị bỏ sót, dự đoán sai là lành tính. 
+2.6.2  Accuracy – Độ chính xác tổng thể 
+Accuracy đo lường tỷ lệ dự đoán đúng trên toàn bộ tập dữ liệu: 
+Accuracy= TP+TN
+TP+TN+FP+FN 
+Tuy là chỉ số phổ biến, nhưng accuracy không phản ánh đúng hiệu năng khi dữ 
+liệu mất cân bằng. Ví dụ, một mô hình dự đoán tất cả là lành tính vẫn có thể đạt accuracy 
+cao, dù hoàn toàn không phát hiện được ca bệnh. 
+2.6.3  Precision – Độ chính xác theo lớp dương 
+Precision đo lường mức độ chính xác của các dự đoán "ác tính" (lớp dương): 
+Precision= TP
+TP+FP 
+   Trong bối cảnh chẩn đoán bệnh, precision giúp đánh giá mức độ cảnh báo sai 
+(false alarm) của mô hình – một mô hình có precision cao sẽ ít gây lo lắng sai cho bệnh 
+nhân lành tính. 
+2.6.4  Recall – Độ bao phủ (Sensitivity) 
+Recall phản ánh khả năng mô hình phát hiện đúng các ca bệnh thực sự (tránh bỏ sót ca 
+bệnh): 
+Recall= TP
+TP+FN 
+Với các ứng dụng y tế, recall có ý nghĩa đặc biệt quan trọng, vì bỏ sót một ca 
+bệnh ác tính có thể dẫn đến hậu quả nghiêm trọng. 
+2.6.5  F1-Score – Trung bình điều hòa giữa Precision và Recall 
+F1-score tổng hợp cả precision và recall vào một chỉ số duy nhất: 
+ 
+--- PAGE 47 ---
+33 
+ 
+F1-score=2× Precision×Recall
+Precision+Recall 
+Đây là chỉ số thường được dùng trong các bài toán mất cân bằng vì nó cân đối 
+giữa hai tiêu chí: không bỏ sót bệnh (recall cao) và không cảnh báo sai (precision cao). 
+2.6.6  ROC Curve và AUC – Khả năng phân biệt mô hình 
+ROC Curve thể hiện mối quan hệ giữa True Positive Rate (Recall) và False 
+Positive Rate (FPR) ở các ngưỡng phân loại khác nhau. 
+AUC (Area Under Curve) đo diện tích dưới đường ROC. AUC càng gần 1, mô 
+hình càng có khả năng phân biệt tốt giữa hai lớp. 
+AUC giúp chúng tôi đánh giá tổng thể năng lực mô hình trong việc phân biệt 
+giữa ảnh lành tính và ác tính – độc lập với bất kỳ một ngưỡng dự đoán cụ thể nào. 
+ 
+ 
+ 
+  
+--- PAGE 48 ---
+34 
+ 
+CHƯƠNG 3. CÀI ĐẶT VÀ THỰC NGHIỆM 
+3.1  Tập dữ liệu 
+Trong chương này, chúng tôi sẽ trình bày những kết quả nhận được từ quá trình 
+huấn luyện và đánh giá mô hình. Các kết quả này bao gồm độ chính xác của mô hình, 
+các chỉ số đánh giá khác như precision, recall, F1-score, và ma trận nhầm lẫn 
+(confusion matrix). 
+Đề tài này tập trung vào việc giải quyết một trong những bài toán quan trọng và 
+thách thức nhất trong lĩnh vực y học ứng dụng AI: hỗ trợ phát hiện dấu hiệu ung thư 
+phổi. Dưới góc độ khoa học máy tính, bài toán này được định nghĩa là một bài toán 
+phân loại hình ảnh nhị phân có giám sát (supervised binary image classification). 
+Mục tiêu của mô hình là nhận một hình ảnh X-quang ngực làm đầu vào và đưa ra dự 
+đoán chính xác về bản chất của tổn thương đó thuộc một trong hai lớp: Lành tính 
+(Benign - Lớp 0) hoặc Ác tính (Malignant - Lớp 1). 
+Để thực hiện bài toán, nghiên cứu sử dụng tập dữ liệu  con của bộ dữ liệu NIH 
+ChestX-ray14. Sau khi lọc bỏ bớt các mẫu dương, tập dữ liệu cuối cùng dùng cho thực 
+nghiệm bao gồm 18.481 hình ảnh. Để đảm bảo kết quả đánh giá mô hình được khách 
+quan và đáng tin cậy, phương pháp Kiểm định chéo phân tầng 5-fold ( 5-Fold 
+Stratified Cross-Validation) được áp dụng. Theo đó, toàn bộ dữ liệu được chia thành 
+5 phần (folds) có kích thước và tỷ lệ lớp tương đương nhau. Trong đó, 12.000 mẫu 
+được sử dụng cho quá trình huấn luyện mô hình, nhằm học các đặc trưng cần thiết cho 
+bài toán phát hi ện dấu hiệu ung thư ph ổi. Phần dữ liệu còn lại gồm 6.481 mẫu được 
+giữ làm tập kiểm tra (test), dùng để đánh giá hiệu năng của mô hình trên dữ liệu chưa 
+từng xuất hiện trong quá trình huấn luyện. 
+3.2  Huấn luyện mô hình phân lớp ảnh  
+Bước 1 - Tiền xử lý và Nâng cao ch ất lượng ảnh: Trước khi ti ến hành hu ấn 
+luyện mô hình, dữ liệu ảnh X-quang ngực được tiền xử lý và chuẩn hóa thông qua các 
+hàm biến đổi nhằm đảm bảo tính đồng nhất của dữ liệu đầu vào và c ải thiện khả năng 
+học của mô hình. Cụ thể, hai tập phép biến đổi (transform) riêng biệt được xây dựng cho 
+giai đoạn huấn luyện và xác thực. 
+--- PAGE 49 ---
+35 
+ 
+Đối với tập huấn luyện, mỗi ảnh X-quang đầu vào sẽ lần lượt trải qua chuỗi các 
+bước xử lý sau đây để đảm bảo chất lượng dữ liệu đầu vào tốt nhất cho mô hình: 
+⚫ CLAHE (Contrast Limited Adaptive Histogram Equalization): Đây là bước 
+tiền xử lý đầu tiên và quan trọng nhất. Kỹ thuật này giúp cân bằng lược đồ xám 
+cục bộ, tăng cường độ tương phản một cách thích nghi. Mục đích chính là làm 
+nổi bật các chi tiết nốt mờ (Nodule) hoặc khối u (Mass) vốn có độ tương phản 
+thấp hoặc bị che khuất bởi bóng xương sườn, đồng thời hạn chế việc khuếch đại 
+nhiễu nền (noise) quá mức. 
+⚫ Resize((256, 256)): Chuẩn hóa kích thư ớc không gian c ủa toàn b ộ ảnh về độ 
+phân giải cố định (256 x 256). Bước này đảm bảo tính nhất quán về kích thước 
+đầu vào (input shape) cho mạng nơ-ron tích chập. 
+⚫ RandomHorizontalFlip(): Thực hiện lật ảnh ngẫu nhiên theo chiều ngang (với 
+xác suất 50%). K ỹ thuật này giúp tăng cư ờng tính đa d ạng của dữ liệu (data 
+augmentation), đặc biệt phù hợp với ảnh X-quang ngực thẳng do cấu trúc giải 
+phẫu cơ thể người có tính đối xứng tương đối, giúp mô hình h ọc được các đặc 
+trưng bất biến. 
+⚫ RandomRotation(10): Xoay ảnh ngẫu nhiên trong khoảng biên độ ±100. Việc 
+này nhằm mô phỏng các sai lệch thực tế về tư thế của bệnh nhân hoặc góc chụp 
+trong lâm sàng, qua đó giúp mô hình tăng khả năng tổng quát hóa và giảm thiểu 
+hiện tượng quá khớp (overfitting). 
+⚫ ToTensor(): Chuyển đổi dữ liệu ảnh từ định dạng PIL (hoặc mảng Numpy) có 
+giá trị [0, 255] sang định dạng Tensor đa chiều (C, H, W) với giá trị thực nằm 
+trong khoảng [0, 1]. Đây là đ ịnh dạng bắt buộc để thực hiện các phép tính ma 
+trận trên GPU. 
+⚫ Normalize(mean, std): Chuẩn hóa giá trị điểm ảnh dựa trên bộ tham số trung 
+bình (mean) và đ ộ lệch chu ẩn (std) c ủa t ập d ữ liệu ImageNet  
+μ=[0.485, 0.456, 0.406], σ=[0.229,  0.224, 0.225]. Việc này giúp phân ph ối 
+dữ liệu đầu vào tương đồng với dữ liệu mà mô hình DenseNet121 gốc đã được 
+huấn luyện, giúp quá trình hội tụ (convergence) diễn ra nhanh và ổn định hơn. 
+--- PAGE 50 ---
+36 
+ 
+ Đối với tập xác thực, để đảm bảo việc đánh giá chính xác khả năng hội tụ của mô 
+hình, dữ liệu chỉ được áp dụng các phép biến đổi cơ bản, bao gồm: 
+⚫ CLAHE 
+⚫ Resize (256,256) 
+⚫ ToTensor() 
+⚫ Normalize (mean, std) 
+Việc không sử dụng các phép biến đổi ngẫu nhiên (random augmentation) 
+cho tập xác thực giúp tránh nhiễu trong quá trình đánh giá và đảm bảo sự công bằng 
+khi so sánh hiệu năng mô hình giữa các epoch. 
+Bước 2 – Xử lý mất cân bằng dữ liệu trong quá trình huấn luyện 
+Đây là bước quan trọng nhằm giải quyết vấn đề mất cân bằng lớp, vốn thường 
+gặp trong các bài toán phát hiện bệnh lý từ ảnh y sinh học. Trong tập dữ liệu X -quang 
+ngực, số lượng ảnh chứa dấu hiệu ung thư (Mass/Nodule) chiếm tỷ lệ nhỏ hơn đáng kể 
+so với ảnh b ình thường, nếu không xử lý sẽ khiến mô hình có xu hướng thiên lệch về 
+lớp đa số.  Trong đề tài này, t ừ các nhãn bệnh lý ban đầu, một nhãn nhị phân 
+Mass_Nodule được tạo ra. Ảnh được gán nhãn dương tính nếu xuất hiện ít nhất một 
+trong hai dấu hiệu Mass hoặc Nodule. Cách xây dựng nhãn này giúp tập trung trực tiếp 
+vào mục tiêu phát hiện dấu hiệu ung thư phổi. 
+Tiếp đó thay vì can thiệp ở mức dữ liệu bằng cách tạo mẫu nhân tạo, đề tài  này 
+đã áp dụng chiến lược cân bằng ở mức hàm mất mát. Cụ thể, hàm BCEWithLogitsLoss 
+được sử dụng với tham số pos_weight, trong đó trọng số của lớp dương được tính toán 
+dựa trên tỷ lệ giữa số mẫu âm và số mẫu dương trong tập huấn luyện. Cách tiếp cận này 
+giúp tăng mức phạt đối với các dự đoán sai thuộc lớp thiểu số, buộc mô hình chú ý nhiều 
+hơn đến các đặc trưng liên quan đến tổn thương phổi, đồng thời vẫn giữ nguyên toàn bộ 
+dữ liệu gốc nhằm tránh làm mất thông tin quan trọng. Thông qua phương pháp trên, vấn 
+đề mất cân bằng dữ liệu được xử lý một cách hiệu quả ngay trong quá trình tối ưu mô 
+hình, tạo tiền đề cho quá trình huấn luyện ổn định và nâng cao hiệu năng phân loại ở các 
+bước tiếp theo. 
+ 
+--- PAGE 51 ---
+37 
+ 
+Bước 3 - Huấn luyện mô hình Densenet121 
+  Mô hình CNN trong đề tài này được huấn luyện và đánh giá trên tập dữ liệu ảnh 
+X-quang lồng ngực được trích xuất từ bộ NIH ChestX-ray, trong đó nhãn được xây dựng 
+dựa trên sự xuất hiện của các dấu hiệu Mass hoặc Nodule. 
+Đề tài triển khai mô hình dựa trên kiến trúc gốc của DenseNet121, tận dụng thế 
+mạnh của các khối Dense Block với cơ chế kết nối dày đặc. Cấu trúc này cho phép mô 
+hình trích xuất được các đặc trưng bệnh lý phức tạp dưới dạng một vector đặc trưng có 
+chiều 1024. Để phù hợp với mục tiêu phân loại nhị phân (có dấu hiệu nghi ngờ ung thư 
+hoặc không), lớp phân loại nguyên bản của DenseNet đã được thay thế bằng một lớp 
+tuyến tính mới: nn.Linear(1024, 1). Đầu ra của lớp này là một giá trị Logit đơn lẻ, đóng 
+vai trò là cơ sở để tính toán xác suất dự đoán thông qua hàm Sigmoid. 
+Để đánh giá mô hình một cách khách quan nhất trên tập dữ liệu 12.000 mẫu, kỹ 
+thuật 5-Fold Stratified Cross-Validation được áp dụng. Dữ liệu được chia thành 5 phần 
+(folds), mỗi phần giữ nguyên tỉ lệ giữa lớp âm và dương. Mô hình được huấn luyện 5 
+lần, mỗi lần dùng 4 phần để học và 1 phần để kiểm chứng. Tiếp theo để tối ưu hóa hiệu 
+năng trên dữ liệu ảnh y khoa, đề tài thực hiện chiến lược Full Unfreeze (giải phóng toàn 
+bộ tham số) thay vì chỉ huấn luyện lớp phân loại cuối cùng. Cụ thể, tất cả các lớp trong 
+mạng đều được thiết lập thuộc tính requires_grad = True, cho phép thuật toán tối ưu cập 
+nhật lại toàn bộ hệ thống trọng số trong suốt quá trình huấn luyện. Cách tiếp cận này 
+giúp mô hình không chỉ tận dụng được khả năng nhận diện hình ảnh từ tập ImageNet 
+mà còn có thể tự điều chỉnh và thích nghi hoàn toàn với các đặc thù hình thái học tinh 
+vi trên ảnh X-quang phổi, từ đó nâng cao độ chính xác trong việc phát hiện các khối u 
+và nốt sần. 
+Để khắc phục tỉ lệ lệch 7:1, đề tài dùng hàm BCEWithLogitsLoss tích hợp tham 
+số trọng số pos_weight. Trọng số lớp dương được tính toán động cho từng fold: 
+Wpos= 
+Nnegative
+Npositive
+ x 2.0 
+Việc nhân thêm hệ số 2.0 nhằm chủ động tăng cường mức phạt đối với các lỗi bỏ 
+sót mẫu bệnh (False Negative), buộc mô hình tập trung tối đa vào việc phát hiện các dấu 
+hiệu ung thư. 
+Để đảm bảo quá trình huấn luyện diễn ra ổn định và đạt được sự hội tụ tối ưu, 
+--- PAGE 52 ---
+38 
+ 
+các siêu tham số của mô hình đã được thiết lập một cách chặt chẽ. Cụ thể, đề tài sử dụng 
+thuật toán tối ưu Adam Optimizer với tốc độ học (LR) được duy trì ở mức thấp là  3 x 
+10-5 . Việc lựa chọn tốc độ học nhỏ này đóng vai trò then chốt trong giai đoạn fine -
+tuning toàn mạng, giúp mô hình điều chỉnh các bộ lọc đặc trưng một cách tinh tế mà 
+không làm phá vỡ các tri thức quan trọng đã học được từ tập ImageNet. Quá trình xử lý 
+dữ liệu được thực hiện theo từng đợt với kích thước Batch size là 32 mẫu, giúp cân bằng 
+giữa tốc độ tính toán và độ chính xác của ước lượng đạo hàm. 
+Nhằm ngăn chặn hiện tượng quá khớp (overfitting) và đảm bảo khả năng tổng 
+quát hóa của mô hình, cơ chế Dừng sớm (Early Stopping) đã được triển khai để giám 
+sát trực tiếp chỉ số AUC trên tập xác thực. Hệ thống được cài đặt với tham số 
+MIN_DELTA là 1 x 10-4 và PATIENCE là 8 epoch. Điều này có nghĩa là nếu chỉ số 
+AUC không ghi nhận mức cải thiện vượt quá ngưỡng  1 x 10-4 trong suốt 8 epoch liên 
+tiếp, quá trình huấn luyện sẽ tự động chấm dứt. Tại thời điểm đó, mô hình sẽ truy xuất 
+và lưu lại Checkpoint có giá trị AUC cao nhất của fold tương ứng, đảm bảo rằng phiên 
+bản mô hình cuối cùng luôn là phiên bản có khả năng nhận di ện tốt nhất trên dữ liệu 
+kiểm chứng. 
+Trong giai đoạn đánh giá, mô hình sử dụng hàm Sigmoid để chuyển đổi Logit 
+thành xác suất P ϵ [0, 1]. Thay vì sử dụng ngưỡng 0.5, thực nghiệm xác định ngưỡng tối 
+ưu thông qua Chỉ số Youden J: 
+J = TPR - FPR 
+Trong đó:  
+TPR = TP 
+TP + FN ,  FPR= FP
+FP + TN 
+Vị trí ngưỡng mang lại giá trị J lớn nhất trên đường cong ROC được chọn để đưa 
+ra quyết định phân loại cuối cùng, giúp cân bằng giữa độ nhạy và độ đặc hiệu trong chẩn 
+đoán. 
+3.3  Phân tích kết quả thực nghiệm 
+Sau khi hoàn thiện quá trình huấn luyện, em đã tiến hành đánh giá mô hình phân 
+lớp ảnh trên toàn bộ dữ liệu test đã được tổng hợp từ 5 Fold kiểm định chéo. Mục tiêu 
+của phần này là xác định hiệu quả thực tiễn của phương pháp đề xuất, cả về khả năng 
+phân loại chính xác và sự ổn định khi triển khai trong bối cảnh dữ liệu thực tế có tính 
+--- PAGE 53 ---
+39 
+ 
+mất cân bằng. 
+Bảng 3. 1 Bảng kết quả mô hình Densenet121 
+Lớp Precision Recall F1-Score Support 
+Benign (Lành 
+tính) 0.9301 0.8688 0.8984 
+ 
+5,833 
+ 
+Malignant (Ác 
+tính) 0.2580 0.4111 0.3170 647 
+Accuracy   0.8231 6,480 
+Macro avg 0.5940 0.6400 0.6077 6,480 
+Weighted avg 0.8630 0.8231 0.8403 6,480 
+Chỉ số AUC tổng hợp: 
+-  ROC-AUC Score: 0.7132 
+-  Precision-Recall AUC: 0.272 
+ 
+Hình 3. 1 Ma trận nhầm lẫn trên mô hình Densenet121 
+
+--- PAGE 54 ---
+40 
+ 
+ 
+Hình 3. 2 Biểu đồ chỉ số ROC trên mô hình  
+ 
+Hình 3. 3 Biểu đồ chỉ số Precision-Recall AUC trên mô hình 
+
+--- PAGE 55 ---
+41 
+ 
+ 
+ 
+Hình 3. 4  Biểu đồ huấn luyện giữa các epoch trên mô hình kết hợp 
+Kết quả đánh giá hiệu năng của mô hình  phân lớp trên kiến trúc DenseNet121 
+cho thấy sự đánh đổi mang tính chiến lược giữa độ chính xác tổng thể và khả năng phát 
+hiện ca bệnh trong bối cảnh dữ liệu y tế mất cân bằng nghiêm trọng. Trên toàn bộ tập 
+dữ liệu kiểm thử độc lập, mô hình đạt độ chính xác tổng thể (Accuracy) là 0.8231, tức 
+hơn 82% số lượng ảnh X-quang được phân loại đúng. Các chỉ số trung bình có trọng số 
+(Weighted Avg) cho Precision, Recall và F1 -score đều duy trì ở mức cao, dao động từ 
+0.82 đến 0.86, phản ánh sự ổn định của mô hình khi vận hành trên tập dữ liệu lớn. 
+Khi phân tích chi tiết theo từng lớp, mô hình thể hiện ưu thế vượt trội trong việc 
+nhận diện các trường hợp bình thường. Cụ thể, với lớp Benign (Lành tính), mô hình đạt 
+độ chính xác (Precision) đến 0.9301 và độ nhạy (Recall) là 0.8688, dẫn đến chỉ số F1 -
+score đạt 0.8984. Điều này chứng minh hệ thống có độ đặc hiệu (Specificity) rất cao, 
+giúp sàng lọc và loại trừ hiệu quả các ca không mắc bệnh, giảm thiểu đáng kể tỷ lệ báo 
+động giả (False Positives) gây hoang mang không cần thiết cho bệnh nhân.  Đối với lớp 
+Malignant (Ác tính) – lớp dữ liệu thiểu số (chỉ chiếm khoảng 10% tổng dữ liệu) nhưng 
+mang ý nghĩa lâm sàng quan trọng nhất – mô hình đối mặt với thách thức lớn về mặt 
+tổng quát hóa đặc trưng. Tại ngưỡng quyết định (threshold) mặc định là 0.54, mô hình 
+đạt chỉ số Recall là 0.4111 và Precision là 0.2580. Mặc dù chỉ số F1 -score của lớp này 
+chỉ ở mức 0.3170, nhưng đây là hệ quả tất yếu của việc mô hình hoạt động theo cơ chế 
+"thận trọng" (Conservative Classifier). Thay vì dự đoán tràn lan để bắt hết bệnh (gây 
+nhiễu), mô hình hiện tại ưu tiên độ tin cậy cao cho các dự đoán dương tính. Tuy nhiên, 
+
+--- PAGE 56 ---
+42 
+ 
+kết quả này cũng gợi mở hướng cải thiện rõ ràng: trong triển khai thực tế, việc hạ 
+ngưỡng quyết định (Threshold Tuning) xuống mức thấp hơn (ví dụ 0.2 - 0.3) là hoàn 
+toàn khả thi để ưu tiên tăng độ nhạy (Recall), đảm bảo nguyên tắc "không bỏ sót bệnh" 
+trong y học sàng lọc. 
+Bên cạnh các chỉ số định lượng, việc phân tích trực quan quá trình huấn luyện 
+thông qua chiến lược 5-Fold Cross -Validation cho thấy sự ổn định của thuật toán. 
+Đường biểu diễn độ chính xác (Accuracy) và hàm mất mát (Loss) trên cả tập huấn luyện 
+và tập kiểm định đều có xu hướng hội tụ đồng nhất, kiểm soát tốt hiện tượng quá khớp 
+(Overfitting). Đặc biệt, chỉ số diện tích dưới đư ờng cong ROC-AUC trung bình đạt 
+ngưỡng xấp xỉ 0.735. Đây là mức chỉ số phản ánh khả năng phân tách (Separability) ở 
+mức độ khá giữa hai lớp bệnh và lành tính. Đường cong ROC cho thấy mô hình duy trì 
+được tỷ lệ True Positive Rate ổn định mà không làm gia tăng đột biến tỷ lệ False Positive 
+Rate, chứng minh kiến trúc DenseNet121 đã trích xuất thành công các đặc trưng bệnh 
+lý cốt lõi bất chấp sự nhiễu loạn của dữ liệu ngẫu nhiên. 
+Có thể thấy các kết quả định lượng và trực quan đều chỉ ra rằng: Mặc dù bị ảnh 
+hưởng bởi sự mất cân bằng dữ liệu, mô hình vẫn đạt được sự ổn định cần thiết và độ tin 
+cậy cao trên nhóm đa số. Với khả năng tùy biến ngưỡng dự đoán linh hoạt, hệ thống 
+hoàn toàn có tiềm n ăng ứng dụng như một công cụ hỗ trợ thứ cấp (Second opinion), 
+giúp bác sĩ khoanh vùng nhanh các ca nghi ngờ trong quy trình chẩn đoán hình ảnh. 
+3.4  So sánh với mô hình Densenet121 thuần 
+Để đánh giá hiệu quả thực tiễn của phương pháp đề xuất, chúng tôi đã tiến hành 
+so sánh kết quả giữa mô hình DenseNet121 cơ sở (Baseline - sử dụng hàm mất mát tiêu 
+chuẩn) với mô hình DenseNet121 cải tiến trên cùng bộ dữ liệu kiểm thử. 
+--- PAGE 57 ---
+43 
+ 
+ 
+Hình 3. 5 Ma trận nhầm lẫn trên mô hình Densenet121 thuần 
+ 
+Hình 3. 6 Biểu đồ ROC trên mô hình Densenet121 thuần 
+ 
+
+--- PAGE 58 ---
+44 
+ 
+ 
+Hình 3. 7 Biểu đồ Precision-Recall AUC trên mô hình Densenet121 thuần 
+ 
+Hình 3. 8 Biểu đồ huấn luyện giữa các epoch trên mô hình Densenet121 thuần 
+Về mặt hiệu suất tổng thể, mô hình DenseNet121 cải tiến (sử dụng Weighted 
+Loss) đạt độ chính xác tổng thể (Accuracy) là 82.31%, cao hơn đáng kể so với mức 
+75.99% của mô hình cơ sở. Sự cải thiện hơn 6.3% này phản ánh khả năng phân loại ổn 
+định và giảm thiểu sai sót trên toàn bộ tập dữ liệu kiểm thử. 
+Xét riêng về khả năng phân tách đặc trưng – yếu tố cốt lõi trong bài toán chẩn 
+đoán hình ảnh, mô hình đề xuất thể hiện sự ưu việt thông qua chỉ số ROC-AUC. Cụ thể, 
+
+--- PAGE 59 ---
+45 
+ 
+chỉ số này đã tăng từ 0.7110 (ở mô hình cơ sở) lên 0.7350 (ở mô hình đề xuất). Mức 
+tăng này khẳng định rằng việc tích hợp hàm mất mát có trọng số đã giúp mạng nơ -ron 
+học được các đặc trưng bệnh lý "tinh khiết" hơn, ít bị nhiễu bởi sự mất cân bằng dữ liệu 
+so với mô hình gốc. Kết quả cũng được củng cố rõ nét qua phân tích ma trận nhầm lẫn 
+(Confusion Matrix). Mô hình cơ sở – do buộc phải hạ ngưỡng quyết định xuống rất 
+thấp (0.15) để bắt bệnh – đã dự đoán nhầm tới 1.232 ảnh lành tính sang ác tính (False 
+Positive), tạo ra tỷ lệ báo động giả rất cao, gây áp lực lớn cho quy trình sàng lọc. Ngược 
+lại, mô hình đề xuất hoạt động ở ngưỡng tiêu chuẩn (0.54) đã khắc phục triệt để vấn đề 
+này, duy trì độ đặc hiệu (Specificity) cao và chỉ đưa ra cảnh báo khi độ tin cậy đủ l ớn. 
+Mặc dù độ nhạy (Recall) ở ngưỡng mặc định của mô hình đề xuất thấp hơn (41.11% so 
+với 49.92%), nhưng điều này hoàn toàn có thể điều chỉnh linh hoạt bằng cách hạ ngưỡng 
+(Threshold Tuning) mà vẫn đảm bảo nền tảng AUC và độ chính xác tổng thể vượt trội 
+hơn mô hình gốc. 
+Ngoài ra, khi phân tích biểu đồ huấn luyện, mô hình đề xuất thể hiện đường học 
+ổn định hơn hẳn. Đường cong hàm mất mát (Training Loss) giảm đều và mượt mà theo 
+các epoch, cho thấy mô hình hội tụ tốt. Trong khi đó, mô hình cơ sở thường có hiện 
+tượng dao động mạnh hoặc học lệch (bias) về phía lớp đa số do không có cơ chế xử lý 
+mất cân bằng dữ liệu. 
+Tóm lại, những so sánh định lượng và trực quan đều cho thấy rằng việc tích hợp 
+chiến lược Weighted Loss vào pipeline huấn luyện DenseNet121 không chỉ giúp khắc 
+phục nhược điểm cố hữu của dữ liệu y tế (Imbalanced Data), mà còn nâng cao đáng kể 
+độ tin cậy của hệ thống, biến một mô hình có độ chính xác thấp thành một công cụ hỗ 
+trợ chẩn đoán hiệu quả và thực tế hơn.  
+3.5  Ứng dụng hỗ trợ phát hiện dấu hiệu ung thư phổi 
+Ứng dụng hỗ trợ phát hiện dấu hiệu ung thư phổi  được thiết kế với 3 phân hệ 
+chức năng chính, tương ứng với 3 mục điều hướng trên giao diện (Sidebar): Trang chủ  
+và Lịch sử 
+1. Phân hệ Phân tích X-quang (Trang chủ) 
+Đây là chức năng trung tâm của ứng dụng, hỗ trợ người dùng/nhân viên y tế tải 
+--- PAGE 60 ---
+46 
+ 
+ảnh X-quang ngực và nhận kết quả dự đoán dấu hiệu bất thường.  Người dùng sẽ tải lên 
+ảnh X-quang (định dạng JPG/PNG). Ứng dụng hỗ trợ 2 chế độ thông qua Tabs: 
+⚫ Chẩn đoán ca bệnh: tải 1 ảnh cho một trường hợp cụ thể. 
+⚫ Sàng lọc hàng loạt: tải nhiều ảnh cùng lúc để sàng lọc nhanh. 
+ 
+Hình 3. 9 Giao diện thao tác của chức năng Chẩn đoán ca bệnh 
+ 
+ 
+Hình 3. 10 Giao diện thao tác của chức năng Sàng lọc hàng loạt 
+Khi người dùng tải ảnh và xác nhận quyền sử dụng hợp pháp, hệ thống sẽ tiền xử 
+lý ảnh, sau đó đưa ảnh vào mô hình DenseNet121 đã huấn luyện để kiểm tra và đưa ra 
+kết quả. 
+Đầu ra: Hệ thống hiển thị kết quả dưới dạng: 
+⚫ Nhãn dự đoán: BÌNH THƯỜNG hoặc NGUY CƠ CAO 
+⚫ Risk Score: điểm nguy cơ (0–100) và thanh biểu diễn mức nguy cơ. 
+⚫ Xác suất dự đoán (Positive) và độ tin cậy. 
+⚫ Hiển thị trực quan vùng chú ý của mô hình: gồm 2 tab Ảnh gốc và Overlay 
+(Grad-CAM), giúp người dùng quan sát khu vực mà mô hình tập trung để đưa 
+
+--- PAGE 61 ---
+47 
+ 
+ra dự đoán. 
+ 
+ 
+Hình 3. 11 Giao diện kết quả phân tích của chức năng Chẩn đoán ca bệnh 
+ 
+Hình 3. 12 Giao diện kết quả phân tích của chức năng Sàng lọc hàng loạt 
+
+--- PAGE 62 ---
+48 
+ 
+ 
+Hình 3. 13 Giao diện Vùng chú ý  
+Nhờ cơ chế này, người dùng không chỉ nhận được kết quả phân loại mà còn có 
+thêm thông tin trực quan hỗ trợ giải thích quyết định của mô hình, từ đó tăng tính minh 
+bạch khi sử dụng hệ thống trong bối cảnh hỗ trợ sàng lọc. 
+5. Phân hệ lịch sử (Trang lịch sử) 
+Phân hệ Lịch sử dùng để lưu lại các lần phân tích đã thực hiện trong phiên làm 
+việc, giúp người dùng theo dõi và đối chiếu kết quả mà không cần tải lại ảnh từ đầu.   
+Sau mỗi lần phân tích, hệ thống tự động ghi lại: 
+⚫ Thời gian thực hiện (timestamp) 
+⚫ Kết quả dự đoán (BÌNH THƯỜNG / NGUY CƠ CAO) 
+⚫ Risk Score 
+⚫ Ảnh thu nhỏ (thumbnail) của ảnh X-quang tương ứng 
+ Lịch sử được trình bày dạng danh sách, mỗi mục gồm ảnh thu nhỏ và các thông 
+tin tóm tắt (thời gian – kết quả – điểm nguy cơ), giúp người dùng xem nhanh nhiều 
+trường hợp trên một màn hình. Ở trang lịch sử, người dùng còn có thể: 
+⚫ Xóa lịch sử để làm mới phiên làm việc 
+⚫ Xóa kết quả sàng lọc hàng loạt (nếu có) nhằm dọn dữ liệu bảng kết quả trước 
+
+--- PAGE 63 ---
+49 
+ 
+khi chạy một lượt sàng lọc mới 
+Phân hệ này hỗ trợ việc quản lý luồng làm việc, đặc biệt hữu ích trong trường 
+hợp cần xem lại nhiều ca phân tích liên tiếp hoặc đối chiếu kết quả sau khi sàng lọc 
+nhiều ảnh. 
+ 
+ 
+Hình 3. 14 Giao diện chức năng xem Lịch sử 
+Phân hệ này hỗ trợ việc quản lý luồng làm việc, đặc biệt hữu ích trong trường 
+hợp cần xem lại nhiều ca phân tích liên tiếp hoặc đối chiếu kết quả sau khi sàng lọc 
+nhiều ảnh. 
+  
+ 
+  
+ 
+ 
+  
+ 
+  
+
+--- PAGE 64 ---
+50 
+ 
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN CỦA ĐỀ TÀI 
+Kết quả đồ án tốt nghiệp 
+Trong đề tài này, chúng tôi đã xây dựng một hệ thống hỗ trợ phát hiện dấu hiệu 
+ung thư trên ảnh X-quang ngực bằng phương pháp học sâu, với hai hướng tiếp cận chính: 
+mô hình DenseNet121 cơ sở (Baseline) và mô hình DenseNet121 cải tiến tích hợp hàm 
+mất mát có trọng số (Weighted Loss). Để tối ưu hóa kh ả năng nhận diện, chúng tôi đã 
+áp d ụng k ỹ thuật ti ền x ử lý CLAHE (Contrast Limited Adaptive Histogram 
+Equalization) nhằm tăng cường độ tương phản cục bộ, giúp làm n ổi bật các đặc trưng 
+bệnh lý thường bị mờ nhạt trên phim X-quang gốc.Mục tiêu trọng tâm của đề tài là giải 
+quyết bài toán mất cân bằng dữ liệu nghiêm trọng (tỷ lệ 1:9) – một thách thức kinh điển 
+trong chẩn đoán hình ảnh y tế, khi số lượng ca bệnh thực tế (lớp dương tính) thường ít 
+hơn rất nhiều so với các ca bình thường. 
+Đầu tiên, chúng tôi triển khai mô hình DenseNet121 cơ sở (Baseline) sử dụng 
+hàm mất mát Cross-Entropy tiêu chuẩn để thiết lập mốc tham chiếu hiệu năng. Kết quả 
+thực nghiệm cho thấy mô hình này gặp hiện tượng 'thiên kiến lớp đa số' nghiêm trọng: 
+dù đạt độ chính xác  toàn cục (Accuracy) ở mức ổn định nhưng lại thất bại trong việc 
+nhận diện các tổn thương ác tính, thể hiện qua chỉ số Recall cực thấp (dưới 50%) và tỷ 
+lệ bỏ sót ca bệnh (False Negative) rất cao.  Nhằm khắc phục hạn chế này, chúng tôi đề 
+xuất quy trình cải tiến kết hợp giữa tiền xử lý và điều chỉnh thuật toán. Cụ thể, kỹ thuật 
+CLAHE được áp dụng để tăng cường độ tương phản cho ảnh X-quang, giúp làm rõ các 
+đặc trưng hình thái của nốt mờ. Đồng thời, hàm mất mát có trọng số (Weighted Loss) 
+được tích hợp nhằm gia tăng 'hình phạt' đối với các lỗi dự đoán sai trên lớp bệnh. 
+Kết quả thực nghiệm trên t ập kiểm thử độc lập cho thấy trên phương pháp c ải 
+tiến: khả năng phân tách đặc trưng (Separability) đư ợc nâng cao đáng k ể, thể hiện qua 
+việc nâng chỉ số AUC từ 0.7110 lên 0.7350 và tăng đ ộ chính xác tổng thể lên 82.31%. 
+Sự cải thiện đồng thời ở cả AUC và Accuracy chứng minh mô hình không chỉ học được 
+nhiều đặc trưng b ệnh lý hơn mà còn v ận hành ổn định và tin c ậy hơn so v ới mô hình 
+gốc. 
+ 
+--- PAGE 65 ---
+51 
+ 
+Hạn chế 
+Mặc dù đề tài đã đạt được những bước tiến tích cực trong việc cải thiện hiệu suất 
+trong bài toán phân lớp ảnh có dấu hiệu ung thư phổi trên ảnh  X-quang lồng ngực nhờ 
+chiến lược Weighted Loss, tuy nhiên vẫn còn tồn tại một số hạn chế nhất định.  Thứ 
+nhất, mô hình hiện tại vẫn phải đối mặt với sự đánh đổi (trade -off) giữa Precision và 
+Recall. Tại ngưỡng mặc định, để đảm bảo độ tin cậy cao, mô hình vẫn còn "thận trọng" 
+dẫn đến chỉ số Recall chưa đạt mức tối ưu (khoảng 41%), đòi hỏi phải tinh chỉnh ngưỡng 
+thủ công khi áp dụng thực tế. Thứ hai, mô hình mới chỉ dừng lại ở việc cảnh báo nguy 
+cơ (Nguy cơ cao/Bình thường) dựa trên dấu hiệu Mass/Nodule chung, chưa phân loại 
+chi tiết được các dạng bệnh lý phổi phức tạp khác. Thêm vào đó, việc đánh giá mô hình 
+hoàn toàn dựa trên tập dữ liệu chuẩn hóa có sẵn, chưa có cơ hội kiểm nghiệm trên dữ 
+liệu lâm sàng đa dạng và nhiễu hơn từ các bệnh viện tại Việt Nam. 
+Hướng phát triển 
+Trong hướng phát triển tương lai, chúng tôi mong muốn mở rộng mô hình theo 
+hai phương diện chính. Một là về mặt dữ liệu và triển khai: sẽ tìm kiếm cơ hội hợp tác 
+để thu thập dữ liệu X-quang thực tế tại các cơ sở y tế trong nước, từ đó đánh giá độ 
+bền vững của mô hình (Robustness) trước các nhiễu động thực tế. Hai là về mặt kỹ 
+thuật: có thể thử nghiệm các kiến trúc hiện đại hơn như Vision Transformer (ViT) 
+hoặc áp dụng kỹ thuật sinh dữ liệu (GAN) – phương pháp mà đề tài hiện tại chưa khai 
+thác – để giải quyết triệt để hơn nữa vấn đề thiếu hụt dữ liệu bệnh. Ngoài ra, việc tích 
+hợp hệ thống vào một giao diện ứng dụng hỗ trợ chẩn đoán trực quan, có thể sử dụng 
+trong môi trường bệnh viện, phòng khám và hỗ trợ nhiều định dạng ảnh hơn cũng là 
+một bước tiến triển thực tiễn mà đề tài hướng đến. 
+ 
+ 
+  
+--- PAGE 66 ---
+52 
+ 
+TÀI LIỆU THAM KHẢO 
+[1]  International Agency for Research on Cancer, “Latest global cancer data: Cancer 
+burden rises to 18.1 million new cancer cases worldwide,” GLOBOCAN 2018 , 
+Global Cancer Observatory, 2018. 
+[2]  M. A. Sufian, W. Hamzi, T. Sharifi, S. Zaman, L. Alsadder, E. Lee, A. Hakim, and 
+B. Hamzi , “AI -Driven Thoracic X -ray Diagnostics: Transformative Transfer 
+Learning for Clinical Validation in Pulmonary Radiography,” Journal of 
+Personalized Medicine. 
+[3]  A. P. R. Wismadi, A. H. U. Hayu, and M. L. Q. Hidayat, "Early Detection of Diabetes 
+Using Machine Learning with Logistic Regression Algorithm," in IOP Conference 
+Series: Materials Science and Engineering, 2021.  
+[4]  “Early-Stage Lung Cancer Survival Rate: Know The Facts,” CareYourLungs, 2023 
+[5]  S. Inc, "Streamlit Documentation," 2025. 
+ 
+ 
+ 
+  
+--- PAGE 67 ---
+53 
+ 
+PHỤ LỤC 
+1. Kết quả dự đoán của mô hình trên ảnh X-quang lồng ngực thực tế 
+Các dữ liệu ảnh X-quang ngực thực tế dưới đây được thu thập từ Bệnh viện Ung 
+bướu Hà Nội và là ảnh chụp của bệnh nhân Việt Nam. Tập ảnh này không được sử dụng 
+trong quá trình huấn luyện hay kiểm định mô hình. Mục đích của phần này là minh họa 
+khả năng dự đ oán của mô hình trong điều kiện thực tế.  Tập dữ liệu gồm tổng cộng 12 
+ảnh, trong đó có 7 ảnh được gán nhãn có dấu hiệu bất thường và 5 ảnh được gán nhãn 
+không có dấu hiệu bất thường. Kết quả dự đoán cho thấy, đối với 7 ảnh có dấu hiệu, mô 
+hình dự đoán đúng  6 ảnh và dự đoán sai 1 ảnh. Ngược lại, trong 5 ảnh không có dấu 
+hiệu, mô hình chỉ dự đoán đúng 1 ảnh và dự đoán sai 4 ảnh, với xu hướng dự đoán nhầm 
+từ không có dấu hiệu sang có dấu hiệu. 
+Hiện tượng này có thể được lý giải bởi việc mô hình được huấn luyện trên tập dữ 
+liệu có sự mất cân bằng giữa các lớp, trong đó các mẫu có dấu hiệu chiếm tỷ lệ thấp hơn. 
+Do đó, mô hình có xu hướng ưu tiên độ nhạy (Recall) đối với lớp có dấu hiệu, dẫn đến 
+việc giảm độ đặc hiệu và làm tăng số trường hợp dương tính giả trong các ảnh không có 
+dấu hiệu. Tuy nhiên, kết quả này chỉ mang tính minh họa cho khả năng ứng dụng thực 
+tế của mô hình và không được sử dụng để đánh giá hiệu năng mô hình. 
+  
+--- PAGE 68 ---
+54 
+ 
+1.1. Kết quả dự đoán của mô hình trên tập ảnh có dấu hiệu ung thư phổi  
+Trường hợp 1:  
+ 
+ 
+Kết quả dự đoán của mô hình cho th ấy ảnh không có dấu hiệu ung thư ph ổi. 
+Tuy nhiên, theo nhận định của bác sĩ, ảnh có biểu hiện bất thường liên quan đến ung 
+thư phổi ở mức nguy cơ th ấp. Sự khác biệt này cho th ấy mô hình có xu hư ớng thận 
+trọng trong việc phân loại các trường hợp có biểu hiện bất thường nhẹ. 
+ 
+  
+
+--- PAGE 69 ---
+55 
+ 
+Trường hợp 2: 
+ 
+ 
+Ở trường hợp 2, mô hình và bác sĩ đ ều đánh giá ảnh có dấu hiệu ung thư phổi, 
+với mức nguy cơ được mô hình dự đoán là cao. 
+ 
+  
+
+--- PAGE 70 ---
+56 
+ 
+Trường hợp 3:  
+ 
+ 
+Ở trường hợp 3, mô hình và bác sĩ  cũng đều đánh giá ảnh có dấu hiệu ung thư 
+phổi, với mức nguy cơ được mô hình dự đoán là cao. 
+ 
+  
+
+--- PAGE 71 ---
+57 
+ 
+Trường hợp 4:  
+ 
+ 
+Trong trường hợp thứ tư, kết quả dự đoán của mô hình phù hợp với đánh giá của 
+bác sĩ khi cả hai đều nhận định ảnh có dấu hiệu ung thư phổi, với mức nguy cơ được mô 
+hình xác định là cao. 
+ 
+ 
+  
+
+--- PAGE 72 ---
+58 
+ 
+Trường hợp 5: 
+ 
+ 
+Trường hợp thứ năm cho thấy sự tương đồng giữa dự đoán của mô hình và đánh 
+giá lâm sàng c ủa bác sĩ, khi c ả hai đều xác đ ịnh ảnh có d ấu hiệu ung thư ph ổi và mô 
+hình đưa ra mức nguy cơ cao. 
+ 
+ 
+  
+
+--- PAGE 73 ---
+59 
+ 
+Trường hợp 6: 
+ 
+ 
+Trong trường hợp thứ sáu, mô hình đưa ra dự đoán nguy cơ cao và nhận định này 
+phù hợp với đánh giá của bác sĩ về việc ảnh có dấu hiệu ung thư phổi. 
+ 
+ 
+ 
+  
+
+--- PAGE 74 ---
+60 
+ 
+Trường hợp 7: 
+ 
+ 
+Kết quả dự đoán của mô hình ở trường hợp này cho thấy sự nhất quán với đánh 
+giá của bác sĩ, khi cả hai đều xác định ảnh có dấu hiệu ung thư phổi và ở mức nguy cơ 
+cao. 
+ 
+ 
+  
+
+--- PAGE 75 ---
+61 
+ 
+1.2. Kết quả dự đoán của mô hình trên tập ảnh không có dấu hiệu ung thư phổi  
+Trường hợp 1: 
+ 
+ 
+Kết quả dự đoán của mô hình ở trường hợp này cho thấy sự nhất quán với đánh 
+giá của bác sĩ, khi cả hai đều xác định ảnh có không dấu hiệu ung thư phổi. 
+ 
+  
+
+--- PAGE 76 ---
+62 
+ 
+Trường hợp 2: 
+ 
+ 
+Ảnh X-quang trong trư ờng hợp này được bác sĩ đánh giá là bình thư ờng, trong 
+khi mô hình lại đưa ra cảnh báo nguy cơ. 
+ 
+ 
+  
+
+--- PAGE 77 ---
+63 
+ 
+Trường hợp 3: 
+ 
+ 
+Ở trường hợp này, bác sĩ đánh giá có nguy cơ thấp tuy nhiên mô hình vẫn thận 
+trọng và đưa vào trường hợp nguy cơ cao. Trường hợp này minh h ọa xu hư ớng thận 
+trọng của mô hình trong vi ệc phát hiện các dấu hiệu tiềm ẩn, đồng thời cho thấy thách 
+thức trong việc phân biệt các ảnh không có biểu hiện bất thường rõ ràng. 
+ 
+  
+
+--- PAGE 78 ---
+64 
+ 
+Trường hợp 4: 
+ 
+ 
+Trong trường hợp này, kết quả dự đoán của mô hình và đánh giá của bác sĩ có sự 
+khác biệt, khi ảnh được đánh giá là không có d ấu hiệu bất thường nhưng mô hình d ự 
+đoán có nguy cơ ung thư phổi. 
+ 
+ 
+  
+
+--- PAGE 79 ---
+65 
+ 
+Trường hợp 5: 
+ 
+ 
+Trường hợp này cho thấy mô hình có xu hướng dự đoán thận trọng, khi ảnh được 
+bác sĩ đánh giá là bình thường nhưng mô hình lại xác định nguy cơ ung thư phổi ở mức 
+cao. 
+ 
+ 
+  
+
+--- PAGE 80 ---
+66 
+ 
+2. Xây dựng mô hình phân lớp ảnh dựa trên Densenet121 cơ bản 
+2.1. Xây dựng và huấn luyện mô hình 
+Mô hình phân lớp ảnh dựa trên kiến trúc DenseNet121 cơ sở (Densely Connected 
+Convolutional Networks), triển khai thông qua thư viện PyTorch. Mục tiêu chính của 
+mô hình là thiết lập một mốc tham chiếu hiệu năng (Baseline) bằng cách học cách trích 
+xuất các đặc trưng phân cấp từ ảnh X-quang phổi mà không áp dụng các kỹ thuật xử lý 
+mất cân bằng chuyên sâu. 
+1. Kiến trúc mạng xương sống và khối trích xuất đặc trưng: 
+Quá trình xây dựng bắt đầu với việc sử dụng mạng DenseNet121 đã được huấn 
+luyện trước (pre -trained) trên tập dữ liệu ImageNet. Kiến trúc này đặc trưng bởi các 
+"Dense Blocks", nơi mỗi lớp nhận đầu vào là bản đồ đặc trưng từ tất cả các lớp trước 
+đó, giúp tối ưu hóa việc truyền tải tín hiệu và giảm thiểu hiện tượng triệt tiêu đạo hàm. 
+Dữ liệu đầu vào là các hình ảnh X -quang đã được chuẩn hóa về kích thước 224x224 
+pixel với 3 kênh màu. Khối trích xuất đặc trưng bao gồm: 
+⚫ Lớp tích chập đầu tiên: Sử dụng kernel kích thước 7x7 với bước nhảy (stride) là 
+2 để giảm chiều dữ liệu ngay từ đầu. 
+⚫ Các khối Dense Blocks (1, 2, 3, 4): Bao gồm các chuỗi lớp tích chập 1x1 và 3x3 
+xếp chồng, xen kẽ với các lớp "Transition Layers" (tích chập 1x1 và Average 
+Pooling 2x2) để kiểm soát số lượng kênh và kích thước bản đồ đặc trưng. Việc 
+sử dụng 121 lớp sâu cho phép mô hình học được những chi tiết bệnh lý trừu 
+tượng như cấu trúc nốt mờ hoặc khối u phổi. 
+2. Khối phân loại và hàm kích hoạt: 
+Sau khi đi qua lớp Global Average Pooling để làm phẳng các đặc trưng bậc cao 
+thành một vector 1024 chiều, dữ liệu được đưa vào khối phân loại cuối cùng: 
+⚫ Lớp kết nối đầy đủ (Linear Layer): Được thiết kế lại với 1024 đơn vị đầu vào 
+và 1 đơn vị đầu ra duy nhất cho bài toán phân loại nhị phân. 
+⚫ Hàm kích hoạt Sigmoid: Được áp dụng tại đầu ra để đưa về giá trị xác suất trong 
+khoảng [0, 1], phù hợp để phân loại giữa hai trạng thái "Lành tính" (0) và "Ác 
+tính" (1). 
+--- PAGE 81 ---
+67 
+ 
+3. Thiết lập tham số và huấn luyện mô hình: 
+Mô hình sau khi thiết kế được cấu hình với thuật toán tối ưu hóa Adam và tốc độ 
+học (learning rate) khởi tạo là 1 𝑥 10−4. Hàm mất mát được lựa chọn là Binary Cross -
+Entropy (BCE) Loss tiêu chuẩn. Khác với mô hình cải tiến, phiên bản cơ sở này không 
+áp dụng trọng số Loss (unweighted), nghĩa là mọi sai số trên lớp lành tính và ác tính đều 
+được tính toán với vai trò ngang nhau. 
+4. Quy trình huấn luyện và Kiểm định: 
+Quá trình huấn luyện được thực hiện theo chiến lược 5-Fold Cross-Validation để 
+đảm bảo tính tổng quát hóa. Trong m ỗi Fold, mô hình th ực hiện tối đa 20 epoch hu ấn 
+luyện: 
+⚫  Cơ chế huấn luyện: Dữ liệu được cung cấp theo từng lô (batch size = 32). Sau 
+mỗi epoch, mô hình được đánh giá ngay lập tức trên tập kiểm định (Validation 
+Set) để theo dõi chỉ số Validation AUC. 
+⚫ Kết quả ghi nhận: Lịch sử huấn luyện cho thấy hàm mất mát (Loss) giảm dần 
+từ mức 0.45 và hội tụ về quanh ngưỡng 0.15. Tuy nhiên, do không có cơ chế xử 
+lý mất cân bằng, mô hình cho thấy xu hướng thiên kiến rõ rệt, dẫn đến việc phải 
+sử dụng ngưỡng cắt rất thấp là 0.1569 tại giai đo ạn kiểm thử cuối cùng để có 
+thể nhận diện được các ca bệnh. 
+2.2. Kết quả của mô hình 
+Lớp Precision Recall F1-Score Support 
+Benign (Lành 
+tính) 
+0.9341 0.9341 0.8553 5,833 
+Malignant (Ác 
+tính) 
+0.2076 0.4992 0.2934 647 
+Accuracy   0.7599 6,480 
+Macro avg 0.5709 0.6440 0.5744 6,480 
+Weighted avg 0.8616 0.7599 0.7992 6,480 
+Bảng 1 Bảng kết quả mô hình Densenet121 thuần 
+Chỉ số AUC tổng hợp: 
+--- PAGE 82 ---
+68 
+ 
+⚫ ROC-AUC Score: 0.7110 
+⚫ Precision-Recall AUC (AP): 0.2610 
+Mô hình DenseNet121 cơ sở được triển khai nhằm thiết lập một chuẩn tham chiếu 
+ban đầu (baseline) cho bài toán phân loại hình ảnh X -quang ngực. Sau khi huấn luyện 
+trên tập dữ liệu gốc có sự mất cân bằng nghiêm trọng (tỷ lệ Lành tính : Ác tính xấp xỉ 
+9:1), mô hình đạt độ chính xác tổng thể là 75.99%. Tuy nhiên, kết quả thực nghiệm cho 
+thấy sự hạn chế rõ rệt của mô hình cơ sở trong việc nhận diện lớp thiểu số (Ác tính). Cụ 
+thể, dù đã chấp nhận hạ ngưỡng quyết định xuống mức rất thấp (0.1569) để ưu tiên khả 
+năng bắt bệnh, chỉ số Recall cũng chỉ đạt 0.4992 và F1-score của lớp ác tính thấp ở mức 
+0.2934. Điều này phản ánh xu hướng thiên kiến mạnh mẽ về phía lớp đa số của mạng 
+nơ-ron khi không có cơ chế xử lý mất cân bằng, dẫn đến việc bỏ sót 324 ca bệnh và đồng 
+thời gây ra 1,232 ca báo động giả. Biểu đồ ROC ghi nhận mức AUC khiêm tốn là 0.711, 
+khẳng định tính cần thiết của việc áp dụng các kỹ thuật cải tiến như tiền xử lý CLAHE 
+và hàm mất mát có trọng số (Weighted Loss) để tối ưu hóa khả năng trích xuất đặc trưng 
+bệnh lý trong các kịch bản thực tế. 
+ 
+ 
+ 
